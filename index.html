@@ -245,19 +245,21 @@
                     componentWindows.set(this.id, windowDescr);
                 })
             });
+            var globalUseRate;
+            //globalUseRate = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_useRate_all/@obsels";
+            globalUseRate = "Traces/useRateExpe.json"
+            var useView = new useRateView("analysis2");
+            useView.draw(globalUseRate);
+
+            var globalSystemSignal2;
+            //globalSystemSignal2 = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_systemSignals_all/@obsels";
+            globalSystemSignal2 = "Traces/signalsExpe.json"
+            var systemSignalView2 = new systemSignalsComposantView("analysis1");
+            systemSignalView2.draw(globalSystemSignal2);
+            
         });
 
-    var globalUseRate;
-    //globalUseRate = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_useRate_all/@obsels";
-    globalUseRate = "Traces/useRateExpe.json"
-    var useView = new useRateView("analysis2");
-    useView.draw(globalUseRate);
 
-    var globalSystemSignal2;
-    //globalSystemSignal2 = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_systemSignals_all/@obsels";
-    globalSystemSignal2 = "Traces/signalsExpe.json"
-    var systemSignalView2 = new systemSignalsComposantView("analysis1");
-    systemSignalView2.draw(globalSystemSignal2);
 
 
 
