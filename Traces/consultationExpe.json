@@ -1,0 +1,285 @@
+{
+    "@context": [
+        "http://liris.cnrs.fr/silex/2011/ktbs-jsonld-context", 
+        {
+            "m": "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sepiaModel#"
+        }
+    ], 
+    "@id": "./", 
+    "hasObselList": {
+        "@id": "", 
+        "@type": "ComputedTraceObsels"
+    }, 
+    "obsels": [
+        {
+            "@id": "consultationAnswerStats_Elsa_o-5w", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 81944690, 
+            "end": 81944790, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Elsa/o-5w"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Oui, sous forme d'un guidage", 
+            "m:avgTime": 100.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Florence_o-0j", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 82255560, 
+            "end": 82255600, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Florence/o-0j"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Oui, sous forme d'un guidage", 
+            "m:avgTime": 40.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Florent_o-9k", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 82632800, 
+            "end": 82632903, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Florent/o-9k"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Oui, sous forme d'un guidage", 
+            "m:avgTime": 103.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Gael_o-0o", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 82746450, 
+            "end": 82746455, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Gael/o-0o"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Oui, sous forme d'un guidage", 
+            "m:avgTime": 5.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Gregoire_o-4g", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 82837775, 
+            "end": 82837780, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Gregoire/o-4g"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Oui, sous forme d'un guidage", 
+            "m:avgTime": 5.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Henri_o-2e", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 82934639, 
+            "end": 82934646, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Henri/o-2e"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Oui, sous forme d'un guidage", 
+            "m:avgTime": 7.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_JeanDavid_o-1l", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 83041875, 
+            "end": 83041885, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_JeanDavid/o-1l"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Oui, sous forme d'un guidage", 
+            "m:avgTime": 10.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Jeremy_o-2e", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 83228596, 
+            "end": 83228602, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Jeremy/o-2e"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Oui, sous forme d'un guidage", 
+            "m:avgTime": 6.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Julie_o-73", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 83375649, 
+            "end": 83375653, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Julie/o-73"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Oui, sous forme d'une automatisation", 
+            "m:avgTime": 4.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Lionel_o-9i", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 83457276, 
+            "end": 83457282, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Lionel/o-9i"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Oui, sous forme d'une automatisation", 
+            "m:avgTime": 6.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Lucas_o-19", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 83531623, 
+            "end": 83531629, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Lucas/o-19"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Oui, sous forme d'une automatisation", 
+            "m:avgTime": 6.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Marie_o-9s", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 83621515, 
+            "end": 83621519, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Marie/o-9s"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Non merci", 
+            "m:avgTime": 4.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Thomas_o-7v", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 83795700, 
+            "end": 83795740, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Thomas/o-7v"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Non merci", 
+            "m:avgTime": 40.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Zorha_o-0j", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 83862442, 
+            "end": 83862453, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Zorha/o-0j"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Non merci", 
+            "m:avgTime": 11.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Thomas_o-0k", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 425270520, 
+            "end": 425270550, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Thomas/o-0k"
+            ], 
+            "m:sourceId": "C1", 
+            "m:value": "Plus d'aide", 
+            "m:avgTime": 30.0, 
+            "m:optionsCount": 2, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Marion_o-7i", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 425304500, 
+            "end": 425304650, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Marion/o-7i"
+            ], 
+            "m:sourceId": "C1", 
+            "m:value": "Plus d'aide", 
+            "m:avgTime": 150.0, 
+            "m:optionsCount": 2, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Marion_o-7e", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 425315981, 
+            "end": 425315997, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Marion/o-7e"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Non merci", 
+            "m:avgTime": 16.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "consultationAnswerStats_Marie_o-5b", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 425322770, 
+            "end": 425332736, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../consultationAnswerStats_Marie/o-5b"
+            ], 
+            "m:sourceId": "C1", 
+            "m:value": "Plus d'aide", 
+            "m:avgTime": 73.33333333333333, 
+            "m:optionsCount": 2, 
+            "m:occurence": 3
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+PREFIX : <http://liris.cnrs.fr/silex/2009/ktbs#>
+PREFIX m: <https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sepiaModel#>
+CONSTRUCT {
+    [ a m:triggerCount ;
+    m:sourceId ?sourceId ;
+    m:count ?triggerCount ;
+    m:avgTime ?avgTime ;
+    :hasTrace <%(__destination__)s> ;
+    :hasBegin ?hasBegin ;
+    :hasEnd ?hasEnd ;
+    :hasSubject ?subject ;
+    ] .
+    }
+    WHERE {
+        {
+            SELECT ?sourceId (COUNT (?obs) AS ?triggerCount) (SUM (?time) / COUNT (?obs) AS ?avgTime) (MIN (?begin) AS ?hasBegin) (MAX (?e) AS ?hasEnd) ?subject
+            WHERE         {
+                ?obs a m:trigger ;
+                :hasBegin ?begin ;
+                :hasSubject ?subject ;
+                m:sourceId ?sourceId .
+                OPTIONAL {
+                    ?obs2 m:hasStart ?obs ;
+                    :hasEnd ?end .           }
+                    BIND (?end - ?begin AS ?time)
+                    BIND ( IF (bound(?end), ?end, ?begin) AS ?e)
+                    }
+                    GROUP BY ?sourceId
+                    }
+                }

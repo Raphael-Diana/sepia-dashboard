@@ -1,0 +1,615 @@
+{
+    "@context": [
+        "http://liris.cnrs.fr/silex/2011/ktbs-jsonld-context", 
+        {
+            "m": "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sepiaModel#"
+        }
+    ], 
+    "@id": "./", 
+    "hasObselList": {
+        "@id": "", 
+        "@type": "ComputedTraceObsels"
+    }, 
+    "obsels": [
+        {
+            "@id": "rulesAndActionsTriggerStats_Elsa_o-7x", 
+            "@type": "m:triggerCount", 
+            "begin": 81944589, 
+            "end": 81953371, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Elsa/o-7x"
+            ], 
+            "m:sourceId": "C0", 
+            "m:avgTime": 8782.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Elsa_o-10", 
+            "@type": "m:triggerCount", 
+            "begin": 81953371, 
+            "end": 81953371, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Elsa/o-10"
+            ], 
+            "m:sourceId": "A1", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Elsa_o-90", 
+            "@type": "m:triggerCount", 
+            "begin": 81953371, 
+            "end": 81953371, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Elsa/o-90"
+            ], 
+            "m:sourceId": "R0", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Florence_o-0l", 
+            "@type": "m:triggerCount", 
+            "begin": 82255540, 
+            "end": 82262796, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Florence/o-0l"
+            ], 
+            "m:sourceId": "C0", 
+            "m:avgTime": 7256.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Florence_o-5b", 
+            "@type": "m:triggerCount", 
+            "begin": 82262796, 
+            "end": 82262796, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Florence/o-5b"
+            ], 
+            "m:sourceId": "A1", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Florence_o-9c", 
+            "@type": "m:triggerCount", 
+            "begin": 82262796, 
+            "end": 82262796, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Florence/o-9c"
+            ], 
+            "m:sourceId": "R0", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Florent_o-3a", 
+            "@type": "m:triggerCount", 
+            "begin": 82632792, 
+            "end": 82638058, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Florent/o-3a"
+            ], 
+            "m:sourceId": "C0", 
+            "m:avgTime": 5266.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Florent_o-5d", 
+            "@type": "m:triggerCount", 
+            "begin": 82638058, 
+            "end": 82638058, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Florent/o-5d"
+            ], 
+            "m:sourceId": "A1", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Florent_o-8v", 
+            "@type": "m:triggerCount", 
+            "begin": 82638058, 
+            "end": 82638058, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Florent/o-8v"
+            ], 
+            "m:sourceId": "R0", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Gael_o-7c", 
+            "@type": "m:triggerCount", 
+            "begin": 82746443, 
+            "end": 82751649, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Gael/o-7c"
+            ], 
+            "m:sourceId": "C0", 
+            "m:avgTime": 5206.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Gael_o-0k", 
+            "@type": "m:triggerCount", 
+            "begin": 82751649, 
+            "end": 82751649, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Gael/o-0k"
+            ], 
+            "m:sourceId": "R0", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Gael_o-2m", 
+            "@type": "m:triggerCount", 
+            "begin": 82751649, 
+            "end": 82751649, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Gael/o-2m"
+            ], 
+            "m:sourceId": "A1", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Gregoire_o-6m", 
+            "@type": "m:triggerCount", 
+            "begin": 82837772, 
+            "end": 82842675, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Gregoire/o-6m"
+            ], 
+            "m:sourceId": "C0", 
+            "m:avgTime": 4903.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Gregoire_o-1a", 
+            "@type": "m:triggerCount", 
+            "begin": 82842675, 
+            "end": 82842675, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Gregoire/o-1a"
+            ], 
+            "m:sourceId": "A1", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Gregoire_o-47", 
+            "@type": "m:triggerCount", 
+            "begin": 82842675, 
+            "end": 82842675, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Gregoire/o-47"
+            ], 
+            "m:sourceId": "R0", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Henri_o-0z", 
+            "@type": "m:triggerCount", 
+            "begin": 82934634, 
+            "end": 82942963, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Henri/o-0z"
+            ], 
+            "m:sourceId": "C0", 
+            "m:avgTime": 8329.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Henri_o-7v", 
+            "@type": "m:triggerCount", 
+            "begin": 82942963, 
+            "end": 82942963, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Henri/o-7v"
+            ], 
+            "m:sourceId": "A1", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Henri_o-8m", 
+            "@type": "m:triggerCount", 
+            "begin": 82942963, 
+            "end": 82942963, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Henri/o-8m"
+            ], 
+            "m:sourceId": "R0", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_JeanDavid_o-7t", 
+            "@type": "m:triggerCount", 
+            "begin": 83041869, 
+            "end": 83055637, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_JeanDavid/o-7t"
+            ], 
+            "m:sourceId": "C0", 
+            "m:avgTime": 13768.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_JeanDavid_o-14", 
+            "@type": "m:triggerCount", 
+            "begin": 83055637, 
+            "end": 83055637, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_JeanDavid/o-14"
+            ], 
+            "m:sourceId": "A1", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_JeanDavid_o-5g", 
+            "@type": "m:triggerCount", 
+            "begin": 83055637, 
+            "end": 83055637, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_JeanDavid/o-5g"
+            ], 
+            "m:sourceId": "R0", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Jeremy_o-7f", 
+            "@type": "m:triggerCount", 
+            "begin": 83228589, 
+            "end": 83234153, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Jeremy/o-7f"
+            ], 
+            "m:sourceId": "C0", 
+            "m:avgTime": 5564.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Jeremy_o-2d", 
+            "@type": "m:triggerCount", 
+            "begin": 83234153, 
+            "end": 83234153, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Jeremy/o-2d"
+            ], 
+            "m:sourceId": "R0", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Jeremy_o-4y", 
+            "@type": "m:triggerCount", 
+            "begin": 83234153, 
+            "end": 83234153, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Jeremy/o-4y"
+            ], 
+            "m:sourceId": "A1", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Julie_o-9d", 
+            "@type": "m:triggerCount", 
+            "begin": 83375646, 
+            "end": 83380102, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Julie/o-9d"
+            ], 
+            "m:sourceId": "C0", 
+            "m:avgTime": 4456.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Julie_o-27", 
+            "@type": "m:triggerCount", 
+            "begin": 83380103, 
+            "end": 83380103, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Julie/o-27"
+            ], 
+            "m:sourceId": "A0", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Julie_o-72", 
+            "@type": "m:triggerCount", 
+            "begin": 83380103, 
+            "end": 83380103, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Julie/o-72"
+            ], 
+            "m:sourceId": "R0", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Lionel_o-80", 
+            "@type": "m:triggerCount", 
+            "begin": 83460800, 
+            "end": 83460800, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Lionel/o-80"
+            ], 
+            "m:sourceId": "R0", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Lionel_o-9x", 
+            "@type": "m:triggerCount", 
+            "begin": 83460800, 
+            "end": 83460800, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Lionel/o-9x"
+            ], 
+            "m:sourceId": "A0", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Lionel_o-4l", 
+            "@type": "m:triggerCount", 
+            "begin": 83457269, 
+            "end": 83500318, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Lionel/o-4l"
+            ], 
+            "m:sourceId": "C0", 
+            "m:avgTime": 19864.5, 
+            "m:count": 2
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Lucas_o-8m", 
+            "@type": "m:triggerCount", 
+            "begin": 83531620, 
+            "end": 83533431, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Lucas/o-8m"
+            ], 
+            "m:sourceId": "C0", 
+            "m:avgTime": 1811.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Lucas_o-4r", 
+            "@type": "m:triggerCount", 
+            "begin": 83533432, 
+            "end": 83533432, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Lucas/o-4r"
+            ], 
+            "m:sourceId": "A0", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Lucas_o-5p", 
+            "@type": "m:triggerCount", 
+            "begin": 83533432, 
+            "end": 83533432, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Lucas/o-5p"
+            ], 
+            "m:sourceId": "R0", 
+            "m:avgTime": 0.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Marie_o-0q", 
+            "@type": "m:triggerCount", 
+            "begin": 83621511, 
+            "end": 83628227, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Marie/o-0q"
+            ], 
+            "m:sourceId": "C0", 
+            "m:avgTime": 6716.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Marion_o-31", 
+            "@type": "m:triggerCount", 
+            "begin": 83718065, 
+            "end": 83730992, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Marion/o-31"
+            ], 
+            "m:sourceId": "C0", 
+            "m:avgTime": 6463.5, 
+            "m:count": 2
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Thomas_o-5i", 
+            "@type": "m:triggerCount", 
+            "begin": 83795692, 
+            "end": 83798725, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Thomas/o-5i"
+            ], 
+            "m:sourceId": "C0", 
+            "m:avgTime": 3033.0, 
+            "m:count": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Zorha_o-90", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 83862442, 
+            "end": 83862453, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Zorha/o-90"
+            ], 
+            "m:sourceId": "C0", 
+            "m:value": "Non merci", 
+            "m:avgTime": 11.0, 
+            "m:optionsCount": 3, 
+            "m:occurence": 1
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Thomas_o-2g", 
+            "@type": "m:triggerCount", 
+            "begin": 425270495, 
+            "end": 425286410, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Thomas/o-2g"
+            ], 
+            "m:sourceId": "C1", 
+            "m:avgTime": 3541.0, 
+            "m:count": 2
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Thomas_o-1o", 
+            "@type": "m:triggerCount", 
+            "begin": 425274114, 
+            "end": 425286410, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Thomas/o-1o"
+            ], 
+            "m:sourceId": "R1", 
+            "m:avgTime": 0.0, 
+            "m:count": 2
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Thomas_o-8n", 
+            "@type": "m:triggerCount", 
+            "begin": 425274114, 
+            "end": 425288212, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Thomas/o-8n"
+            ], 
+            "m:sourceId": "A2", 
+            "m:avgTime": 2072.0, 
+            "m:count": 2
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Marion_o-77", 
+            "@type": "m:triggerCount", 
+            "begin": 425304483, 
+            "end": 425311952, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Marion/o-77"
+            ], 
+            "m:sourceId": "C1", 
+            "m:avgTime": 2150.5, 
+            "m:count": 2
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Marion_o-18", 
+            "@type": "m:triggerCount", 
+            "begin": 425307253, 
+            "end": 425311952, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Marion/o-18"
+            ], 
+            "m:sourceId": "R1", 
+            "m:avgTime": 0.0, 
+            "m:count": 2
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Marion_o-5a", 
+            "@type": "m:triggerCount", 
+            "begin": 425307253, 
+            "end": 425314348, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Marion/o-5a"
+            ], 
+            "m:sourceId": "A2", 
+            "m:avgTime": 2300.5, 
+            "m:count": 2
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Marie_o-0f", 
+            "@type": "m:triggerCount", 
+            "begin": 425322670, 
+            "end": 425333645, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Marie/o-0f"
+            ], 
+            "m:sourceId": "C1", 
+            "m:avgTime": 1314.6666666666667, 
+            "m:count": 3
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Marie_o-4b", 
+            "@type": "m:triggerCount", 
+            "begin": 425324181, 
+            "end": 425333645, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Marie/o-4b"
+            ], 
+            "m:sourceId": "R1", 
+            "m:avgTime": 0.0, 
+            "m:count": 3
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_Marie_o-27", 
+            "@type": "m:triggerCount", 
+            "begin": 425324181, 
+            "end": 425334907, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_Marie/o-27"
+            ], 
+            "m:sourceId": "A2", 
+            "m:avgTime": 1901.3333333333333, 
+            "m:count": 3
+        }
+    ]
+}

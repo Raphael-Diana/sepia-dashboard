@@ -1,0 +1,1437 @@
+{
+    "@context": [
+        "http://liris.cnrs.fr/silex/2011/ktbs-jsonld-context", 
+        {
+            "m": "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sepiaModel#"
+        }
+    ], 
+    "@id": "./", 
+    "hasObselList": {
+        "@id": "", 
+        "@type": "ComputedTraceObsels"
+    }, 
+    "obsels": [
+        {
+            "@id": "proactiveAssistanceFollowup_Elsa_cc6ec5f1-28e7-452e-a6be-13d9849ee280", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 81957072, 
+            "end": 81961588, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Elsa/cc6ec5f1-28e7-452e-a6be-13d9849ee280"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329", 
+            "m:subStepNumber": 1, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Elsa_1178b82e-4d22-438d-a7f4-ae25c6eb2ea8", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 81962540, 
+            "end": 81967654, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Elsa/1178b82e-4d22-438d-a7f4-ae25c6eb2ea8"
+            ], 
+            "m:sourceId": "fo_Order_12", 
+            "m:subStepNumber": 2, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 3, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Elsa_6a9f7526-a63f-435c-b99f-a985c13031e8", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 81970050, 
+            "end": 81973487, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Elsa/6a9f7526-a63f-435c-b99f-a985c13031e8"
+            ], 
+            "m:sourceId": "fo_Order_1", 
+            "m:subStepNumber": 3, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 3, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Elsa_e944671e-08f3-49ed-af20-e1f30a3e871d", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 81974572, 
+            "end": 81977755, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Elsa/e944671e-08f3-49ed-af20-e1f30a3e871d"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291", 
+            "m:subStepNumber": 4, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florence_8e4d3716-278f-4044-86da-fd010553dfce", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82266319, 
+            "end": 82271077, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florence/8e4d3716-278f-4044-86da-fd010553dfce"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329", 
+            "m:subStepNumber": 1, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 3, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florence_cd2ba499-2a89-478e-923b-360d89bfdbd6", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82272330, 
+            "end": 82277092, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florence/cd2ba499-2a89-478e-923b-360d89bfdbd6"
+            ], 
+            "m:sourceId": "fo_Order_12", 
+            "m:subStepNumber": 2, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 3, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florence_ccb86da0-485a-4557-9ef9-1504c51a4210", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82279645, 
+            "end": 82281866, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florence/ccb86da0-485a-4557-9ef9-1504c51a4210"
+            ], 
+            "m:sourceId": "fo_Order_1", 
+            "m:subStepNumber": 3, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 4, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florence_1c46fee9-a617-4285-a467-780a0a3fd276", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82282766, 
+            "end": 82285356, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florence/1c46fee9-a617-4285-a467-780a0a3fd276"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291", 
+            "m:subStepNumber": 4, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florence_2a298390-dba6-4c35-88c1-316fd4111634", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82286540, 
+            "end": 82291817, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florence/2a298390-dba6-4c35-88c1-316fd4111634"
+            ], 
+            "m:sourceId": "fo_Order_10000329", 
+            "m:subStepNumber": 5, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florence_a6a192a6-78e7-4adf-815e-7b7dfedd72cd", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82291910, 
+            "end": 82295228, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florence/a6a192a6-78e7-4adf-815e-7b7dfedd72cd"
+            ], 
+            "m:sourceId": "60091_1", 
+            "m:subStepNumber": 6, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florence_c204d027-6c0c-4f0d-a986-d31854c063cf", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82296373, 
+            "end": 82297855, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florence/c204d027-6c0c-4f0d-a986-d31854c063cf"
+            ], 
+            "m:sourceId": "0-S-F_1", 
+            "m:subStepNumber": 7, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 3, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florence_921bd779-9014-4b28-bd97-de47163128b8", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82298988, 
+            "end": 82303775, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florence/921bd779-9014-4b28-bd97-de47163128b8"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291", 
+            "m:subStepNumber": 8, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florence_3c39d6fa-1181-428d-a50d-ce1fd9e16983", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82304926, 
+            "end": 82308838, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florence/3c39d6fa-1181-428d-a50d-ce1fd9e16983"
+            ], 
+            "m:sourceId": "60091_10000329", 
+            "m:subStepNumber": 9, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florence_a901dfbe-c5c7-4b07-8bf0-6194f7a97502", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82309933, 
+            "end": 82312150, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florence/a901dfbe-c5c7-4b07-8bf0-6194f7a97502"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1", 
+            "m:subStepNumber": 10, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florent_ffe3c0d2-d92c-411d-a880-0e5b65ff102f", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82641446, 
+            "end": 82644411, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florent/ffe3c0d2-d92c-411d-a880-0e5b65ff102f"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329", 
+            "m:subStepNumber": 1, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florent_6d3087c1-5edd-4b63-b42a-94350c9ee0de", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82646178, 
+            "end": 82653998, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florent/6d3087c1-5edd-4b63-b42a-94350c9ee0de"
+            ], 
+            "m:sourceId": "fo_Order_12", 
+            "m:subStepNumber": 2, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 3, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florent_6e0de699-ae37-488f-8720-469fe0c6cc81", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82655880, 
+            "end": 82657577, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florent/6e0de699-ae37-488f-8720-469fe0c6cc81"
+            ], 
+            "m:sourceId": "fo_Order_1", 
+            "m:subStepNumber": 3, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 3, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florent_221865e6-8315-4d02-afc9-b33f86f08c48", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82658646, 
+            "end": 82663509, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florent/221865e6-8315-4d02-afc9-b33f86f08c48"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291", 
+            "m:subStepNumber": 4, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florent_e76ed7bc-a847-4fb2-bfe7-9cd770361a68", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82664668, 
+            "end": 82668165, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florent/e76ed7bc-a847-4fb2-bfe7-9cd770361a68"
+            ], 
+            "m:sourceId": "fo_Order_10000329", 
+            "m:subStepNumber": 5, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florent_7c0665e3-13e7-4b91-baed-dedc96a3635d", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82669512, 
+            "end": 82673415, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florent/7c0665e3-13e7-4b91-baed-dedc96a3635d"
+            ], 
+            "m:sourceId": "60091_1", 
+            "m:subStepNumber": 6, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florent_58c2f6cd-bc7b-4100-aff7-4e4a1336a745", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82674557, 
+            "end": 82675722, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florent/58c2f6cd-bc7b-4100-aff7-4e4a1336a745"
+            ], 
+            "m:sourceId": "0-S-F_1", 
+            "m:subStepNumber": 7, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florent_38834976-4f92-4a54-a51b-2ef911deac55", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82676878, 
+            "end": 82679074, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florent/38834976-4f92-4a54-a51b-2ef911deac55"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291", 
+            "m:subStepNumber": 8, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florent_f28bb4b7-9886-4671-b61a-d45e43466231", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82680222, 
+            "end": 82684003, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florent/f28bb4b7-9886-4671-b61a-d45e43466231"
+            ], 
+            "m:sourceId": "60091_10000329", 
+            "m:subStepNumber": 9, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florent_4afbccd8-222e-4e58-8933-4258994825cc", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82685194, 
+            "end": 82686869, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florent/4afbccd8-222e-4e58-8933-4258994825cc"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1", 
+            "m:subStepNumber": 10, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Florent_ac616e49-7c7f-4037-a840-1873d88626ce", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82687998, 
+            "end": 82689399, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Florent/ac616e49-7c7f-4037-a840-1873d88626ce"
+            ], 
+            "m:sourceId": "0-S-F_1", 
+            "m:subStepNumber": 11, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gael_78cfd638-5178-4dbc-8816-2ee38bdf6a37", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82756379, 
+            "end": 82759617, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gael/78cfd638-5178-4dbc-8816-2ee38bdf6a37"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329", 
+            "m:subStepNumber": 1, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gael_89477499-345b-4b3d-a1b9-410ee7f5d688", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82760777, 
+            "end": 82764443, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gael/89477499-345b-4b3d-a1b9-410ee7f5d688"
+            ], 
+            "m:sourceId": "fo_Order_12", 
+            "m:subStepNumber": 2, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 4, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gael_a286f2af-a367-4081-911f-4ae858d467f1", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82767211, 
+            "end": 82768568, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gael/a286f2af-a367-4081-911f-4ae858d467f1"
+            ], 
+            "m:sourceId": "fo_Order_1", 
+            "m:subStepNumber": 3, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 3, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gael_1525368f-a279-48ab-96fc-6c85f5bae8da", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82769667, 
+            "end": 82773450, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gael/1525368f-a279-48ab-96fc-6c85f5bae8da"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291", 
+            "m:subStepNumber": 4, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gael_19e9da51-38ee-4ccf-b786-d214a838693b", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82774624, 
+            "end": 82778482, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gael/19e9da51-38ee-4ccf-b786-d214a838693b"
+            ], 
+            "m:sourceId": "fo_Order_10000329", 
+            "m:subStepNumber": 5, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gael_5a01a26e-2d93-424c-ae94-4f932c99d7ad", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82779906, 
+            "end": 82783114, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gael/5a01a26e-2d93-424c-ae94-4f932c99d7ad"
+            ], 
+            "m:sourceId": "60091_1", 
+            "m:subStepNumber": 6, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gael_7dd949e5-82b7-49ac-874c-837fca8743f9", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82784271, 
+            "end": 82785458, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gael/7dd949e5-82b7-49ac-874c-837fca8743f9"
+            ], 
+            "m:sourceId": "0-S-F_1", 
+            "m:subStepNumber": 7, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gael_ce72034c-c6bc-4ae9-ba78-9cca173f0652", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82786599, 
+            "end": 82789502, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gael/ce72034c-c6bc-4ae9-ba78-9cca173f0652"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291", 
+            "m:subStepNumber": 8, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gael_98bedeca-2566-4517-8fa4-edc810137e21", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82790665, 
+            "end": 82794505, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gael/98bedeca-2566-4517-8fa4-edc810137e21"
+            ], 
+            "m:sourceId": "60091_10000329", 
+            "m:subStepNumber": 9, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gael_5a707d50-6539-41c0-b141-da28c2049a1b", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82795366, 
+            "end": 82798228, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gael/5a707d50-6539-41c0-b141-da28c2049a1b"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1", 
+            "m:subStepNumber": 10, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gregoire_5b97a95b-fec0-4dc2-ba8f-bb4ef44a8677", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82846206, 
+            "end": 82849466, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gregoire/5b97a95b-fec0-4dc2-ba8f-bb4ef44a8677"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329", 
+            "m:subStepNumber": 1, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gregoire_c752fc98-d712-45d5-b105-ad08edfb9728", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82850922, 
+            "end": 82853443, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gregoire/c752fc98-d712-45d5-b105-ad08edfb9728"
+            ], 
+            "m:sourceId": "fo_Order_12", 
+            "m:subStepNumber": 2, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 5, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gregoire_0a1dbe27-9037-4ff2-9290-9ecc9ae37faf", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82856307, 
+            "end": 82858553, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gregoire/0a1dbe27-9037-4ff2-9290-9ecc9ae37faf"
+            ], 
+            "m:sourceId": "fo_Order_1", 
+            "m:subStepNumber": 3, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 3, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gregoire_162083b0-5215-482a-b29a-65017056cd96", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82859648, 
+            "end": 82863245, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gregoire/162083b0-5215-482a-b29a-65017056cd96"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291", 
+            "m:subStepNumber": 4, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gregoire_cd15b8e0-df2b-41e8-b687-9e684647d87a", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82864420, 
+            "end": 82867895, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gregoire/cd15b8e0-df2b-41e8-b687-9e684647d87a"
+            ], 
+            "m:sourceId": "fo_Order_10000329", 
+            "m:subStepNumber": 5, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gregoire_e2f50f48-793d-49e3-a89f-7081ea15337f", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82869586, 
+            "end": 82871315, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gregoire/e2f50f48-793d-49e3-a89f-7081ea15337f"
+            ], 
+            "m:sourceId": "60091_1", 
+            "m:subStepNumber": 6, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gregoire_2bb01f9c-4f1a-422e-a7ee-3c47dc5db476", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82872504, 
+            "end": 82873622, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gregoire/2bb01f9c-4f1a-422e-a7ee-3c47dc5db476"
+            ], 
+            "m:sourceId": "0-S-F_1", 
+            "m:subStepNumber": 7, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gregoire_618707e5-ef5a-4226-bd42-d9767f27c984", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82874771, 
+            "end": 82877218, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gregoire/618707e5-ef5a-4226-bd42-d9767f27c984"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291", 
+            "m:subStepNumber": 8, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gregoire_d12e2611-a7d8-43ac-a73e-01eb844829df", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82878372, 
+            "end": 82882358, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gregoire/d12e2611-a7d8-43ac-a73e-01eb844829df"
+            ], 
+            "m:sourceId": "60091_10000329", 
+            "m:subStepNumber": 9, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gregoire_a55865dd-fdee-4019-95f1-9e2099a9248e", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82883298, 
+            "end": 82885917, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gregoire/a55865dd-fdee-4019-95f1-9e2099a9248e"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1", 
+            "m:subStepNumber": 10, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Gregoire_13558b73-092f-45d7-a0cd-4f09c9e431fa", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82887060, 
+            "end": 82888118, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Gregoire/13558b73-092f-45d7-a0cd-4f09c9e431fa"
+            ], 
+            "m:sourceId": "0-S-F_1", 
+            "m:subStepNumber": 11, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Henri_165c7262-7aea-468e-b5f6-61f863849679", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82947364, 
+            "end": 82952948, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Henri/165c7262-7aea-468e-b5f6-61f863849679"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329", 
+            "m:subStepNumber": 1, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 3, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Henri_73f184e2-2496-4550-a97b-26cd45668df7", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82953009, 
+            "end": 82957040, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Henri/73f184e2-2496-4550-a97b-26cd45668df7"
+            ], 
+            "m:sourceId": "fo_Order_12", 
+            "m:subStepNumber": 2, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 5, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Henri_9799c87d-3c98-49bd-ba16-1e0f2ab16218", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82959704, 
+            "end": 82962632, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Henri/9799c87d-3c98-49bd-ba16-1e0f2ab16218"
+            ], 
+            "m:sourceId": "fo_Order_1", 
+            "m:subStepNumber": 3, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 3, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Henri_3ab9b0cb-6260-4012-8baf-74b95ec4472d", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82963722, 
+            "end": 82969857, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Henri/3ab9b0cb-6260-4012-8baf-74b95ec4472d"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291", 
+            "m:subStepNumber": 4, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Henri_aba938b8-326d-4aed-80d6-a3d5deab8c18", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82971000, 
+            "end": 82976219, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Henri/aba938b8-326d-4aed-80d6-a3d5deab8c18"
+            ], 
+            "m:sourceId": "fo_Order_10000329", 
+            "m:subStepNumber": 5, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Henri_76a443f7-eb65-4a1b-afb6-f27bdb513d5b", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82977111, 
+            "end": 82981638, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Henri/76a443f7-eb65-4a1b-afb6-f27bdb513d5b"
+            ], 
+            "m:sourceId": "60091_1", 
+            "m:subStepNumber": 6, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Henri_e7f2af92-df35-4154-ab14-88e1bc226b54", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82982782, 
+            "end": 82984144, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Henri/e7f2af92-df35-4154-ab14-88e1bc226b54"
+            ], 
+            "m:sourceId": "0-S-F_1", 
+            "m:subStepNumber": 7, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Henri_d5df4f78-6f95-462f-9048-b03c92f10f9b", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82985271, 
+            "end": 82988375, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Henri/d5df4f78-6f95-462f-9048-b03c92f10f9b"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291", 
+            "m:subStepNumber": 8, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Henri_9b67d4f6-aaad-424c-899f-4dafd38c9c99", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82989570, 
+            "end": 82992517, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Henri/9b67d4f6-aaad-424c-899f-4dafd38c9c99"
+            ], 
+            "m:sourceId": "60091_10000329", 
+            "m:subStepNumber": 9, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Henri_972d4bbb-d61d-46f0-99de-91e46dd73db0", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 82993911, 
+            "end": 83000188, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Henri/972d4bbb-d61d-46f0-99de-91e46dd73db0"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1", 
+            "m:subStepNumber": 10, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Henri_55b2a7eb-ac40-4653-b838-39ba02642fef", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83001388, 
+            "end": 83002597, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Henri/55b2a7eb-ac40-4653-b838-39ba02642fef"
+            ], 
+            "m:sourceId": "0-S-F_1", 
+            "m:subStepNumber": 11, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_JeanDavid_8ccd00c7-e85c-4fbd-993b-c679580b95f2", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83059163, 
+            "end": 83074379, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_JeanDavid/8ccd00c7-e85c-4fbd-993b-c679580b95f2"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329", 
+            "m:subStepNumber": 1, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_JeanDavid_61fc7c6d-5898-471a-bd59-48ffa6769f00", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83075774, 
+            "end": 83085961, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_JeanDavid/61fc7c6d-5898-471a-bd59-48ffa6769f00"
+            ], 
+            "m:sourceId": "fo_Order_12", 
+            "m:subStepNumber": 2, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 5, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_JeanDavid_4774d946-6bb9-413e-a882-cb271228eecb", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83088683, 
+            "end": 83091320, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_JeanDavid/4774d946-6bb9-413e-a882-cb271228eecb"
+            ], 
+            "m:sourceId": "fo_Order_1", 
+            "m:subStepNumber": 3, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 3, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_JeanDavid_639d1647-becb-4304-a3a9-b0fa143d8d7d", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83092402, 
+            "end": 83105684, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_JeanDavid/639d1647-becb-4304-a3a9-b0fa143d8d7d"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291", 
+            "m:subStepNumber": 4, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_JeanDavid_cf002526-bc0e-4ced-879e-ea327344d200", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83106844, 
+            "end": 83127482, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_JeanDavid/cf002526-bc0e-4ced-879e-ea327344d200"
+            ], 
+            "m:sourceId": "fo_Order_10000329", 
+            "m:subStepNumber": 5, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_JeanDavid_e232af3c-3623-4e80-ad56-beca691e0bd2", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83128563, 
+            "end": 83132944, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_JeanDavid/e232af3c-3623-4e80-ad56-beca691e0bd2"
+            ], 
+            "m:sourceId": "60091_1", 
+            "m:subStepNumber": 6, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_JeanDavid_46f73bcb-2c9a-45db-a233-631f01e8b617", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83134072, 
+            "end": 83137120, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_JeanDavid/46f73bcb-2c9a-45db-a233-631f01e8b617"
+            ], 
+            "m:sourceId": "0-S-F_1", 
+            "m:subStepNumber": 7, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_JeanDavid_bd4837c9-f2d0-4f5f-8fc1-89e867bb566d", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83138259, 
+            "end": 83140738, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_JeanDavid/bd4837c9-f2d0-4f5f-8fc1-89e867bb566d"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291", 
+            "m:subStepNumber": 8, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_JeanDavid_69f5136f-ba9c-4575-921a-919490976156", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83141869, 
+            "end": 83165098, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_JeanDavid/69f5136f-ba9c-4575-921a-919490976156"
+            ], 
+            "m:sourceId": "60091_10000329", 
+            "m:subStepNumber": 9, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_JeanDavid_f4523d52-8a86-4dcb-b6a8-7d68f5447837", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83166396, 
+            "end": 83175383, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_JeanDavid/f4523d52-8a86-4dcb-b6a8-7d68f5447837"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1", 
+            "m:subStepNumber": 10, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_JeanDavid_1d7d9649-a66a-4806-9de3-751996eb6e65", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83176512, 
+            "end": 83179713, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_JeanDavid/1d7d9649-a66a-4806-9de3-751996eb6e65"
+            ], 
+            "m:sourceId": "0-S-F_1", 
+            "m:subStepNumber": 11, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Jeremy_4948a502-08cf-4d75-9eec-d77d304be46a", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83246443, 
+            "end": 83252940, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Jeremy/4948a502-08cf-4d75-9eec-d77d304be46a"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329", 
+            "m:subStepNumber": 1, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Jeremy_9eeace47-f398-41f1-b7c8-647a9c475def", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83254364, 
+            "end": 83275399, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Jeremy/9eeace47-f398-41f1-b7c8-647a9c475def"
+            ], 
+            "m:sourceId": "fo_Order_12", 
+            "m:subStepNumber": 2, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 8, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Jeremy_c345dae4-08c8-405b-b919-84b6f743c52c", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83277860, 
+            "end": 83281138, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Jeremy/c345dae4-08c8-405b-b919-84b6f743c52c"
+            ], 
+            "m:sourceId": "fo_Order_1", 
+            "m:subStepNumber": 3, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 3, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Jeremy_fc156856-3db0-4b6b-955d-189e5bb6b23c", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83282228, 
+            "end": 83294520, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Jeremy/fc156856-3db0-4b6b-955d-189e5bb6b23c"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291", 
+            "m:subStepNumber": 4, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 10, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Jeremy_ac5e2f07-c2f5-462a-8a50-7a516f0c5acd", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83295680, 
+            "end": 83301452, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Jeremy/ac5e2f07-c2f5-462a-8a50-7a516f0c5acd"
+            ], 
+            "m:sourceId": "fo_Order_10000329", 
+            "m:subStepNumber": 5, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Jeremy_7ed01b4b-3edb-49ab-a084-c53b01f59a72", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83302454, 
+            "end": 83307478, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Jeremy/7ed01b4b-3edb-49ab-a084-c53b01f59a72"
+            ], 
+            "m:sourceId": "60091_1", 
+            "m:subStepNumber": 6, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Jeremy_e28b2f7f-b85f-4417-a3f6-7fdd425932ef", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83308636, 
+            "end": 83310271, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Jeremy/e28b2f7f-b85f-4417-a3f6-7fdd425932ef"
+            ], 
+            "m:sourceId": "0-S-F_1", 
+            "m:subStepNumber": 7, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Jeremy_e22d0169-2825-4959-a6b2-d55a1acee8e0", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83311411, 
+            "end": 83317233, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Jeremy/e22d0169-2825-4959-a6b2-d55a1acee8e0"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291", 
+            "m:subStepNumber": 8, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 4, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Jeremy_3925de6e-ddbb-4d14-9557-706c547e0ab7", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83318424, 
+            "end": 83322985, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Jeremy/3925de6e-ddbb-4d14-9557-706c547e0ab7"
+            ], 
+            "m:sourceId": "60091_10000329", 
+            "m:subStepNumber": 9, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 2, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Jeremy_1387b4ae-5264-431d-a29c-f0bf4c927bed", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83324472, 
+            "end": 83329462, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Jeremy/1387b4ae-5264-431d-a29c-f0bf4c927bed"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1", 
+            "m:subStepNumber": 10, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }, 
+        {
+            "@id": "proactiveAssistanceFollowup_Jeremy_c72dcae1-2fae-49f0-90cf-2de35d2707e2", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 83330619, 
+            "end": 83331827, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../proactiveAssistanceFollowup_Jeremy/c72dcae1-2fae-49f0-90cf-2de35d2707e2"
+            ], 
+            "m:sourceId": "0-S-F_1", 
+            "m:subStepNumber": 11, 
+            "m:totalStep": 1, 
+            "m:stepNumber": 0, 
+            "m:noise": 1, 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }
+        }
+    ]
+}

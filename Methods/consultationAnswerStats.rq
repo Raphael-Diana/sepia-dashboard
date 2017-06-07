@@ -1,0 +1,41 @@
+PREFIX : <http://liris.cnrs.fr/silex/2009/ktbs#>
+PREFIX m: <https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sepiaModel#>
+CONSTRUCT {
+  [ a m:consultationAnswerStats ;
+  m:sourceId ?sourceId ;
+  :hasTrace <%(__destination__)s> ;
+  :hasBegin ?hasBegin ;
+  :hasEnd ?hasEnd ;
+  :hasSubject ?subject ;
+  m:value ?value ;
+  m:occurence ?occurence ;
+  m:avgTime ?avgTime ;
+  m:optionsCount ?optionsCount ;
+  m:options ?options
+  ] .
+}
+WHERE
+{
+SELECT ?sourceId ?value (COUNT (?value) AS ?occurence) (SUM (?time) / COUNT (?value) AS ?avgTime)  (MIN (?bi) AS ?hasBegin) (MAX (?ei) AS ?hasEnd) ?optionsCount ?subject ?options
+{
+    ?obs a m:consultationAnswer ;
+    m:value ?value ;
+    m:sourceId ?sourceId ;
+    m:options ?options ;
+    :hasSubject ?subject ;
+    :hasBegin ?bi ;
+    :hasEnd ?ei .
+    BIND (?ei - ?bi AS ?time) .
+    FILTER (?sourceId = ?id)
+    {
+         SELECT DISTINCT ?id (COUNT (?options) AS ?optionsCount)
+         {
+              ?obs a m:consultationAnswer ;
+              m:options ?options ;
+              m:sourceId ?id 
+         }
+         GROUP BY ?obs
+    }
+}
+GROUP BY ?sourceId ?value
+}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="d3-tip.v0.7.1.js"></script>
+    <script src="proactiveAssistanceFollowupView.js"></script>
+    <script src="consultationAnswerStatsView.js"></script>
+    <script src="rulesAndActionsTriggerStatsView.js"></script>
+    <script src="systemSignalsComposantView.js"></script>
+    <script src="useRateView.js"></script>
+    <script src="utils.js"></script>
+    <script src="kTBS.js"></script>
+    <style>
+
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        div.visuEval {
+            width: 48.3vw;
+            height: 29vw;
+            border: 1px solid #ccc;
+            background-color: #f7f7f7;
+            /*background-color: #ffffff;*/
+            font-family: Sans-Serif;
+            display: inline-block;
+            vertical-align: top;
+            margin-bottom: 4px;
+        }
+
+        div.visuUsage {
+            width: 48.3vw;
+            height: 40vw;
+            border: 1px solid #ccc;
+            background-color: #f7f7f7;
+            font-family: Sans-Serif;
+            display: inline-block;
+            vertical-align: top;
+            margin-bottom: 4px;
+        }
+
+
+
+        /* Style the tab */
+        div.tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #d8d9dc;
+        }
+
+        /* Style the buttons inside the tab */
+        div.tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+        }
+
+        /* Change background color of buttons on hover */
+        div.tab button:hover {
+            background-color: #ddd;
+        }
+
+        /* Create an active/current tablink class */
+        div.tab button.active {
+            background-color: #f7f7f7;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border: 1px solid #ccc;
+            border-top: none;
+        }
+
+        .d3-tip {
+            line-height: 1;
+            /*font-weight: bold;*/
+            padding: 12px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            border-radius: 2px;
+            font-family: Sans-Serif;
+        }
+
+        /* Creates a small triangle extender for the tooltip */
+        .d3-tip:after {
+            box-sizing: border-box;
+            display: inline;
+            font-size: 10px;
+            width: 100%;
+            line-height: 1;
+            color: rgba(0, 0, 0, 0.8);
+            content: "\25BC";
+            position: absolute;
+            text-align: center;
+        }
+
+        /* Style northward tooltips differently */
+        .d3-tip.n:after {
+            margin: -1px 0 0 0;
+            top: 100%;
+            left: 0;
+        }
+
+        .hidden {
+            display: none;
+        }
+        div.tooltip {
+            color: #222;
+            background-color: #fff;
+            padding: .5em;
+            text-shadow: #f5f5f5 0 1px 0;
+            border-radius: 2px;
+            opacity: 0.9;
+            position: absolute;
+            font-family: Sans-Serif;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="tab">
+    <button class="tablinks" id="analysisTab" onclick="openTab(event, 'Analysis')">Utilisation de l'application-cible </button>
+    <button class="tablinks" id="evaluationTab" onclick="openTab(event, 'Evaluation')">Evaluation des systèmes d'assistance</button>
+    <!-- <button class="tablinks" id="useRateTab" onclick="openTab(event, 'Usage')">Taux d'utilisation</button> -->
+    <button class="tablinks" id="parametersTab" onclick="openTab(event, 'Parameters')">Paramètres</button>
+</div>
+
+<!-- a tab to contain all the non-assistance related stuff -->
+<div id="Analysis" class="tabcontent">
+    <div id="analysis1" class="visuEval"></div>
+    <div id="analysis2" class="visuEval"></div>
+</div>
+
+<!--
+<div id="Usage" class="tabcontent">
+    <div id="use1" class="visuUsage"></div>
+</div>
+-->
+
+
+<!-- a tab to contain all the assistance related stuff -->
+<div id="Evaluation" class="tabcontent">
+    <div id="vis1" class="visuEval"></div>
+    <div id="vis2" class="visuEval"></div>
+    <div id="vis3" class="visuEval"></div>
+    <div id="vis4" class="visuEval"></div>
+</div>
+
+<div id="Parameters" class="tabcontent" >
+    <h3>Paramètres</h3>
+    <p>A venir</p>
+</div>
+
+<!-- test button -->
+<button id="your-id" class="hidden">submit</button>
+
+
+<script>
+
+    // function to interact with the tab
+    function openTab(evt, tabName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    //TODO : add target app name in global variable
+    var targetAppName = "SAP Business One";
+    var assistanceScenario = "test";
+    var interfaceDescription = "InterfaceDescriptions/SAP_testDashboard.interface";
+    var rootBase = "raph-test-base";
+    var kTBS_URL = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/";
+    var base_URL = kTBS_URL + rootBase + '/' + targetAppName + '/';
+    var model = "seppiaModel";//TODO: dynamically change the model in the SPARQL request prefix
+
+    //activate a default tab
+    document.getElementById("Evaluation").style.display = "block";
+    document.getElementById("evaluationTab").className += " active";
+    
+
+    //draw the visualization with global info
+    var globalRuleAction;// = getGlobalIndicator(kTBS_URL + rootBase + "/", "ruleAction", null);
+    //globalRuleAction = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_rulesAndActionsTriggerStats_all/@obsels";
+    globalRuleAction = "Traces/triggerExpe.json"
+    var ruleAndActionView = new RuleAndActionStatsView("vis1");
+    ruleAndActionView.draw(globalRuleAction);
+
+
+    var globalProactive;// = getGlobalIndicator(kTBS_URL + rootBase + "/", "proactive", null);
+    //globalProactive = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_proactiveAssistanceFollowup_all/@obsels";
+    globalProactive = "Traces/proactiveExpe.json";
+    var proactiveView = new proactiveAssistanceFollowupView("vis3");
+    proactiveView.draw(globalProactive);
+    // TODO: add action list and link to global view
+    // TODO: link to global view
+    // TODO: get action id in automata
+
+
+    var globalConsultation;
+    //globalConsultation = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_consultationAnswerStats_all/@obsels";
+    globalConsultation = "Traces/consultationExpe.json"
+    var consultationView = new ConsultationAnswerStatsView("vis2");
+    consultationView.draw(globalConsultation);
+
+
+    var globalSystemSignal;
+    //globalSystemSignal = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_systemSignals_all/@obsels";
+    //var systemSignalView = new systemSignalsComposantView("vis4");
+    //systemSignalView.draw(globalSystemSignal);
+
+    var globalUseRate;
+    //globalUseRate = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_useRate_all/@obsels";
+    globalUseRate = "Traces/useRateExpe.json"
+    var useView = new useRateView("analysis2");
+    useView.draw(globalUseRate);
+
+    var globalSystemSignal2;
+    //globalSystemSignal2 = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_systemSignals_all/@obsels";
+    globalSystemSignal2 = "Traces/signalsExpe.json"
+    var systemSignalView2 = new systemSignalsComposantView("analysis1");
+    systemSignalView2.draw(globalSystemSignal2);
+
+
+
+    // test function
+    document.getElementById("your-id").addEventListener("click", function () {
+        // put here the code you want to test
+    });
+
+
+</script>
+
+</body>
+</html>

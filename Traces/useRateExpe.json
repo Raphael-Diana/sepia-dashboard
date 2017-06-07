@@ -1,0 +1,4383 @@
+{
+    "@context": [
+        "http://liris.cnrs.fr/silex/2011/ktbs-jsonld-context", 
+        {
+            "m": "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sepiaModel#"
+        }
+    ], 
+    "@id": "./", 
+    "hasObselList": {
+        "@id": "", 
+        "@type": "ComputedTraceObsels"
+    }, 
+    "obsels": [
+        {
+            "@id": "useRate_Elsa_c54da8ad-5afb-4005-b772-fa89a78e71e6", 
+            "@type": "m:mouseClicked", 
+            "begin": 81935249, 
+            "beginDT": "2017-05-26T13:11:30.315000+00:00", 
+            "end": 81935249, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../useRate_Elsa/c54da8ad-5afb-4005-b772-fa89a78e71e6"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Elsa_4de8c6dd-82b7-4387-b48c-120cecae9318", 
+            "@type": "m:mouseClicked", 
+            "begin": 81937571, 
+            "beginDT": "2017-05-26T13:11:32.637000+00:00", 
+            "end": 81937571, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../useRate_Elsa/4de8c6dd-82b7-4387-b48c-120cecae9318"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_Elsa_60ec9322-4124-46a9-a150-65bfde6fb405", 
+            "@type": "m:mouseClicked", 
+            "begin": 81938964, 
+            "beginDT": "2017-05-26T13:11:34.030000+00:00", 
+            "end": 81938964, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../useRate_Elsa/60ec9322-4124-46a9-a150-65bfde6fb405"
+            ], 
+            "m:sourceId": "10001_7"
+        }, 
+        {
+            "@id": "useRate_Elsa_bc3eaaec-a0a6-4830-a8bd-c8891d78d6d2", 
+            "@type": "m:mouseClicked", 
+            "begin": 81939765, 
+            "beginDT": "2017-05-26T13:11:34.831000+00:00", 
+            "end": 81939765, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../useRate_Elsa/bc3eaaec-a0a6-4830-a8bd-c8891d78d6d2"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_Elsa_5e0598f1-41eb-4dd3-95e6-5d8aee0fb28a", 
+            "@type": "m:mouseClicked", 
+            "begin": 81941195, 
+            "beginDT": "2017-05-26T13:11:36.261000+00:00", 
+            "end": 81941195, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../useRate_Elsa/5e0598f1-41eb-4dd3-95e6-5d8aee0fb28a"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_Elsa_79a92512-955d-4cb5-9811-c336c9171c0b", 
+            "@type": "m:mouseClicked", 
+            "begin": 81943012, 
+            "beginDT": "2017-05-26T13:11:38.078000+00:00", 
+            "end": 81943012, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../useRate_Elsa/79a92512-955d-4cb5-9811-c336c9171c0b"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Elsa_b1f266f9-c001-41b5-99c9-ad3e2c4027ed", 
+            "@type": "m:mouseClicked", 
+            "begin": 81944589, 
+            "beginDT": "2017-05-26T13:11:39.655000+00:00", 
+            "end": 81944589, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../useRate_Elsa/b1f266f9-c001-41b5-99c9-ad3e2c4027ed"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Elsa_2b6cac65-73d4-4ccc-a921-158e6dabcb96", 
+            "@type": "m:mouseClicked", 
+            "begin": 81955924, 
+            "beginDT": "2017-05-26T13:11:50.990000+00:00", 
+            "end": 81955924, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../useRate_Elsa/2b6cac65-73d4-4ccc-a921-158e6dabcb96"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Elsa_1bb9d96d-81ed-48bb-b831-be722de94ff2", 
+            "@type": "m:mouseClicked", 
+            "begin": 81959369, 
+            "beginDT": "2017-05-26T13:11:54.435000+00:00", 
+            "end": 81959369, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../useRate_Elsa/1bb9d96d-81ed-48bb-b831-be722de94ff2"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329"
+        }, 
+        {
+            "@id": "useRate_Elsa_0b73a7a8-aa31-4dc6-8915-2bd9fe7bd29d", 
+            "@type": "m:mouseClicked", 
+            "begin": 81966904, 
+            "beginDT": "2017-05-26T13:12:01.970000+00:00", 
+            "end": 81966904, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../useRate_Elsa/0b73a7a8-aa31-4dc6-8915-2bd9fe7bd29d"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Elsa_1178b82e-4d22-438d-a7f4-ae25c6eb2ea8", 
+            "@type": "m:mouseClicked", 
+            "begin": 81967654, 
+            "beginDT": "2017-05-26T13:12:02.720000+00:00", 
+            "end": 81967654, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../useRate_Elsa/1178b82e-4d22-438d-a7f4-ae25c6eb2ea8"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Elsa_2637a289-480b-47e1-93ae-41f76c096c47", 
+            "@type": "m:mouseClicked", 
+            "begin": 81969001, 
+            "beginDT": "2017-05-26T13:12:04.067000+00:00", 
+            "end": 81969001, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../useRate_Elsa/2637a289-480b-47e1-93ae-41f76c096c47"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Elsa_b9ae1a8a-6f5d-4b97-bb36-9d8ac60f4b0c", 
+            "@type": "m:mouseClicked", 
+            "begin": 81973440, 
+            "beginDT": "2017-05-26T13:12:08.506000+00:00", 
+            "end": 81973440, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../useRate_Elsa/b9ae1a8a-6f5d-4b97-bb36-9d8ac60f4b0c"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Elsa_e944671e-08f3-49ed-af20-e1f30a3e871d", 
+            "@type": "m:mouseClicked", 
+            "begin": 81977755, 
+            "beginDT": "2017-05-26T13:12:12.821000+00:00", 
+            "end": 81977755, 
+            "subject": "Elsa", 
+            "hasSourceObsel": [
+                "../useRate_Elsa/e944671e-08f3-49ed-af20-e1f30a3e871d"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Florence_d06ad852-3c61-42a8-b72b-528df80bcd02", 
+            "@type": "m:mouseClicked", 
+            "begin": 82246481, 
+            "beginDT": "2017-05-26T13:16:41.547000+00:00", 
+            "end": 82246481, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/d06ad852-3c61-42a8-b72b-528df80bcd02"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Florence_fde71f7c-e9e9-4bd1-ac76-291b74e18587", 
+            "@type": "m:mouseClicked", 
+            "begin": 82248792, 
+            "beginDT": "2017-05-26T13:16:43.858000+00:00", 
+            "end": 82248792, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/fde71f7c-e9e9-4bd1-ac76-291b74e18587"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_Florence_73ff499a-cdf0-45b0-ba2c-bee9f3d412bf", 
+            "@type": "m:mouseClicked", 
+            "begin": 82250133, 
+            "beginDT": "2017-05-26T13:16:45.199000+00:00", 
+            "end": 82250133, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/73ff499a-cdf0-45b0-ba2c-bee9f3d412bf"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_Florence_c642ba09-b6d0-42cb-a577-da947811b847", 
+            "@type": "m:mouseClicked", 
+            "begin": 82251611, 
+            "beginDT": "2017-05-26T13:16:46.677000+00:00", 
+            "end": 82251611, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/c642ba09-b6d0-42cb-a577-da947811b847"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_Florence_f99160bc-d058-48ee-8a7c-103ee3a7156e", 
+            "@type": "m:mouseClicked", 
+            "begin": 82253977, 
+            "beginDT": "2017-05-26T13:16:49.043000+00:00", 
+            "end": 82253977, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/f99160bc-d058-48ee-8a7c-103ee3a7156e"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Florence_f70b8e0f-2669-49ae-a9d4-e2a376ecd38d", 
+            "@type": "m:mouseClicked", 
+            "begin": 82255540, 
+            "beginDT": "2017-05-26T13:16:50.606000+00:00", 
+            "end": 82255540, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/f70b8e0f-2669-49ae-a9d4-e2a376ecd38d"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Florence_84801a55-870e-4766-8db0-de7dc4d78e8d", 
+            "@type": "m:mouseClicked", 
+            "begin": 82265161, 
+            "beginDT": "2017-05-26T13:17:00.227000+00:00", 
+            "end": 82265161, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/84801a55-870e-4766-8db0-de7dc4d78e8d"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Florence_51b3c2c9-8866-49a1-bce2-525332710c291", 
+            "@type": "m:mouseClicked", 
+            "begin": 82269167, 
+            "beginDT": "2017-05-26T13:17:04.233000+00:00", 
+            "end": 82269167, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/51b3c2c9-8866-49a1-bce2-525332710c291"
+            ], 
+            "m:sourceId": "fo_Quotation_16"
+        }, 
+        {
+            "@id": "useRate_Florence_39eecd49-f5a2-425b-9f04-052a71dcc2d8", 
+            "@type": "m:mouseClicked", 
+            "begin": 82269168, 
+            "beginDT": "2017-05-26T13:17:04.234000+00:00", 
+            "end": 82269168, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/39eecd49-f5a2-425b-9f04-052a71dcc2d8"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329"
+        }, 
+        {
+            "@id": "useRate_Florence_3fdc49f1-43f7-41d3-b80d-af7036999fc9", 
+            "@type": "m:mouseClicked", 
+            "begin": 82276466, 
+            "beginDT": "2017-05-26T13:17:11.532000+00:00", 
+            "end": 82276466, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/3fdc49f1-43f7-41d3-b80d-af7036999fc9"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Florence_cd2ba499-2a89-478e-923b-360d89bfdbd6", 
+            "@type": "m:mouseClicked", 
+            "begin": 82277092, 
+            "beginDT": "2017-05-26T13:17:12.158000+00:00", 
+            "end": 82277092, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/cd2ba499-2a89-478e-923b-360d89bfdbd6"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Florence_56db01ba-b487-4140-879c-7b3faf192953", 
+            "@type": "m:mouseClicked", 
+            "begin": 82278361, 
+            "beginDT": "2017-05-26T13:17:13.427000+00:00", 
+            "end": 82278361, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/56db01ba-b487-4140-879c-7b3faf192953"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Florence_685825dd-40b3-4caa-88f9-11b055c012d2", 
+            "@type": "m:mouseClicked", 
+            "begin": 82281623, 
+            "beginDT": "2017-05-26T13:17:16.689000+00:00", 
+            "end": 82281623, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/685825dd-40b3-4caa-88f9-11b055c012d2"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Florence_ccb86da0-485a-4557-9ef9-1504c51a4210", 
+            "@type": "m:mouseClicked", 
+            "begin": 82281866, 
+            "beginDT": "2017-05-26T13:17:16.932000+00:00", 
+            "end": 82281866, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/ccb86da0-485a-4557-9ef9-1504c51a4210"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Florence_1c46fee9-a617-4285-a467-780a0a3fd276", 
+            "@type": "m:mouseClicked", 
+            "begin": 82285356, 
+            "beginDT": "2017-05-26T13:17:20.422000+00:00", 
+            "end": 82285356, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/1c46fee9-a617-4285-a467-780a0a3fd276"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Florence_8dbdac5f-aeaa-4bb5-89b2-7b68ea87c103", 
+            "@type": "m:mouseClicked", 
+            "begin": 82288702, 
+            "beginDT": "2017-05-26T13:17:23.768000+00:00", 
+            "end": 82288702, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/8dbdac5f-aeaa-4bb5-89b2-7b68ea87c103"
+            ], 
+            "m:sourceId": "fo_Order_10000329"
+        }, 
+        {
+            "@id": "useRate_Florence_a6a192a6-78e7-4adf-815e-7b7dfedd72cd", 
+            "@type": "m:mouseClicked", 
+            "begin": 82295228, 
+            "beginDT": "2017-05-26T13:17:30.294000+00:00", 
+            "end": 82295228, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/a6a192a6-78e7-4adf-815e-7b7dfedd72cd"
+            ], 
+            "m:sourceId": "60091_1"
+        }, 
+        {
+            "@id": "useRate_Florence_c204d027-6c0c-4f0d-a986-d31854c063cf2", 
+            "@type": "m:mouseClicked", 
+            "begin": 82297853, 
+            "beginDT": "2017-05-26T13:17:32.919000+00:00", 
+            "end": 82297853, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/c204d027-6c0c-4f0d-a986-d31854c063cf2"
+            ], 
+            "m:sourceId": "60091_4"
+        }, 
+        {
+            "@id": "useRate_Florence_c204d027-6c0c-4f0d-a986-d31854c063cf1", 
+            "@type": "m:mouseClicked", 
+            "begin": 82297854, 
+            "beginDT": "2017-05-26T13:17:32.920000+00:00", 
+            "end": 82297854, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/c204d027-6c0c-4f0d-a986-d31854c063cf1"
+            ], 
+            "m:sourceId": "60091_4"
+        }, 
+        {
+            "@id": "useRate_Florence_c204d027-6c0c-4f0d-a986-d31854c063cf", 
+            "@type": "m:mouseClicked", 
+            "begin": 82297855, 
+            "beginDT": "2017-05-26T13:17:32.921000+00:00", 
+            "end": 82297855, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/c204d027-6c0c-4f0d-a986-d31854c063cf"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Florence_921bd779-9014-4b28-bd97-de47163128b8", 
+            "@type": "m:mouseClicked", 
+            "begin": 82303775, 
+            "beginDT": "2017-05-26T13:17:38.841000+00:00", 
+            "end": 82303775, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/921bd779-9014-4b28-bd97-de47163128b8"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Florence_40e1d468-8337-4998-8c62-e6ef41711f07", 
+            "@type": "m:mouseClicked", 
+            "begin": 82306757, 
+            "beginDT": "2017-05-26T13:17:41.823000+00:00", 
+            "end": 82306757, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/40e1d468-8337-4998-8c62-e6ef41711f07"
+            ], 
+            "m:sourceId": "60091_10000329"
+        }, 
+        {
+            "@id": "useRate_Florence_a901dfbe-c5c7-4b07-8bf0-6194f7a97502", 
+            "@type": "m:mouseClicked", 
+            "begin": 82312150, 
+            "beginDT": "2017-05-26T13:17:47.216000+00:00", 
+            "end": 82312150, 
+            "subject": "Florence", 
+            "hasSourceObsel": [
+                "../useRate_Florence/a901dfbe-c5c7-4b07-8bf0-6194f7a97502"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1"
+        }, 
+        {
+            "@id": "useRate_Florent_c0c4bdcd-364f-4638-a99d-a735e015dd85", 
+            "@type": "m:mouseClicked", 
+            "begin": 82623719, 
+            "beginDT": "2017-05-26T13:22:58.785000+00:00", 
+            "end": 82623719, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/c0c4bdcd-364f-4638-a99d-a735e015dd85"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Florent_f7616c78-e892-469d-85bf-c22bac7b3656", 
+            "@type": "m:mouseClicked", 
+            "begin": 82625576, 
+            "beginDT": "2017-05-26T13:23:00.642000+00:00", 
+            "end": 82625576, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/f7616c78-e892-469d-85bf-c22bac7b3656"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_Florent_1902e1ca-8445-4c20-9981-715d8a3f9f06", 
+            "@type": "m:mouseClicked", 
+            "begin": 82627236, 
+            "beginDT": "2017-05-26T13:23:02.302000+00:00", 
+            "end": 82627236, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/1902e1ca-8445-4c20-9981-715d8a3f9f06"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_Florent_d4948977-9a2d-419f-b0c1-20298771d63c", 
+            "@type": "m:mouseClicked", 
+            "begin": 82628687, 
+            "beginDT": "2017-05-26T13:23:03.753000+00:00", 
+            "end": 82628687, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/d4948977-9a2d-419f-b0c1-20298771d63c"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_Florent_682dc529-ce38-4d71-a309-9b4ddaa1a5e0", 
+            "@type": "m:mouseClicked", 
+            "begin": 82630849, 
+            "beginDT": "2017-05-26T13:23:05.915000+00:00", 
+            "end": 82630849, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/682dc529-ce38-4d71-a309-9b4ddaa1a5e0"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Florent_ab120b29-cf6a-4752-91fa-880b3b8284af", 
+            "@type": "m:mouseClicked", 
+            "begin": 82632792, 
+            "beginDT": "2017-05-26T13:23:07.858000+00:00", 
+            "end": 82632792, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/ab120b29-cf6a-4752-91fa-880b3b8284af"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Florent_efb6c15d-8225-4fd2-b34b-9ebb4b3e8b91", 
+            "@type": "m:mouseClicked", 
+            "begin": 82640287, 
+            "beginDT": "2017-05-26T13:23:15.353000+00:00", 
+            "end": 82640287, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/efb6c15d-8225-4fd2-b34b-9ebb4b3e8b91"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Florent_8228d806-73cc-4aa8-8ea3-41d1b58b073a", 
+            "@type": "m:mouseClicked", 
+            "begin": 82642816, 
+            "beginDT": "2017-05-26T13:23:17.882000+00:00", 
+            "end": 82642816, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/8228d806-73cc-4aa8-8ea3-41d1b58b073a"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329"
+        }, 
+        {
+            "@id": "useRate_Florent_6d171d9f-d829-406a-9ca0-2845cf7bd4fe", 
+            "@type": "m:mouseClicked", 
+            "begin": 82652698, 
+            "beginDT": "2017-05-26T13:23:27.764000+00:00", 
+            "end": 82652698, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/6d171d9f-d829-406a-9ca0-2845cf7bd4fe"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Florent_6d3087c1-5edd-4b63-b42a-94350c9ee0de", 
+            "@type": "m:mouseClicked", 
+            "begin": 82653998, 
+            "beginDT": "2017-05-26T13:23:29.064000+00:00", 
+            "end": 82653998, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/6d3087c1-5edd-4b63-b42a-94350c9ee0de"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Florent_3d59ee7d-36f2-4b08-99ac-be60bcdb285b", 
+            "@type": "m:mouseClicked", 
+            "begin": 82655141, 
+            "beginDT": "2017-05-26T13:23:30.207000+00:00", 
+            "end": 82655141, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/3d59ee7d-36f2-4b08-99ac-be60bcdb285b"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Florent_35a61365-3464-4986-aa5f-b98106bf29e9", 
+            "@type": "m:mouseClicked", 
+            "begin": 82657515, 
+            "beginDT": "2017-05-26T13:23:32.581000+00:00", 
+            "end": 82657515, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/35a61365-3464-4986-aa5f-b98106bf29e9"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Florent_dcb8ff86-acbc-4a31-b9ae-5216b28ce4a1", 
+            "@type": "m:mouseClicked", 
+            "begin": 82660829, 
+            "beginDT": "2017-05-26T13:23:35.895000+00:00", 
+            "end": 82660829, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/dcb8ff86-acbc-4a31-b9ae-5216b28ce4a1"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Florent_221865e6-8315-4d02-afc9-b33f86f08c48", 
+            "@type": "m:mouseClicked", 
+            "begin": 82663509, 
+            "beginDT": "2017-05-26T13:23:38.575000+00:00", 
+            "end": 82663509, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/221865e6-8315-4d02-afc9-b33f86f08c48"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Florent_f775c81a-7e98-4686-b809-006ef9811823", 
+            "@type": "m:mouseClicked", 
+            "begin": 82666332, 
+            "beginDT": "2017-05-26T13:23:41.398000+00:00", 
+            "end": 82666332, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/f775c81a-7e98-4686-b809-006ef9811823"
+            ], 
+            "m:sourceId": "fo_Order_10000329"
+        }, 
+        {
+            "@id": "useRate_Florent_7c0665e3-13e7-4b91-baed-dedc96a3635d", 
+            "@type": "m:mouseClicked", 
+            "begin": 82673415, 
+            "beginDT": "2017-05-26T13:23:48.481000+00:00", 
+            "end": 82673415, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/7c0665e3-13e7-4b91-baed-dedc96a3635d"
+            ], 
+            "m:sourceId": "60091_1"
+        }, 
+        {
+            "@id": "useRate_Florent_58c2f6cd-bc7b-4100-aff7-4e4a1336a745", 
+            "@type": "m:mouseClicked", 
+            "begin": 82675722, 
+            "beginDT": "2017-05-26T13:23:50.788000+00:00", 
+            "end": 82675722, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/58c2f6cd-bc7b-4100-aff7-4e4a1336a745"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Florent_38834976-4f92-4a54-a51b-2ef911deac55", 
+            "@type": "m:mouseClicked", 
+            "begin": 82679074, 
+            "beginDT": "2017-05-26T13:23:54.140000+00:00", 
+            "end": 82679074, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/38834976-4f92-4a54-a51b-2ef911deac55"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Florent_b2eb5f67-c3e4-4889-8c3d-a2e3d345e5e5", 
+            "@type": "m:mouseClicked", 
+            "begin": 82682030, 
+            "beginDT": "2017-05-26T13:23:57.096000+00:00", 
+            "end": 82682030, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/b2eb5f67-c3e4-4889-8c3d-a2e3d345e5e5"
+            ], 
+            "m:sourceId": "60091_10000329"
+        }, 
+        {
+            "@id": "useRate_Florent_4afbccd8-222e-4e58-8933-4258994825cc", 
+            "@type": "m:mouseClicked", 
+            "begin": 82686869, 
+            "beginDT": "2017-05-26T13:24:01.935000+00:00", 
+            "end": 82686869, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/4afbccd8-222e-4e58-8933-4258994825cc"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1"
+        }, 
+        {
+            "@id": "useRate_Florent_ac616e49-7c7f-4037-a840-1873d88626ce", 
+            "@type": "m:mouseClicked", 
+            "begin": 82689399, 
+            "beginDT": "2017-05-26T13:24:04.465000+00:00", 
+            "end": 82689399, 
+            "subject": "Florent", 
+            "hasSourceObsel": [
+                "../useRate_Florent/ac616e49-7c7f-4037-a840-1873d88626ce"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Gael_928fed82-f130-44ad-82a3-e0e9bd390285", 
+            "@type": "m:mouseClicked", 
+            "begin": 82725438, 
+            "beginDT": "2017-05-26T13:24:40.504000+00:00", 
+            "end": 82725438, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/928fed82-f130-44ad-82a3-e0e9bd390285"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Gael_20b63342-a45b-4c29-8819-d5ef9cd164eb", 
+            "@type": "m:mouseClicked", 
+            "begin": 82732442, 
+            "beginDT": "2017-05-26T13:24:47.508000+00:00", 
+            "end": 82732442, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/20b63342-a45b-4c29-8819-d5ef9cd164eb"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Gael_04be36f9-208d-4b0e-b3c1-34012e66d1f0", 
+            "@type": "m:mouseClicked", 
+            "begin": 82734396, 
+            "beginDT": "2017-05-26T13:24:49.462000+00:00", 
+            "end": 82734396, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/04be36f9-208d-4b0e-b3c1-34012e66d1f0"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_Gael_4ca5b256-c5be-46e5-ac0e-32ab86dc032b", 
+            "@type": "m:mouseClicked", 
+            "begin": 82735585, 
+            "beginDT": "2017-05-26T13:24:50.651000+00:00", 
+            "end": 82735585, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/4ca5b256-c5be-46e5-ac0e-32ab86dc032b"
+            ], 
+            "m:sourceId": "10001_7"
+        }, 
+        {
+            "@id": "useRate_Gael_3ef06921-68c6-4a85-b7f9-12cd8c33c48b", 
+            "@type": "m:mouseClicked", 
+            "begin": 82736211, 
+            "beginDT": "2017-05-26T13:24:51.277000+00:00", 
+            "end": 82736211, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/3ef06921-68c6-4a85-b7f9-12cd8c33c48b"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_Gael_d279c418-4895-47ee-a4e0-0dc6dd7fa188", 
+            "@type": "m:mouseClicked", 
+            "begin": 82737667, 
+            "beginDT": "2017-05-26T13:24:52.733000+00:00", 
+            "end": 82737667, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/d279c418-4895-47ee-a4e0-0dc6dd7fa188"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_Gael_7a97db8b-8a5c-4aeb-964c-2b45520ae11d", 
+            "@type": "m:mouseClicked", 
+            "begin": 82739544, 
+            "beginDT": "2017-05-26T13:24:54.610000+00:00", 
+            "end": 82739544, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/7a97db8b-8a5c-4aeb-964c-2b45520ae11d"
+            ], 
+            "m:sourceId": "10003_7"
+        }, 
+        {
+            "@id": "useRate_Gael_e855ef59-452f-4757-af24-a0d03447587a", 
+            "@type": "m:mouseClicked", 
+            "begin": 82740389, 
+            "beginDT": "2017-05-26T13:24:55.455000+00:00", 
+            "end": 82740389, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/e855ef59-452f-4757-af24-a0d03447587a"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Gael_e8bb225a-58c5-4376-996d-958ab8ae0921", 
+            "@type": "m:mouseClicked", 
+            "begin": 82746443, 
+            "beginDT": "2017-05-26T13:25:01.509000+00:00", 
+            "end": 82746443, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/e8bb225a-58c5-4376-996d-958ab8ae0921"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Gael_f0189b5a-7794-47f9-af7c-181036e7d71c", 
+            "@type": "m:mouseClicked", 
+            "begin": 82755237, 
+            "beginDT": "2017-05-26T13:25:10.303000+00:00", 
+            "end": 82755237, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/f0189b5a-7794-47f9-af7c-181036e7d71c"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Gael_be51a213-5799-4d67-b2ce-5c413921b6a8", 
+            "@type": "m:mouseClicked", 
+            "begin": 82757608, 
+            "beginDT": "2017-05-26T13:25:12.674000+00:00", 
+            "end": 82757608, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/be51a213-5799-4d67-b2ce-5c413921b6a8"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329"
+        }, 
+        {
+            "@id": "useRate_Gael_55277be3-7c4e-4908-99d2-7fe087404f64", 
+            "@type": "m:mouseClicked", 
+            "begin": 82764036, 
+            "beginDT": "2017-05-26T13:25:19.102000+00:00", 
+            "end": 82764036, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/55277be3-7c4e-4908-99d2-7fe087404f64"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Gael_de4b5432-6e3b-493e-8098-adfe04746674", 
+            "@type": "m:mouseClicked", 
+            "begin": 82765663, 
+            "beginDT": "2017-05-26T13:25:20.729000+00:00", 
+            "end": 82765663, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/de4b5432-6e3b-493e-8098-adfe04746674"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Gael_100c3a60-68df-4998-a849-01fb51bc307e", 
+            "@type": "m:mouseClicked", 
+            "begin": 82768521, 
+            "beginDT": "2017-05-26T13:25:23.587000+00:00", 
+            "end": 82768521, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/100c3a60-68df-4998-a849-01fb51bc307e"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Gael_1de1171f-3b58-417f-b8a4-a719c42a0665", 
+            "@type": "m:mouseClicked", 
+            "begin": 82770096, 
+            "beginDT": "2017-05-26T13:25:25.162000+00:00", 
+            "end": 82770096, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/1de1171f-3b58-417f-b8a4-a719c42a0665"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Gael_1525368f-a279-48ab-96fc-6c85f5bae8da", 
+            "@type": "m:mouseClicked", 
+            "begin": 82773450, 
+            "beginDT": "2017-05-26T13:25:28.516000+00:00", 
+            "end": 82773450, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/1525368f-a279-48ab-96fc-6c85f5bae8da"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Gael_4e0eaaf9-4bd0-46ea-8769-0d880b187afd", 
+            "@type": "m:mouseClicked", 
+            "begin": 82776731, 
+            "beginDT": "2017-05-26T13:25:31.797000+00:00", 
+            "end": 82776731, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/4e0eaaf9-4bd0-46ea-8769-0d880b187afd"
+            ], 
+            "m:sourceId": "fo_Order_10000329"
+        }, 
+        {
+            "@id": "useRate_Gael_5a01a26e-2d93-424c-ae94-4f932c99d7ad", 
+            "@type": "m:mouseClicked", 
+            "begin": 82783114, 
+            "beginDT": "2017-05-26T13:25:38.180000+00:00", 
+            "end": 82783114, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/5a01a26e-2d93-424c-ae94-4f932c99d7ad"
+            ], 
+            "m:sourceId": "60091_1"
+        }, 
+        {
+            "@id": "useRate_Gael_7dd949e5-82b7-49ac-874c-837fca8743f9", 
+            "@type": "m:mouseClicked", 
+            "begin": 82785458, 
+            "beginDT": "2017-05-26T13:25:40.524000+00:00", 
+            "end": 82785458, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/7dd949e5-82b7-49ac-874c-837fca8743f9"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Gael_ce72034c-c6bc-4ae9-ba78-9cca173f0652", 
+            "@type": "m:mouseClicked", 
+            "begin": 82789502, 
+            "beginDT": "2017-05-26T13:25:44.568000+00:00", 
+            "end": 82789502, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/ce72034c-c6bc-4ae9-ba78-9cca173f0652"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Gael_64132964-35dc-4d3f-8947-653d0f29f120", 
+            "@type": "m:mouseClicked", 
+            "begin": 82792207, 
+            "beginDT": "2017-05-26T13:25:47.273000+00:00", 
+            "end": 82792207, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/64132964-35dc-4d3f-8947-653d0f29f120"
+            ], 
+            "m:sourceId": "60091_10000329"
+        }, 
+        {
+            "@id": "useRate_Gael_5a707d50-6539-41c0-b141-da28c2049a1b", 
+            "@type": "m:mouseClicked", 
+            "begin": 82798228, 
+            "beginDT": "2017-05-26T13:25:53.294000+00:00", 
+            "end": 82798228, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/5a707d50-6539-41c0-b141-da28c2049a1b"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1"
+        }, 
+        {
+            "@id": "useRate_Gael_d0d38cb5-92cd-4218-aabe-b16b56f1c80d", 
+            "@type": "m:mouseClicked", 
+            "begin": 82801426, 
+            "beginDT": "2017-05-26T13:25:56.492000+00:00", 
+            "end": 82801426, 
+            "subject": "Gael", 
+            "hasSourceObsel": [
+                "../useRate_Gael/d0d38cb5-92cd-4218-aabe-b16b56f1c80d"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Gregoire_9e9c5dd7-0989-4074-8f97-ef7737473730", 
+            "@type": "m:mouseClicked", 
+            "begin": 82827472, 
+            "beginDT": "2017-05-26T13:26:22.538000+00:00", 
+            "end": 82827472, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/9e9c5dd7-0989-4074-8f97-ef7737473730"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Gregoire_e7a3fd8d-e612-42f7-aae4-7618fadca719", 
+            "@type": "m:mouseClicked", 
+            "begin": 82829460, 
+            "beginDT": "2017-05-26T13:26:24.526000+00:00", 
+            "end": 82829460, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/e7a3fd8d-e612-42f7-aae4-7618fadca719"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_Gregoire_eea2bfdc-d757-44a7-82cb-dff817be91a7", 
+            "@type": "m:mouseClicked", 
+            "begin": 82830760, 
+            "beginDT": "2017-05-26T13:26:25.826000+00:00", 
+            "end": 82830760, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/eea2bfdc-d757-44a7-82cb-dff817be91a7"
+            ], 
+            "m:sourceId": "10001_7"
+        }, 
+        {
+            "@id": "useRate_Gregoire_b304a7ca-c978-4e7d-905f-65f1d9499cf4", 
+            "@type": "m:mouseClicked", 
+            "begin": 82832060, 
+            "beginDT": "2017-05-26T13:26:27.126000+00:00", 
+            "end": 82832060, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/b304a7ca-c978-4e7d-905f-65f1d9499cf4"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_Gregoire_7f29c683-c1fa-47ba-a7a3-a3f4e34125e3", 
+            "@type": "m:mouseClicked", 
+            "begin": 82833530, 
+            "beginDT": "2017-05-26T13:26:28.596000+00:00", 
+            "end": 82833530, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/7f29c683-c1fa-47ba-a7a3-a3f4e34125e3"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_Gregoire_69d87a68-c1aa-4929-bc65-283b43968544", 
+            "@type": "m:mouseClicked", 
+            "begin": 82835219, 
+            "beginDT": "2017-05-26T13:26:30.285000+00:00", 
+            "end": 82835219, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/69d87a68-c1aa-4929-bc65-283b43968544"
+            ], 
+            "m:sourceId": "10003_7"
+        }, 
+        {
+            "@id": "useRate_Gregoire_bed3c34a-663b-4f83-9dc1-ef3987866d8c", 
+            "@type": "m:mouseClicked", 
+            "begin": 82835830, 
+            "beginDT": "2017-05-26T13:26:30.896000+00:00", 
+            "end": 82835830, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/bed3c34a-663b-4f83-9dc1-ef3987866d8c"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Gregoire_5b3e2e8e-6b36-417b-9f73-ce2c158385d2", 
+            "@type": "m:mouseClicked", 
+            "begin": 82837772, 
+            "beginDT": "2017-05-26T13:26:32.838000+00:00", 
+            "end": 82837772, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/5b3e2e8e-6b36-417b-9f73-ce2c158385d2"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Gregoire_30f86b11-3f44-443b-8c4c-b776398c4aef", 
+            "@type": "m:mouseClicked", 
+            "begin": 82845063, 
+            "beginDT": "2017-05-26T13:26:40.129000+00:00", 
+            "end": 82845063, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/30f86b11-3f44-443b-8c4c-b776398c4aef"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Gregoire_2e9338f1-a480-43de-b56c-b732cd3e0150", 
+            "@type": "m:mouseClicked", 
+            "begin": 82847698, 
+            "beginDT": "2017-05-26T13:26:42.764000+00:00", 
+            "end": 82847698, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/2e9338f1-a480-43de-b56c-b732cd3e0150"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329"
+        }, 
+        {
+            "@id": "useRate_Gregoire_26115c92-3c34-4a65-8f1e-46814e013ac3", 
+            "@type": "m:mouseClicked", 
+            "begin": 82852961, 
+            "beginDT": "2017-05-26T13:26:48.027000+00:00", 
+            "end": 82852961, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/26115c92-3c34-4a65-8f1e-46814e013ac3"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Gregoire_c752fc98-d712-45d5-b105-ad08edfb9728", 
+            "@type": "m:mouseClicked", 
+            "begin": 82853443, 
+            "beginDT": "2017-05-26T13:26:48.509000+00:00", 
+            "end": 82853443, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/c752fc98-d712-45d5-b105-ad08edfb9728"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Gregoire_8126b276-79b9-49df-a7d9-f8d20098e40b", 
+            "@type": "m:mouseClicked", 
+            "begin": 82854899, 
+            "beginDT": "2017-05-26T13:26:49.965000+00:00", 
+            "end": 82854899, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/8126b276-79b9-49df-a7d9-f8d20098e40b"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Gregoire_424b1875-4c83-4be0-9c42-0a0c7ae8a197", 
+            "@type": "m:mouseClicked", 
+            "begin": 82858491, 
+            "beginDT": "2017-05-26T13:26:53.557000+00:00", 
+            "end": 82858491, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/424b1875-4c83-4be0-9c42-0a0c7ae8a197"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Gregoire_cc2d9599-55c3-4cbf-be0f-afc6e96f6753", 
+            "@type": "m:mouseClicked", 
+            "begin": 82859858, 
+            "beginDT": "2017-05-26T13:26:54.924000+00:00", 
+            "end": 82859858, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/cc2d9599-55c3-4cbf-be0f-afc6e96f6753"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Gregoire_162083b0-5215-482a-b29a-65017056cd96", 
+            "@type": "m:mouseClicked", 
+            "begin": 82863245, 
+            "beginDT": "2017-05-26T13:26:58.311000+00:00", 
+            "end": 82863245, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/162083b0-5215-482a-b29a-65017056cd96"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Gregoire_525d8c4d-ac8c-485d-b050-899fa49a31f7", 
+            "@type": "m:mouseClicked", 
+            "begin": 82866233, 
+            "beginDT": "2017-05-26T13:27:01.299000+00:00", 
+            "end": 82866233, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/525d8c4d-ac8c-485d-b050-899fa49a31f7"
+            ], 
+            "m:sourceId": "fo_Order_10000329"
+        }, 
+        {
+            "@id": "useRate_Gregoire_e2f50f48-793d-49e3-a89f-7081ea15337f", 
+            "@type": "m:mouseClicked", 
+            "begin": 82871315, 
+            "beginDT": "2017-05-26T13:27:06.381000+00:00", 
+            "end": 82871315, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/e2f50f48-793d-49e3-a89f-7081ea15337f"
+            ], 
+            "m:sourceId": "60091_1"
+        }, 
+        {
+            "@id": "useRate_Gregoire_2bb01f9c-4f1a-422e-a7ee-3c47dc5db476", 
+            "@type": "m:mouseClicked", 
+            "begin": 82873622, 
+            "beginDT": "2017-05-26T13:27:08.688000+00:00", 
+            "end": 82873622, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/2bb01f9c-4f1a-422e-a7ee-3c47dc5db476"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Gregoire_618707e5-ef5a-4226-bd42-d9767f27c984", 
+            "@type": "m:mouseClicked", 
+            "begin": 82877218, 
+            "beginDT": "2017-05-26T13:27:12.284000+00:00", 
+            "end": 82877218, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/618707e5-ef5a-4226-bd42-d9767f27c984"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Gregoire_5b1c7db6-476d-456e-a8dd-c293701a4e6f", 
+            "@type": "m:mouseClicked", 
+            "begin": 82880151, 
+            "beginDT": "2017-05-26T13:27:15.217000+00:00", 
+            "end": 82880151, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/5b1c7db6-476d-456e-a8dd-c293701a4e6f"
+            ], 
+            "m:sourceId": "60091_10000329"
+        }, 
+        {
+            "@id": "useRate_Gregoire_a55865dd-fdee-4019-95f1-9e2099a9248e", 
+            "@type": "m:mouseClicked", 
+            "begin": 82885917, 
+            "beginDT": "2017-05-26T13:27:20.983000+00:00", 
+            "end": 82885917, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/a55865dd-fdee-4019-95f1-9e2099a9248e"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1"
+        }, 
+        {
+            "@id": "useRate_Gregoire_13558b73-092f-45d7-a0cd-4f09c9e431fa", 
+            "@type": "m:mouseClicked", 
+            "begin": 82888118, 
+            "beginDT": "2017-05-26T13:27:23.184000+00:00", 
+            "end": 82888118, 
+            "subject": "Gregoire", 
+            "hasSourceObsel": [
+                "../useRate_Gregoire/13558b73-092f-45d7-a0cd-4f09c9e431fa"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Henri_1823bc1d-3f83-4681-8e41-d2c529a4b907", 
+            "@type": "m:mouseClicked", 
+            "begin": 82918676, 
+            "beginDT": "2017-05-26T13:27:53.742000+00:00", 
+            "end": 82918676, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/1823bc1d-3f83-4681-8e41-d2c529a4b907"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Henri_fc35ac9c-c41e-462e-ab66-0dc8275b46d1", 
+            "@type": "m:mouseClicked", 
+            "begin": 82922712, 
+            "beginDT": "2017-05-26T13:27:57.778000+00:00", 
+            "end": 82922712, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/fc35ac9c-c41e-462e-ab66-0dc8275b46d1"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_Henri_91a8fb42-62ad-4dcd-9edc-67d1be4b7eef", 
+            "@type": "m:mouseClicked", 
+            "begin": 82924214, 
+            "beginDT": "2017-05-26T13:27:59.280000+00:00", 
+            "end": 82924214, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/91a8fb42-62ad-4dcd-9edc-67d1be4b7eef"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_Henri_605b35dd-707b-446a-ad94-82eaa20328e7", 
+            "@type": "m:mouseClicked", 
+            "begin": 82925469, 
+            "beginDT": "2017-05-26T13:28:00.535000+00:00", 
+            "end": 82925469, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/605b35dd-707b-446a-ad94-82eaa20328e7"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_Henri_d5787bf6-4f60-4214-988b-14c5a314c58a", 
+            "@type": "m:mouseClicked", 
+            "begin": 82927231, 
+            "beginDT": "2017-05-26T13:28:02.297000+00:00", 
+            "end": 82927231, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/d5787bf6-4f60-4214-988b-14c5a314c58a"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Henri_7b6fd083-2913-432f-8317-77d30542944d", 
+            "@type": "m:mouseClicked", 
+            "begin": 82934634, 
+            "beginDT": "2017-05-26T13:28:09.700000+00:00", 
+            "end": 82934634, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/7b6fd083-2913-432f-8317-77d30542944d"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Henri_5fd67ad6-249e-4e12-99f9-fede3f5c3cf0", 
+            "@type": "m:mouseClicked", 
+            "begin": 82946223, 
+            "beginDT": "2017-05-26T13:28:21.289000+00:00", 
+            "end": 82946223, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/5fd67ad6-249e-4e12-99f9-fede3f5c3cf0"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Henri_4bcfe7f2-eb37-483c-8970-7d3d2a707a2f", 
+            "@type": "m:mouseClicked", 
+            "begin": 82949750, 
+            "beginDT": "2017-05-26T13:28:24.816000+00:00", 
+            "end": 82949750, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/4bcfe7f2-eb37-483c-8970-7d3d2a707a2f"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329"
+        }, 
+        {
+            "@id": "useRate_Henri_f7eb151e-383a-4c10-a3ed-8e80ef618dc7", 
+            "@type": "m:mouseClicked", 
+            "begin": 82956571, 
+            "beginDT": "2017-05-26T13:28:31.637000+00:00", 
+            "end": 82956571, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/f7eb151e-383a-4c10-a3ed-8e80ef618dc7"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Henri_73f184e2-2496-4550-a97b-26cd45668df7", 
+            "@type": "m:mouseClicked", 
+            "begin": 82957040, 
+            "beginDT": "2017-05-26T13:28:32.106000+00:00", 
+            "end": 82957040, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/73f184e2-2496-4550-a97b-26cd45668df7"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Henri_99c83294-3735-4b47-a297-b0af10655f90", 
+            "@type": "m:mouseClicked", 
+            "begin": 82958371, 
+            "beginDT": "2017-05-26T13:28:33.437000+00:00", 
+            "end": 82958371, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/99c83294-3735-4b47-a297-b0af10655f90"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Henri_e9dbefeb-30bc-4527-b74d-e49889670b15", 
+            "@type": "m:mouseClicked", 
+            "begin": 82962585, 
+            "beginDT": "2017-05-26T13:28:37.651000+00:00", 
+            "end": 82962585, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/e9dbefeb-30bc-4527-b74d-e49889670b15"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Henri_f9f537d3-297c-4e59-bcd9-0a8271b93173", 
+            "@type": "m:mouseClicked", 
+            "begin": 82966815, 
+            "beginDT": "2017-05-26T13:28:41.881000+00:00", 
+            "end": 82966815, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/f9f537d3-297c-4e59-bcd9-0a8271b93173"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Henri_3ab9b0cb-6260-4012-8baf-74b95ec4472d", 
+            "@type": "m:mouseClicked", 
+            "begin": 82969857, 
+            "beginDT": "2017-05-26T13:28:44.923000+00:00", 
+            "end": 82969857, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/3ab9b0cb-6260-4012-8baf-74b95ec4472d"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Henri_a6f4fbef-4d39-4958-8288-635ca1ff60e9", 
+            "@type": "m:mouseClicked", 
+            "begin": 82973930, 
+            "beginDT": "2017-05-26T13:28:48.996000+00:00", 
+            "end": 82973930, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/a6f4fbef-4d39-4958-8288-635ca1ff60e9"
+            ], 
+            "m:sourceId": "fo_Order_10000329"
+        }, 
+        {
+            "@id": "useRate_Henri_76a443f7-eb65-4a1b-afb6-f27bdb513d5b", 
+            "@type": "m:mouseClicked", 
+            "begin": 82981638, 
+            "beginDT": "2017-05-26T13:28:56.704000+00:00", 
+            "end": 82981638, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/76a443f7-eb65-4a1b-afb6-f27bdb513d5b"
+            ], 
+            "m:sourceId": "60091_1"
+        }, 
+        {
+            "@id": "useRate_Henri_e7f2af92-df35-4154-ab14-88e1bc226b54", 
+            "@type": "m:mouseClicked", 
+            "begin": 82984144, 
+            "beginDT": "2017-05-26T13:28:59.210000+00:00", 
+            "end": 82984144, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/e7f2af92-df35-4154-ab14-88e1bc226b54"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Henri_d5df4f78-6f95-462f-9048-b03c92f10f9b", 
+            "@type": "m:mouseClicked", 
+            "begin": 82988375, 
+            "beginDT": "2017-05-26T13:29:03.441000+00:00", 
+            "end": 82988375, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/d5df4f78-6f95-462f-9048-b03c92f10f9b"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Henri_20407e69-89be-4d43-bf5d-8b0c57c59edb", 
+            "@type": "m:mouseClicked", 
+            "begin": 82990733, 
+            "beginDT": "2017-05-26T13:29:05.799000+00:00", 
+            "end": 82990733, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/20407e69-89be-4d43-bf5d-8b0c57c59edb"
+            ], 
+            "m:sourceId": "60091_10000329"
+        }, 
+        {
+            "@id": "useRate_Henri_972d4bbb-d61d-46f0-99de-91e46dd73db0", 
+            "@type": "m:mouseClicked", 
+            "begin": 83000188, 
+            "beginDT": "2017-05-26T13:29:15.254000+00:00", 
+            "end": 83000188, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/972d4bbb-d61d-46f0-99de-91e46dd73db0"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1"
+        }, 
+        {
+            "@id": "useRate_Henri_55b2a7eb-ac40-4653-b838-39ba02642fef", 
+            "@type": "m:mouseClicked", 
+            "begin": 83002597, 
+            "beginDT": "2017-05-26T13:29:17.663000+00:00", 
+            "end": 83002597, 
+            "subject": "Henri", 
+            "hasSourceObsel": [
+                "../useRate_Henri/55b2a7eb-ac40-4653-b838-39ba02642fef"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_878cd4a8-1960-423a-bb65-04cd2ae7e1c5", 
+            "@type": "m:mouseClicked", 
+            "begin": 83030669, 
+            "beginDT": "2017-05-26T13:29:45.735000+00:00", 
+            "end": 83030669, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/878cd4a8-1960-423a-bb65-04cd2ae7e1c5"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_9d98933c-7253-49f7-b80c-a4d3323ba4ed", 
+            "@type": "m:mouseClicked", 
+            "begin": 83032381, 
+            "beginDT": "2017-05-26T13:29:47.447000+00:00", 
+            "end": 83032381, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/9d98933c-7253-49f7-b80c-a4d3323ba4ed"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_f3a7a490-d10f-43d7-8fc4-ab22f95b2a3a", 
+            "@type": "m:mouseClicked", 
+            "begin": 83033415, 
+            "beginDT": "2017-05-26T13:29:48.481000+00:00", 
+            "end": 83033415, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/f3a7a490-d10f-43d7-8fc4-ab22f95b2a3a"
+            ], 
+            "m:sourceId": "10001_7"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_44bc34ee-9046-42f2-a9fd-6ab09667f7c0", 
+            "@type": "m:mouseClicked", 
+            "begin": 83034337, 
+            "beginDT": "2017-05-26T13:29:49.403000+00:00", 
+            "end": 83034337, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/44bc34ee-9046-42f2-a9fd-6ab09667f7c0"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_dc35582f-8fcb-47a8-978c-321a73b6c07a", 
+            "@type": "m:mouseClicked", 
+            "begin": 83037454, 
+            "beginDT": "2017-05-26T13:29:52.520000+00:00", 
+            "end": 83037454, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/dc35582f-8fcb-47a8-978c-321a73b6c07a"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_3adbddb9-3640-4b5f-81ce-7e991c81bc71", 
+            "@type": "m:mouseClicked", 
+            "begin": 83039632, 
+            "beginDT": "2017-05-26T13:29:54.698000+00:00", 
+            "end": 83039632, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/3adbddb9-3640-4b5f-81ce-7e991c81bc71"
+            ], 
+            "m:sourceId": "10003_7"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_ced1ee5a-cf91-46b6-949a-38a09e3257d5", 
+            "@type": "m:mouseClicked", 
+            "begin": 83040430, 
+            "beginDT": "2017-05-26T13:29:55.496000+00:00", 
+            "end": 83040430, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/ced1ee5a-cf91-46b6-949a-38a09e3257d5"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_f573ccc0-be62-423c-80b0-9f7a2b2cedd3", 
+            "@type": "m:mouseClicked", 
+            "begin": 83041869, 
+            "beginDT": "2017-05-26T13:29:56.935000+00:00", 
+            "end": 83041869, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/f573ccc0-be62-423c-80b0-9f7a2b2cedd3"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_2cfde030-26bb-42ae-8b1c-99d05fbdfc67", 
+            "@type": "m:mouseClicked", 
+            "begin": 83058004, 
+            "beginDT": "2017-05-26T13:30:13.070000+00:00", 
+            "end": 83058004, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/2cfde030-26bb-42ae-8b1c-99d05fbdfc67"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_b480e252-bb7b-4c75-b4a0-3308606d6910", 
+            "@type": "m:mouseClicked", 
+            "begin": 83072467, 
+            "beginDT": "2017-05-26T13:30:27.533000+00:00", 
+            "end": 83072467, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/b480e252-bb7b-4c75-b4a0-3308606d6910"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_7d7d7ff1-7f8d-4630-8bf9-e09be4bc751c", 
+            "@type": "m:mouseClicked", 
+            "begin": 83085509, 
+            "beginDT": "2017-05-26T13:30:40.575000+00:00", 
+            "end": 83085509, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/7d7d7ff1-7f8d-4630-8bf9-e09be4bc751c"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_61fc7c6d-5898-471a-bd59-48ffa6769f00", 
+            "@type": "m:mouseClicked", 
+            "begin": 83085961, 
+            "beginDT": "2017-05-26T13:30:41.027000+00:00", 
+            "end": 83085961, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/61fc7c6d-5898-471a-bd59-48ffa6769f00"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_b33a7a55-fc51-4629-9b1d-18772f2fe403", 
+            "@type": "m:mouseClicked", 
+            "begin": 83087056, 
+            "beginDT": "2017-05-26T13:30:42.122000+00:00", 
+            "end": 83087056, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/b33a7a55-fc51-4629-9b1d-18772f2fe403"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_4ade20ce-24d5-401b-878c-e58dc243d0c7", 
+            "@type": "m:mouseClicked", 
+            "begin": 83091257, 
+            "beginDT": "2017-05-26T13:30:46.323000+00:00", 
+            "end": 83091257, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/4ade20ce-24d5-401b-878c-e58dc243d0c7"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_393a190a-22f3-4ff1-88c8-043533beb607", 
+            "@type": "m:mouseClicked", 
+            "begin": 83095403, 
+            "beginDT": "2017-05-26T13:30:50.469000+00:00", 
+            "end": 83095403, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/393a190a-22f3-4ff1-88c8-043533beb607"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_639d1647-becb-4304-a3a9-b0fa143d8d7d", 
+            "@type": "m:mouseClicked", 
+            "begin": 83105684, 
+            "beginDT": "2017-05-26T13:31:00.750000+00:00", 
+            "end": 83105684, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/639d1647-becb-4304-a3a9-b0fa143d8d7d"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_f942bfeb-bffb-4a8a-af5d-5c52afedfaa1", 
+            "@type": "m:mouseClicked", 
+            "begin": 83125405, 
+            "beginDT": "2017-05-26T13:31:20.471000+00:00", 
+            "end": 83125405, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/f942bfeb-bffb-4a8a-af5d-5c52afedfaa1"
+            ], 
+            "m:sourceId": "fo_Order_10000329"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_e232af3c-3623-4e80-ad56-beca691e0bd2", 
+            "@type": "m:mouseClicked", 
+            "begin": 83132944, 
+            "beginDT": "2017-05-26T13:31:28.010000+00:00", 
+            "end": 83132944, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/e232af3c-3623-4e80-ad56-beca691e0bd2"
+            ], 
+            "m:sourceId": "60091_1"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_46f73bcb-2c9a-45db-a233-631f01e8b617", 
+            "@type": "m:mouseClicked", 
+            "begin": 83137120, 
+            "beginDT": "2017-05-26T13:31:32.186000+00:00", 
+            "end": 83137120, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/46f73bcb-2c9a-45db-a233-631f01e8b617"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_bd4837c9-f2d0-4f5f-8fc1-89e867bb566d", 
+            "@type": "m:mouseClicked", 
+            "begin": 83140738, 
+            "beginDT": "2017-05-26T13:31:35.804000+00:00", 
+            "end": 83140738, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/bd4837c9-f2d0-4f5f-8fc1-89e867bb566d"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_99fa30e3-5254-40a7-b7a2-943654612769", 
+            "@type": "m:mouseClicked", 
+            "begin": 83163252, 
+            "beginDT": "2017-05-26T13:31:58.318000+00:00", 
+            "end": 83163252, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/99fa30e3-5254-40a7-b7a2-943654612769"
+            ], 
+            "m:sourceId": "60091_10000329"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_f4523d52-8a86-4dcb-b6a8-7d68f5447837", 
+            "@type": "m:mouseClicked", 
+            "begin": 83175383, 
+            "beginDT": "2017-05-26T13:32:10.449000+00:00", 
+            "end": 83175383, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/f4523d52-8a86-4dcb-b6a8-7d68f5447837"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1"
+        }, 
+        {
+            "@id": "useRate_JeanDavid_1d7d9649-a66a-4806-9de3-751996eb6e65", 
+            "@type": "m:mouseClicked", 
+            "begin": 83179713, 
+            "beginDT": "2017-05-26T13:32:14.779000+00:00", 
+            "end": 83179713, 
+            "subject": "JeanDavid", 
+            "hasSourceObsel": [
+                "../useRate_JeanDavid/1d7d9649-a66a-4806-9de3-751996eb6e65"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Jeremy_3b931688-12d7-43d0-bd52-38c07fa3c1c3", 
+            "@type": "m:mouseClicked", 
+            "begin": 83216718, 
+            "beginDT": "2017-05-26T13:32:51.784000+00:00", 
+            "end": 83216718, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/3b931688-12d7-43d0-bd52-38c07fa3c1c3"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Jeremy_7e2ddfde-2b60-4a24-ba00-250929ac4f05", 
+            "@type": "m:mouseClicked", 
+            "begin": 83218429, 
+            "beginDT": "2017-05-26T13:32:53.495000+00:00", 
+            "end": 83218429, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/7e2ddfde-2b60-4a24-ba00-250929ac4f05"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_Jeremy_165a756f-4be8-4e4e-a634-5f5056e73a44", 
+            "@type": "m:mouseClicked", 
+            "begin": 83220010, 
+            "beginDT": "2017-05-26T13:32:55.076000+00:00", 
+            "end": 83220010, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/165a756f-4be8-4e4e-a634-5f5056e73a44"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_Jeremy_7c7bb711-4e7c-4238-9904-08b03de9dfe3", 
+            "@type": "m:mouseClicked", 
+            "begin": 83221263, 
+            "beginDT": "2017-05-26T13:32:56.329000+00:00", 
+            "end": 83221263, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/7c7bb711-4e7c-4238-9904-08b03de9dfe3"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_Jeremy_b2d4d6df-298f-407f-9888-508be79099a2", 
+            "@type": "m:mouseClicked", 
+            "begin": 83223203, 
+            "beginDT": "2017-05-26T13:32:58.269000+00:00", 
+            "end": 83223203, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/b2d4d6df-298f-407f-9888-508be79099a2"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Jeremy_b3db0c3c-e0c5-4c04-8dd0-8d3c7c9065c4", 
+            "@type": "m:mouseClicked", 
+            "begin": 83228589, 
+            "beginDT": "2017-05-26T13:33:03.655000+00:00", 
+            "end": 83228589, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/b3db0c3c-e0c5-4c04-8dd0-8d3c7c9065c4"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Jeremy_c01bf699-0b2b-4092-b144-3e35e2a5b1bb", 
+            "@type": "m:mouseClicked", 
+            "begin": 83238767, 
+            "beginDT": "2017-05-26T13:33:13.833000+00:00", 
+            "end": 83238767, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/c01bf699-0b2b-4092-b144-3e35e2a5b1bb"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1289"
+        }, 
+        {
+            "@id": "useRate_Jeremy_ab6d4329-c224-4a88-8197-33057d0a593d", 
+            "@type": "m:mouseClicked", 
+            "begin": 83240737, 
+            "beginDT": "2017-05-26T13:33:15.803000+00:00", 
+            "end": 83240737, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/ab6d4329-c224-4a88-8197-33057d0a593d"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1290"
+        }, 
+        {
+            "@id": "useRate_Jeremy_349faa78-377e-41ce-8155-ac6934099b9e", 
+            "@type": "m:mouseClicked", 
+            "begin": 83242309, 
+            "beginDT": "2017-05-26T13:33:17.375000+00:00", 
+            "end": 83242309, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/349faa78-377e-41ce-8155-ac6934099b9e"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1288"
+        }, 
+        {
+            "@id": "useRate_Jeremy_a7c5c1e3-814e-48a1-83a3-699397727cc8", 
+            "@type": "m:mouseClicked", 
+            "begin": 83243373, 
+            "beginDT": "2017-05-26T13:33:18.439000+00:00", 
+            "end": 83243373, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/a7c5c1e3-814e-48a1-83a3-699397727cc8"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1288"
+        }, 
+        {
+            "@id": "useRate_Jeremy_8124536b-5e3e-4acc-a45e-5cdfef643e70", 
+            "@type": "m:mouseClicked", 
+            "begin": 83244279, 
+            "beginDT": "2017-05-26T13:33:19.345000+00:00", 
+            "end": 83244279, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/8124536b-5e3e-4acc-a45e-5cdfef643e70"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1288"
+        }, 
+        {
+            "@id": "useRate_Jeremy_c029fe15-85c8-402e-9dbe-8a4994fa29b2", 
+            "@type": "m:mouseClicked", 
+            "begin": 83245283, 
+            "beginDT": "2017-05-26T13:33:20.349000+00:00", 
+            "end": 83245283, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/c029fe15-85c8-402e-9dbe-8a4994fa29b2"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Jeremy_570cb583-ffc6-421a-b273-05fd003467dc", 
+            "@type": "m:mouseClicked", 
+            "begin": 83251075, 
+            "beginDT": "2017-05-26T13:33:26.141000+00:00", 
+            "end": 83251075, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/570cb583-ffc6-421a-b273-05fd003467dc"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329"
+        }, 
+        {
+            "@id": "useRate_Jeremy_4f318905-fb48-4edc-9a35-a609ce63341f", 
+            "@type": "m:mouseClicked", 
+            "begin": 83259455, 
+            "beginDT": "2017-05-26T13:33:34.521000+00:00", 
+            "end": 83259455, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/4f318905-fb48-4edc-9a35-a609ce63341f"
+            ], 
+            "m:sourceId": "fo_Order_38"
+        }, 
+        {
+            "@id": "useRate_Jeremy_04ebe92e-962e-4314-a03a-e502f089f59a", 
+            "@type": "m:mouseClicked", 
+            "begin": 83261312, 
+            "beginDT": "2017-05-26T13:33:36.378000+00:00", 
+            "end": 83261312, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/04ebe92e-962e-4314-a03a-e502f089f59a"
+            ], 
+            "m:sourceId": "10003_7"
+        }, 
+        {
+            "@id": "useRate_Jeremy_602cea6d-fc46-40e1-8b4a-a38542cfa679", 
+            "@type": "m:mouseClicked", 
+            "begin": 83262847, 
+            "beginDT": "2017-05-26T13:33:37.913000+00:00", 
+            "end": 83262847, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/602cea6d-fc46-40e1-8b4a-a38542cfa679"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Jeremy_341fc200-a13f-4c6a-a2b2-b56f2906eea0", 
+            "@type": "m:mouseClicked", 
+            "begin": 83267276, 
+            "beginDT": "2017-05-26T13:33:42.342000+00:00", 
+            "end": 83267276, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/341fc200-a13f-4c6a-a2b2-b56f2906eea0"
+            ], 
+            "m:sourceId": "fo_Order_16"
+        }, 
+        {
+            "@id": "useRate_Jeremy_13170133-99f7-4f12-a1f0-274d0558f7fb", 
+            "@type": "m:mouseClicked", 
+            "begin": 83268796, 
+            "beginDT": "2017-05-26T13:33:43.862000+00:00", 
+            "end": 83268796, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/13170133-99f7-4f12-a1f0-274d0558f7fb"
+            ], 
+            "m:sourceId": "fo_Order_16"
+        }, 
+        {
+            "@id": "useRate_Jeremy_8f8c50fb-fd30-49f5-9a16-ab02c72661ee", 
+            "@type": "m:mouseClicked", 
+            "begin": 83274694, 
+            "beginDT": "2017-05-26T13:33:49.760000+00:00", 
+            "end": 83274694, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/8f8c50fb-fd30-49f5-9a16-ab02c72661ee"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Jeremy_9eeace47-f398-41f1-b7c8-647a9c475def", 
+            "@type": "m:mouseClicked", 
+            "begin": 83275399, 
+            "beginDT": "2017-05-26T13:33:50.465000+00:00", 
+            "end": 83275399, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/9eeace47-f398-41f1-b7c8-647a9c475def"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Jeremy_b44eedbe-574b-4629-89b8-7b5c05561269", 
+            "@type": "m:mouseClicked", 
+            "begin": 83276669, 
+            "beginDT": "2017-05-26T13:33:51.735000+00:00", 
+            "end": 83276669, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/b44eedbe-574b-4629-89b8-7b5c05561269"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Jeremy_f2586239-e829-4afd-8a28-4138734141cb", 
+            "@type": "m:mouseClicked", 
+            "begin": 83281091, 
+            "beginDT": "2017-05-26T13:33:56.157000+00:00", 
+            "end": 83281091, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/f2586239-e829-4afd-8a28-4138734141cb"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Jeremy_469f960c-7868-4fc2-92d3-6ec67e8164f6", 
+            "@type": "m:mouseClicked", 
+            "begin": 83283658, 
+            "beginDT": "2017-05-26T13:33:58.724000+00:00", 
+            "end": 83283658, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/469f960c-7868-4fc2-92d3-6ec67e8164f6"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Jeremy_297878e9-aa6f-45c3-b380-fa606e56e3d2", 
+            "@type": "m:mouseClicked", 
+            "begin": 83287583, 
+            "beginDT": "2017-05-26T13:34:02.649000+00:00", 
+            "end": 83287583, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/297878e9-aa6f-45c3-b380-fa606e56e3d2"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1290"
+        }, 
+        {
+            "@id": "useRate_Jeremy_541e6cc1-dd69-44ec-9235-f06ac2c1bc0b", 
+            "@type": "m:mouseClicked", 
+            "begin": 83288568, 
+            "beginDT": "2017-05-26T13:34:03.634000+00:00", 
+            "end": 83288568, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/541e6cc1-dd69-44ec-9235-f06ac2c1bc0b"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1289"
+        }, 
+        {
+            "@id": "useRate_Jeremy_a497056e-9d80-44ad-8fec-d56aa72c397b", 
+            "@type": "m:mouseClicked", 
+            "begin": 83289318, 
+            "beginDT": "2017-05-26T13:34:04.384000+00:00", 
+            "end": 83289318, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/a497056e-9d80-44ad-8fec-d56aa72c397b"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1289"
+        }, 
+        {
+            "@id": "useRate_Jeremy_13291e20-e3a9-47b2-9d43-1060eeafb028", 
+            "@type": "m:mouseClicked", 
+            "begin": 83290070, 
+            "beginDT": "2017-05-26T13:34:05.136000+00:00", 
+            "end": 83290070, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/13291e20-e3a9-47b2-9d43-1060eeafb028"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1289"
+        }, 
+        {
+            "@id": "useRate_Jeremy_b2178161-f496-43d9-b5cd-8382de722bf0", 
+            "@type": "m:mouseClicked", 
+            "begin": 83290821, 
+            "beginDT": "2017-05-26T13:34:05.887000+00:00", 
+            "end": 83290821, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/b2178161-f496-43d9-b5cd-8382de722bf0"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1289"
+        }, 
+        {
+            "@id": "useRate_Jeremy_90e3577f-5ef6-40b3-a1b6-ec4187dff4fe", 
+            "@type": "m:mouseClicked", 
+            "begin": 83291558, 
+            "beginDT": "2017-05-26T13:34:06.624000+00:00", 
+            "end": 83291558, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/90e3577f-5ef6-40b3-a1b6-ec4187dff4fe"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1289"
+        }, 
+        {
+            "@id": "useRate_Jeremy_5e45a16b-9415-49ee-890a-4a6bbb9ca047", 
+            "@type": "m:mouseClicked", 
+            "begin": 83292263, 
+            "beginDT": "2017-05-26T13:34:07.329000+00:00", 
+            "end": 83292263, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/5e45a16b-9415-49ee-890a-4a6bbb9ca047"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1289"
+        }, 
+        {
+            "@id": "useRate_Jeremy_d140b89c-c9ca-4310-b449-600e09fd9a1e", 
+            "@type": "m:mouseClicked", 
+            "begin": 83292968, 
+            "beginDT": "2017-05-26T13:34:08.034000+00:00", 
+            "end": 83292968, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/d140b89c-c9ca-4310-b449-600e09fd9a1e"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1289"
+        }, 
+        {
+            "@id": "useRate_Jeremy_fc156856-3db0-4b6b-955d-189e5bb6b23c", 
+            "@type": "m:mouseClicked", 
+            "begin": 83294520, 
+            "beginDT": "2017-05-26T13:34:09.586000+00:00", 
+            "end": 83294520, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/fc156856-3db0-4b6b-955d-189e5bb6b23c"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Jeremy_672056ae-ea38-4f88-9fc5-74fbe1c5b05e", 
+            "@type": "m:mouseClicked", 
+            "begin": 83299290, 
+            "beginDT": "2017-05-26T13:34:14.356000+00:00", 
+            "end": 83299290, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/672056ae-ea38-4f88-9fc5-74fbe1c5b05e"
+            ], 
+            "m:sourceId": "fo_Order_10000329"
+        }, 
+        {
+            "@id": "useRate_Jeremy_7ed01b4b-3edb-49ab-a084-c53b01f59a72", 
+            "@type": "m:mouseClicked", 
+            "begin": 83307478, 
+            "beginDT": "2017-05-26T13:34:22.544000+00:00", 
+            "end": 83307478, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/7ed01b4b-3edb-49ab-a084-c53b01f59a72"
+            ], 
+            "m:sourceId": "60091_1"
+        }, 
+        {
+            "@id": "useRate_Jeremy_e28b2f7f-b85f-4417-a3f6-7fdd425932ef", 
+            "@type": "m:mouseClicked", 
+            "begin": 83310271, 
+            "beginDT": "2017-05-26T13:34:25.337000+00:00", 
+            "end": 83310271, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/e28b2f7f-b85f-4417-a3f6-7fdd425932ef"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Jeremy_4e2a0b08-e5e9-4c6c-af65-b9047e9135ff", 
+            "@type": "m:mouseClicked", 
+            "begin": 83314471, 
+            "beginDT": "2017-05-26T13:34:29.537000+00:00", 
+            "end": 83314471, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/4e2a0b08-e5e9-4c6c-af65-b9047e9135ff"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1289"
+        }, 
+        {
+            "@id": "useRate_Jeremy_422ec04e-b88d-432a-9cff-8d444a4d9191", 
+            "@type": "m:mouseClicked", 
+            "begin": 83315117, 
+            "beginDT": "2017-05-26T13:34:30.183000+00:00", 
+            "end": 83315117, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/422ec04e-b88d-432a-9cff-8d444a4d9191"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1289"
+        }, 
+        {
+            "@id": "useRate_Jeremy_246bb5d1-fe88-40fa-91b6-cef97217552a", 
+            "@type": "m:mouseClicked", 
+            "begin": 83315931, 
+            "beginDT": "2017-05-26T13:34:30.997000+00:00", 
+            "end": 83315931, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/246bb5d1-fe88-40fa-91b6-cef97217552a"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1289"
+        }, 
+        {
+            "@id": "useRate_Jeremy_e22d0169-2825-4959-a6b2-d55a1acee8e0", 
+            "@type": "m:mouseClicked", 
+            "begin": 83317233, 
+            "beginDT": "2017-05-26T13:34:32.299000+00:00", 
+            "end": 83317233, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/e22d0169-2825-4959-a6b2-d55a1acee8e0"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Jeremy_3c19d74e-0a22-4888-9e76-9c4f02cda088", 
+            "@type": "m:mouseClicked", 
+            "begin": 83321172, 
+            "beginDT": "2017-05-26T13:34:36.238000+00:00", 
+            "end": 83321172, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/3c19d74e-0a22-4888-9e76-9c4f02cda088"
+            ], 
+            "m:sourceId": "60091_10000329"
+        }, 
+        {
+            "@id": "useRate_Jeremy_1387b4ae-5264-431d-a29c-f0bf4c927bed", 
+            "@type": "m:mouseClicked", 
+            "begin": 83329462, 
+            "beginDT": "2017-05-26T13:34:44.528000+00:00", 
+            "end": 83329462, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/1387b4ae-5264-431d-a29c-f0bf4c927bed"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1"
+        }, 
+        {
+            "@id": "useRate_Jeremy_c72dcae1-2fae-49f0-90cf-2de35d2707e2", 
+            "@type": "m:mouseClicked", 
+            "begin": 83331827, 
+            "beginDT": "2017-05-26T13:34:46.893000+00:00", 
+            "end": 83331827, 
+            "subject": "Jeremy", 
+            "hasSourceObsel": [
+                "../useRate_Jeremy/c72dcae1-2fae-49f0-90cf-2de35d2707e2"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Julie_0b0ca79a-cb75-4c2b-885f-7af86b1eebdc", 
+            "@type": "m:mouseClicked", 
+            "begin": 83358455, 
+            "beginDT": "2017-05-26T13:35:13.521000+00:00", 
+            "end": 83358455, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/0b0ca79a-cb75-4c2b-885f-7af86b1eebdc"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1288"
+        }, 
+        {
+            "@id": "useRate_Julie_84f90995-e2a4-462c-8b7f-8ca35e267c23", 
+            "@type": "m:mouseClicked", 
+            "begin": 83359441, 
+            "beginDT": "2017-05-26T13:35:14.507000+00:00", 
+            "end": 83359441, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/84f90995-e2a4-462c-8b7f-8ca35e267c23"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1288"
+        }, 
+        {
+            "@id": "useRate_Julie_2a904c8f-e6ad-46bc-807f-a1088f73d614", 
+            "@type": "m:mouseClicked", 
+            "begin": 83365098, 
+            "beginDT": "2017-05-26T13:35:20.164000+00:00", 
+            "end": 83365098, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/2a904c8f-e6ad-46bc-807f-a1088f73d614"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Julie_07cad8e1-cff0-4dc0-b91e-5766be043659", 
+            "@type": "m:mouseClicked", 
+            "begin": 83368167, 
+            "beginDT": "2017-05-26T13:35:23.233000+00:00", 
+            "end": 83368167, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/07cad8e1-cff0-4dc0-b91e-5766be043659"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_Julie_6c364031-0423-4edb-acc4-9a3a721c88af", 
+            "@type": "m:mouseClicked", 
+            "begin": 83369262, 
+            "beginDT": "2017-05-26T13:35:24.328000+00:00", 
+            "end": 83369262, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/6c364031-0423-4edb-acc4-9a3a721c88af"
+            ], 
+            "m:sourceId": "10001_7"
+        }, 
+        {
+            "@id": "useRate_Julie_f3748bdb-c8c0-46e9-af8e-2cb7d20e2566", 
+            "@type": "m:mouseClicked", 
+            "begin": 83370107, 
+            "beginDT": "2017-05-26T13:35:25.173000+00:00", 
+            "end": 83370107, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/f3748bdb-c8c0-46e9-af8e-2cb7d20e2566"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_Julie_b87b539d-a2ac-4c0b-86b3-eabbed19fd8a", 
+            "@type": "m:mouseClicked", 
+            "begin": 83371829, 
+            "beginDT": "2017-05-26T13:35:26.895000+00:00", 
+            "end": 83371829, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/b87b539d-a2ac-4c0b-86b3-eabbed19fd8a"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_Julie_6c268a18-0e24-48c1-a53e-b7a4a12bd186", 
+            "@type": "m:mouseClicked", 
+            "begin": 83373675, 
+            "beginDT": "2017-05-26T13:35:28.741000+00:00", 
+            "end": 83373675, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/6c268a18-0e24-48c1-a53e-b7a4a12bd186"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Julie_ff05bce4-61e7-4a65-a5f9-d1f133cef3bf", 
+            "@type": "m:mouseClicked", 
+            "begin": 83375646, 
+            "beginDT": "2017-05-26T13:35:30.712000+00:00", 
+            "end": 83375646, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/ff05bce4-61e7-4a65-a5f9-d1f133cef3bf"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Julie_18595c83-4fad-4583-9291-c633bec21657", 
+            "@type": "m:mouseClicked", 
+            "begin": 83380322, 
+            "beginDT": "2017-05-26T13:35:35.388000+00:00", 
+            "end": 83380322, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/18595c83-4fad-4583-9291-c633bec21657"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Julie_a5362034-922d-4f23-a9f9-a8bbc9f87ceb", 
+            "@type": "m:mouseClicked", 
+            "begin": 83389359, 
+            "beginDT": "2017-05-26T13:35:44.425000+00:00", 
+            "end": 83389359, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/a5362034-922d-4f23-a9f9-a8bbc9f87ceb"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Julie_e33d4963-800f-4da5-827c-28abe2a737b1", 
+            "@type": "m:mouseClicked", 
+            "begin": 83392426, 
+            "beginDT": "2017-05-26T13:35:47.492000+00:00", 
+            "end": 83392426, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/e33d4963-800f-4da5-827c-28abe2a737b1"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Julie_1e59ddf2-ac8a-4828-8155-635c772466c6", 
+            "@type": "m:mouseClicked", 
+            "begin": 83398348, 
+            "beginDT": "2017-05-26T13:35:53.414000+00:00", 
+            "end": 83398348, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/1e59ddf2-ac8a-4828-8155-635c772466c6"
+            ], 
+            "m:sourceId": "60091_1"
+        }, 
+        {
+            "@id": "useRate_Julie_f06f35cb-0ccb-4278-b1c8-19fc6fdd44b1", 
+            "@type": "m:mouseClicked", 
+            "begin": 83401455, 
+            "beginDT": "2017-05-26T13:35:56.521000+00:00", 
+            "end": 83401455, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/f06f35cb-0ccb-4278-b1c8-19fc6fdd44b1"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Julie_edae77e6-fdca-4c18-ba75-8934b08e55b4", 
+            "@type": "m:mouseClicked", 
+            "begin": 83404367, 
+            "beginDT": "2017-05-26T13:35:59.433000+00:00", 
+            "end": 83404367, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/edae77e6-fdca-4c18-ba75-8934b08e55b4"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Julie_dc659662-1ea1-4509-b632-c9a445385c9c", 
+            "@type": "m:mouseClicked", 
+            "begin": 83410371, 
+            "beginDT": "2017-05-26T13:36:05.437000+00:00", 
+            "end": 83410371, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/dc659662-1ea1-4509-b632-c9a445385c9c"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1"
+        }, 
+        {
+            "@id": "useRate_Julie_e6e8f120-ec4a-42f5-8c89-8fcd07bf427b", 
+            "@type": "m:mouseClicked", 
+            "begin": 83413457, 
+            "beginDT": "2017-05-26T13:36:08.523000+00:00", 
+            "end": 83413457, 
+            "subject": "Julie", 
+            "hasSourceObsel": [
+                "../useRate_Julie/e6e8f120-ec4a-42f5-8c89-8fcd07bf427b"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Lionel_bd1cae2f-8a24-4d5c-a2e4-44374d0c66c8", 
+            "@type": "m:mouseClicked", 
+            "begin": 83438347, 
+            "beginDT": "2017-05-26T13:36:33.413000+00:00", 
+            "end": 83438347, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/bd1cae2f-8a24-4d5c-a2e4-44374d0c66c8"
+            ], 
+            "m:sourceId": "fo_Order_38"
+        }, 
+        {
+            "@id": "useRate_Lionel_b0ffa18c-78fa-486e-a3f3-508a000f7402", 
+            "@type": "m:mouseClicked", 
+            "begin": 83439617, 
+            "beginDT": "2017-05-26T13:36:34.683000+00:00", 
+            "end": 83439617, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/b0ffa18c-78fa-486e-a3f3-508a000f7402"
+            ], 
+            "m:sourceId": "10003_7"
+        }, 
+        {
+            "@id": "useRate_Lionel_6b5a5766-e8a1-46fc-8571-1320e6691522", 
+            "@type": "m:mouseClicked", 
+            "begin": 83440446, 
+            "beginDT": "2017-05-26T13:36:35.512000+00:00", 
+            "end": 83440446, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/6b5a5766-e8a1-46fc-8571-1320e6691522"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Lionel_1461ea0e-fa8f-4693-b582-68eb3f1bf9eb", 
+            "@type": "m:mouseClicked", 
+            "begin": 83445351, 
+            "beginDT": "2017-05-26T13:36:40.417000+00:00", 
+            "end": 83445351, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/1461ea0e-fa8f-4693-b582-68eb3f1bf9eb"
+            ], 
+            "m:sourceId": "0-S-F_2"
+        }, 
+        {
+            "@id": "useRate_Lionel_6be2b48c-ea20-4eb4-8917-c27c69d42fc9", 
+            "@type": "m:mouseClicked", 
+            "begin": 83448177, 
+            "beginDT": "2017-05-26T13:36:43.243000+00:00", 
+            "end": 83448177, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/6be2b48c-ea20-4eb4-8917-c27c69d42fc9"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Lionel_5185fcc3-7c11-4200-ace6-a388a63e1233", 
+            "@type": "m:mouseClicked", 
+            "begin": 83450555, 
+            "beginDT": "2017-05-26T13:36:45.621000+00:00", 
+            "end": 83450555, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/5185fcc3-7c11-4200-ace6-a388a63e1233"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_Lionel_fcd4e2e1-b0ee-4885-aeab-7400d82b65b3", 
+            "@type": "m:mouseClicked", 
+            "begin": 83452135, 
+            "beginDT": "2017-05-26T13:36:47.201000+00:00", 
+            "end": 83452135, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/fcd4e2e1-b0ee-4885-aeab-7400d82b65b3"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_Lionel_88be4feb-0b0c-47b6-9bab-f7fbe5cb6495", 
+            "@type": "m:mouseClicked", 
+            "begin": 83453308, 
+            "beginDT": "2017-05-26T13:36:48.374000+00:00", 
+            "end": 83453308, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/88be4feb-0b0c-47b6-9bab-f7fbe5cb6495"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_Lionel_d8d51785-d0d7-484a-aaf8-890b70257c9c", 
+            "@type": "m:mouseClicked", 
+            "begin": 83455407, 
+            "beginDT": "2017-05-26T13:36:50.473000+00:00", 
+            "end": 83455407, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/d8d51785-d0d7-484a-aaf8-890b70257c9c"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Lionel_5752a39f-316c-45c7-96d4-cdfd7e2f3e91", 
+            "@type": "m:mouseClicked", 
+            "begin": 83457269, 
+            "beginDT": "2017-05-26T13:36:52.335000+00:00", 
+            "end": 83457269, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/5752a39f-316c-45c7-96d4-cdfd7e2f3e91"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Lionel_941601b8-4012-4586-b32b-30e358af5ade", 
+            "@type": "m:mouseClicked", 
+            "begin": 83461014, 
+            "beginDT": "2017-05-26T13:36:56.080000+00:00", 
+            "end": 83461014, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/941601b8-4012-4586-b32b-30e358af5ade"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Lionel_3b0ce0f6-4a16-4f49-b773-c0a11ceb37c0", 
+            "@type": "m:mouseClicked", 
+            "begin": 83464119, 
+            "beginDT": "2017-05-26T13:36:59.185000+00:00", 
+            "end": 83464119, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/3b0ce0f6-4a16-4f49-b773-c0a11ceb37c0"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Lionel_5e5c2a6a-0c1f-474f-9177-e366b974b3af", 
+            "@type": "m:mouseClicked", 
+            "begin": 83470064, 
+            "beginDT": "2017-05-26T13:37:05.130000+00:00", 
+            "end": 83470064, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/5e5c2a6a-0c1f-474f-9177-e366b974b3af"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Lionel_0e4797b3-5f2a-4045-94a4-c1e66bde234a", 
+            "@type": "m:mouseClicked", 
+            "begin": 83473032, 
+            "beginDT": "2017-05-26T13:37:08.098000+00:00", 
+            "end": 83473032, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/0e4797b3-5f2a-4045-94a4-c1e66bde234a"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Lionel_4b04bbe8-5264-4a04-a160-e968f398c918", 
+            "@type": "m:mouseClicked", 
+            "begin": 83479058, 
+            "beginDT": "2017-05-26T13:37:14.124000+00:00", 
+            "end": 83479058, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/4b04bbe8-5264-4a04-a160-e968f398c918"
+            ], 
+            "m:sourceId": "60091_1"
+        }, 
+        {
+            "@id": "useRate_Lionel_635f33fb-a26a-42c9-ba92-af6772286724", 
+            "@type": "m:mouseClicked", 
+            "begin": 83482286, 
+            "beginDT": "2017-05-26T13:37:17.352000+00:00", 
+            "end": 83482286, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/635f33fb-a26a-42c9-ba92-af6772286724"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Lionel_eb696307-11fb-4e27-9869-1c220d9ab2e6", 
+            "@type": "m:mouseClicked", 
+            "begin": 83485018, 
+            "beginDT": "2017-05-26T13:37:20.084000+00:00", 
+            "end": 83485018, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/eb696307-11fb-4e27-9869-1c220d9ab2e6"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Lionel_72804e7d-cd2e-454d-bf8e-1a6291eb56de", 
+            "@type": "m:mouseClicked", 
+            "begin": 83491072, 
+            "beginDT": "2017-05-26T13:37:26.138000+00:00", 
+            "end": 83491072, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/72804e7d-cd2e-454d-bf8e-1a6291eb56de"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1"
+        }, 
+        {
+            "@id": "useRate_Lionel_0de30d07-8bf5-4776-a3fa-e699fa145652", 
+            "@type": "m:mouseClicked", 
+            "begin": 83494062, 
+            "beginDT": "2017-05-26T13:37:29.128000+00:00", 
+            "end": 83494062, 
+            "subject": "Lionel", 
+            "hasSourceObsel": [
+                "../useRate_Lionel/0de30d07-8bf5-4776-a3fa-e699fa145652"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Lucas_bf56c5b0-2d13-4ace-b3e6-7f2de1914041", 
+            "@type": "m:mouseClicked", 
+            "begin": 83518010, 
+            "beginDT": "2017-05-26T13:37:53.076000+00:00", 
+            "end": 83518010, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../useRate_Lucas/bf56c5b0-2d13-4ace-b3e6-7f2de1914041"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Lucas_0f9587eb-9be9-46aa-9233-fd9273d26650", 
+            "@type": "m:mouseClicked", 
+            "begin": 83520348, 
+            "beginDT": "2017-05-26T13:37:55.414000+00:00", 
+            "end": 83520348, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../useRate_Lucas/0f9587eb-9be9-46aa-9233-fd9273d26650"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_Lucas_42d2c612-1793-4734-a0f8-e1d1245a82ee", 
+            "@type": "m:mouseClicked", 
+            "begin": 83521555, 
+            "beginDT": "2017-05-26T13:37:56.621000+00:00", 
+            "end": 83521555, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../useRate_Lucas/42d2c612-1793-4734-a0f8-e1d1245a82ee"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_Lucas_cbcf9cd6-12c5-4c6a-9d0a-2f19c10f2045", 
+            "@type": "m:mouseClicked", 
+            "begin": 83522541, 
+            "beginDT": "2017-05-26T13:37:57.607000+00:00", 
+            "end": 83522541, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../useRate_Lucas/cbcf9cd6-12c5-4c6a-9d0a-2f19c10f2045"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_Lucas_8b8a6684-a982-4c6b-ba36-a76cb1c3b658", 
+            "@type": "m:mouseClicked", 
+            "begin": 83523997, 
+            "beginDT": "2017-05-26T13:37:59.063000+00:00", 
+            "end": 83523997, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../useRate_Lucas/8b8a6684-a982-4c6b-ba36-a76cb1c3b658"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Lucas_dbd399da-a131-4b5b-88d3-7e76828f640e", 
+            "@type": "m:mouseClicked", 
+            "begin": 83531604, 
+            "beginDT": "2017-05-26T13:38:06.670000+00:00", 
+            "end": 83531604, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../useRate_Lucas/dbd399da-a131-4b5b-88d3-7e76828f640e"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Lucas_1a3a36b2-3f09-4f63-90b4-8009a91a8fc3", 
+            "@type": "m:mouseClicked", 
+            "begin": 83533620, 
+            "beginDT": "2017-05-26T13:38:08.686000+00:00", 
+            "end": 83533620, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../useRate_Lucas/1a3a36b2-3f09-4f63-90b4-8009a91a8fc3"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Lucas_03ecd3a4-ab2c-43be-84df-6646e20d968b", 
+            "@type": "m:mouseClicked", 
+            "begin": 83542728, 
+            "beginDT": "2017-05-26T13:38:17.794000+00:00", 
+            "end": 83542728, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../useRate_Lucas/03ecd3a4-ab2c-43be-84df-6646e20d968b"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Lucas_646a1734-bc87-4c74-bfcc-8da20f6baff2", 
+            "@type": "m:mouseClicked", 
+            "begin": 83545762, 
+            "beginDT": "2017-05-26T13:38:20.828000+00:00", 
+            "end": 83545762, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../useRate_Lucas/646a1734-bc87-4c74-bfcc-8da20f6baff2"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Lucas_b4c56fc2-5759-4181-8221-8656f9aea40c", 
+            "@type": "m:mouseClicked", 
+            "begin": 83551729, 
+            "beginDT": "2017-05-26T13:38:26.795000+00:00", 
+            "end": 83551729, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../useRate_Lucas/b4c56fc2-5759-4181-8221-8656f9aea40c"
+            ], 
+            "m:sourceId": "60091_1"
+        }, 
+        {
+            "@id": "useRate_Lucas_b157a951-8c81-4302-aa68-909ff5d39363", 
+            "@type": "m:mouseClicked", 
+            "begin": 83554841, 
+            "beginDT": "2017-05-26T13:38:29.907000+00:00", 
+            "end": 83554841, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../useRate_Lucas/b157a951-8c81-4302-aa68-909ff5d39363"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Lucas_2c262e16-e075-4522-9a71-bca121a94b37", 
+            "@type": "m:mouseClicked", 
+            "begin": 83557694, 
+            "beginDT": "2017-05-26T13:38:32.760000+00:00", 
+            "end": 83557694, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../useRate_Lucas/2c262e16-e075-4522-9a71-bca121a94b37"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Lucas_c4b26d46-e71d-4c82-8669-87f846b8b060", 
+            "@type": "m:mouseClicked", 
+            "begin": 83563699, 
+            "beginDT": "2017-05-26T13:38:38.765000+00:00", 
+            "end": 83563699, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../useRate_Lucas/c4b26d46-e71d-4c82-8669-87f846b8b060"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1"
+        }, 
+        {
+            "@id": "useRate_Lucas_ef94e9c6-4276-4334-b00b-0bcb47afdbfb", 
+            "@type": "m:mouseClicked", 
+            "begin": 83566799, 
+            "beginDT": "2017-05-26T13:38:41.865000+00:00", 
+            "end": 83566799, 
+            "subject": "Lucas", 
+            "hasSourceObsel": [
+                "../useRate_Lucas/ef94e9c6-4276-4334-b00b-0bcb47afdbfb"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Marie_e1d2a458-9a8f-4f2b-aa57-6b379805ad14", 
+            "@type": "m:mouseClicked", 
+            "begin": 83587182, 
+            "beginDT": "2017-05-26T13:39:02.248000+00:00", 
+            "end": 83587182, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/e1d2a458-9a8f-4f2b-aa57-6b379805ad14"
+            ], 
+            "m:sourceId": "60091_12"
+        }, 
+        {
+            "@id": "useRate_Marie_86561499-b780-4dfa-8d29-f18a90af7e7e", 
+            "@type": "m:mouseClicked", 
+            "begin": 83590910, 
+            "beginDT": "2017-05-26T13:39:05.976000+00:00", 
+            "end": 83590910, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/86561499-b780-4dfa-8d29-f18a90af7e7e"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Marie_4640772e-bc44-47c8-a9e0-1188544ecbdd", 
+            "@type": "m:mouseClicked", 
+            "begin": 83592006, 
+            "beginDT": "2017-05-26T13:39:07.072000+00:00", 
+            "end": 83592006, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/4640772e-bc44-47c8-a9e0-1188544ecbdd"
+            ], 
+            "m:sourceId": "60091_12"
+        }, 
+        {
+            "@id": "useRate_Marie_a355c4fe-9838-4141-b679-88fb733588f9", 
+            "@type": "m:mouseClicked", 
+            "begin": 83593400, 
+            "beginDT": "2017-05-26T13:39:08.466000+00:00", 
+            "end": 83593400, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/a355c4fe-9838-4141-b679-88fb733588f9"
+            ], 
+            "m:sourceId": "unknown UDI=10000014 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Marie_31b48433-0aee-4654-9681-a36df505e807", 
+            "@type": "m:mouseClicked", 
+            "begin": 83595577, 
+            "beginDT": "2017-05-26T13:39:10.643000+00:00", 
+            "end": 83595577, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/31b48433-0aee-4654-9681-a36df505e807"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Marie_a19f2831-351e-42c1-afbd-321a5a36850b", 
+            "@type": "m:mouseClicked", 
+            "begin": 83597239, 
+            "beginDT": "2017-05-26T13:39:12.305000+00:00", 
+            "end": 83597239, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/a19f2831-351e-42c1-afbd-321a5a36850b"
+            ], 
+            "m:sourceId": "60091_1"
+        }, 
+        {
+            "@id": "useRate_Marie_7aee4e8f-eb52-43cf-8955-01c172ff5b13", 
+            "@type": "m:mouseClicked", 
+            "begin": 83603189, 
+            "beginDT": "2017-05-26T13:39:18.255000+00:00", 
+            "end": 83603189, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/7aee4e8f-eb52-43cf-8955-01c172ff5b13"
+            ], 
+            "m:sourceId": "60091_2"
+        }, 
+        {
+            "@id": "useRate_Marie_fcf7a21d-ea17-449b-ba4a-e36540dd1000", 
+            "@type": "m:mouseClicked", 
+            "begin": 83604896, 
+            "beginDT": "2017-05-26T13:39:19.962000+00:00", 
+            "end": 83604896, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/fcf7a21d-ea17-449b-ba4a-e36540dd1000"
+            ], 
+            "m:sourceId": "fo_Order_2"
+        }, 
+        {
+            "@id": "useRate_Marie_8aa0afde-bc16-4e98-98b7-071d1d0d0201", 
+            "@type": "m:mouseClicked", 
+            "begin": 83605758, 
+            "beginDT": "2017-05-26T13:39:20.824000+00:00", 
+            "end": 83605758, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/8aa0afde-bc16-4e98-98b7-071d1d0d0201"
+            ], 
+            "m:sourceId": "fo_Quotation_2"
+        }, 
+        {
+            "@id": "useRate_Marie_ebfdba5c-faf9-4784-b25e-1ab966f0570e", 
+            "@type": "m:mouseClicked", 
+            "begin": 83606846, 
+            "beginDT": "2017-05-26T13:39:21.912000+00:00", 
+            "end": 83606846, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/ebfdba5c-faf9-4784-b25e-1ab966f0570e"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Marie_d6632c38-2062-47e3-b45c-4738acbe7cc4", 
+            "@type": "m:mouseClicked", 
+            "begin": 83609629, 
+            "beginDT": "2017-05-26T13:39:24.695000+00:00", 
+            "end": 83609629, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/d6632c38-2062-47e3-b45c-4738acbe7cc4"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_Marie_cb6d4ffa-aedb-42d5-aa87-f4f998b22762", 
+            "@type": "m:mouseClicked", 
+            "begin": 83611037, 
+            "beginDT": "2017-05-26T13:39:26.103000+00:00", 
+            "end": 83611037, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/cb6d4ffa-aedb-42d5-aa87-f4f998b22762"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_Marie_e1cba924-30a5-4236-ac8c-a76c196bf76d", 
+            "@type": "m:mouseClicked", 
+            "begin": 83612085, 
+            "beginDT": "2017-05-26T13:39:27.151000+00:00", 
+            "end": 83612085, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/e1cba924-30a5-4236-ac8c-a76c196bf76d"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_Marie_daf25b7c-1a4d-4f6a-985e-793a775c0e4f", 
+            "@type": "m:mouseClicked", 
+            "begin": 83613666, 
+            "beginDT": "2017-05-26T13:39:28.732000+00:00", 
+            "end": 83613666, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/daf25b7c-1a4d-4f6a-985e-793a775c0e4f"
+            ], 
+            "m:sourceId": "10003_7"
+        }, 
+        {
+            "@id": "useRate_Marie_ff90918e-42b3-48d9-a50b-902c3b95b36b", 
+            "@type": "m:mouseClicked", 
+            "begin": 83614135, 
+            "beginDT": "2017-05-26T13:39:29.201000+00:00", 
+            "end": 83614135, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/ff90918e-42b3-48d9-a50b-902c3b95b36b"
+            ], 
+            "m:sourceId": "10003_7"
+        }, 
+        {
+            "@id": "useRate_Marie_962e3018-49a2-433b-9b38-61e0529f602f", 
+            "@type": "m:mouseClicked", 
+            "begin": 83614949, 
+            "beginDT": "2017-05-26T13:39:30.015000+00:00", 
+            "end": 83614949, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/962e3018-49a2-433b-9b38-61e0529f602f"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Marie_59836b19-553d-4356-973f-c56b47449da7", 
+            "@type": "m:mouseClicked", 
+            "begin": 83617592, 
+            "beginDT": "2017-05-26T13:39:32.658000+00:00", 
+            "end": 83617592, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/59836b19-553d-4356-973f-c56b47449da7"
+            ], 
+            "m:sourceId": "fo_Quotation_12"
+        }, 
+        {
+            "@id": "useRate_Marie_68ea7a63-72e5-4d44-a1a5-d9ca38d98b36", 
+            "@type": "m:mouseClicked", 
+            "begin": 83621511, 
+            "beginDT": "2017-05-26T13:39:36.577000+00:00", 
+            "end": 83621511, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/68ea7a63-72e5-4d44-a1a5-d9ca38d98b36"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Marie_22546499-57f3-456b-ae54-15dd745760c7", 
+            "@type": "m:mouseClicked", 
+            "begin": 83633257, 
+            "beginDT": "2017-05-26T13:39:48.323000+00:00", 
+            "end": 83633257, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/22546499-57f3-456b-ae54-15dd745760c7"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Marie_eccbedf4-66d2-4106-826a-f62c32aeccfb", 
+            "@type": "m:mouseClicked", 
+            "begin": 83635887, 
+            "beginDT": "2017-05-26T13:39:50.953000+00:00", 
+            "end": 83635887, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/eccbedf4-66d2-4106-826a-f62c32aeccfb"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329"
+        }, 
+        {
+            "@id": "useRate_Marie_488d0cb5-fad5-4218-8c46-5d989c10c6aa", 
+            "@type": "m:mouseClicked", 
+            "begin": 83641323, 
+            "beginDT": "2017-05-26T13:39:56.389000+00:00", 
+            "end": 83641323, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/488d0cb5-fad5-4218-8c46-5d989c10c6aa"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Marie_7b5314f8-269e-43b9-946c-4bc76f8362f4", 
+            "@type": "m:mouseClicked", 
+            "begin": 83646391, 
+            "beginDT": "2017-05-26T13:40:01.457000+00:00", 
+            "end": 83646391, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/7b5314f8-269e-43b9-946c-4bc76f8362f4"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Marie_866a4d04-7375-40ca-a64b-1e207881b87f", 
+            "@type": "m:mouseClicked", 
+            "begin": 83651369, 
+            "beginDT": "2017-05-26T13:40:06.435000+00:00", 
+            "end": 83651369, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/866a4d04-7375-40ca-a64b-1e207881b87f"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Marie_a01cd580-012d-4ff2-9b3a-3910ca9e4100", 
+            "@type": "m:mouseClicked", 
+            "begin": 83652842, 
+            "beginDT": "2017-05-26T13:40:07.908000+00:00", 
+            "end": 83652842, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/a01cd580-012d-4ff2-9b3a-3910ca9e4100"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Marie_8991feb5-1ff3-455d-9c2e-86f32ea7aae0", 
+            "@type": "m:mouseClicked", 
+            "begin": 83653734, 
+            "beginDT": "2017-05-26T13:40:08.800000+00:00", 
+            "end": 83653734, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/8991feb5-1ff3-455d-9c2e-86f32ea7aae0"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Marie_8d633625-4298-4c41-9469-6bfef86cba8d", 
+            "@type": "m:mouseClicked", 
+            "begin": 83654752, 
+            "beginDT": "2017-05-26T13:40:09.818000+00:00", 
+            "end": 83654752, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/8d633625-4298-4c41-9469-6bfef86cba8d"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Marie_f766c3a4-5cc3-463d-a337-81c05f6a75aa", 
+            "@type": "m:mouseClicked", 
+            "begin": 83658925, 
+            "beginDT": "2017-05-26T13:40:13.991000+00:00", 
+            "end": 83658925, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/f766c3a4-5cc3-463d-a337-81c05f6a75aa"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Marie_3fa7d3b5-5847-4bd7-a7f5-57b7eeb4ba81", 
+            "@type": "m:mouseClicked", 
+            "begin": 83660613, 
+            "beginDT": "2017-05-26T13:40:15.679000+00:00", 
+            "end": 83660613, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/3fa7d3b5-5847-4bd7-a7f5-57b7eeb4ba81"
+            ], 
+            "m:sourceId": "fo_Order_10000329"
+        }, 
+        {
+            "@id": "useRate_Marie_a40d8f49-1234-4cf7-b1e5-c03485358769", 
+            "@type": "m:mouseClicked", 
+            "begin": 83673978, 
+            "beginDT": "2017-05-26T13:40:29.044000+00:00", 
+            "end": 83673978, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/a40d8f49-1234-4cf7-b1e5-c03485358769"
+            ], 
+            "m:sourceId": "60091_1"
+        }, 
+        {
+            "@id": "useRate_Marie_2f5472a6-f01d-4548-bceb-082368ccfb5f", 
+            "@type": "m:mouseClicked", 
+            "begin": 83676202, 
+            "beginDT": "2017-05-26T13:40:31.268000+00:00", 
+            "end": 83676202, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/2f5472a6-f01d-4548-bceb-082368ccfb5f"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Marie_c9a52177-145a-4c9c-9142-1ff5dc66c636", 
+            "@type": "m:mouseClicked", 
+            "begin": 83679799, 
+            "beginDT": "2017-05-26T13:40:34.865000+00:00", 
+            "end": 83679799, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/c9a52177-145a-4c9c-9142-1ff5dc66c636"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Marie_5e6124ef-f793-4d26-8559-3d18e4f51c5b", 
+            "@type": "m:mouseClicked", 
+            "begin": 83681160, 
+            "beginDT": "2017-05-26T13:40:36.226000+00:00", 
+            "end": 83681160, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/5e6124ef-f793-4d26-8559-3d18e4f51c5b"
+            ], 
+            "m:sourceId": "60091_10000329"
+        }, 
+        {
+            "@id": "useRate_Marie_1d5f7da2-61cd-49e5-ada1-76d075b09b20", 
+            "@type": "m:mouseClicked", 
+            "begin": 83689332, 
+            "beginDT": "2017-05-26T13:40:44.398000+00:00", 
+            "end": 83689332, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/1d5f7da2-61cd-49e5-ada1-76d075b09b20"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1"
+        }, 
+        {
+            "@id": "useRate_Marie_881b63f8-f2ee-4889-8657-441b1d4f9cba", 
+            "@type": "m:mouseClicked", 
+            "begin": 83690524, 
+            "beginDT": "2017-05-26T13:40:45.590000+00:00", 
+            "end": 83690524, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/881b63f8-f2ee-4889-8657-441b1d4f9cba"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Marion_6ae5950c-19ef-471d-ab3e-eab6cfa80a97", 
+            "@type": "m:mouseClicked", 
+            "begin": 83710128, 
+            "beginDT": "2017-05-26T13:41:05.194000+00:00", 
+            "end": 83710128, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/6ae5950c-19ef-471d-ab3e-eab6cfa80a97"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Marion_99df0236-d2f6-47a5-b903-0643d8d56f8a", 
+            "@type": "m:mouseClicked", 
+            "begin": 83711727, 
+            "beginDT": "2017-05-26T13:41:06.793000+00:00", 
+            "end": 83711727, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/99df0236-d2f6-47a5-b903-0643d8d56f8a"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_Marion_c11389b6-85a5-4af0-bfeb-0cbd1604fea6", 
+            "@type": "m:mouseClicked", 
+            "begin": 83712791, 
+            "beginDT": "2017-05-26T13:41:07.857000+00:00", 
+            "end": 83712791, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/c11389b6-85a5-4af0-bfeb-0cbd1604fea6"
+            ], 
+            "m:sourceId": "10001_7"
+        }, 
+        {
+            "@id": "useRate_Marion_3629838c-87e2-45fb-8563-4b8566fc2fc0", 
+            "@type": "m:mouseClicked", 
+            "begin": 83713558, 
+            "beginDT": "2017-05-26T13:41:08.624000+00:00", 
+            "end": 83713558, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/3629838c-87e2-45fb-8563-4b8566fc2fc0"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_Marion_d6c24978-307a-4f20-adce-aeb1080bd4ff", 
+            "@type": "m:mouseClicked", 
+            "begin": 83715419, 
+            "beginDT": "2017-05-26T13:41:10.485000+00:00", 
+            "end": 83715419, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/d6c24978-307a-4f20-adce-aeb1080bd4ff"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_Marion_dd60aeda-f827-453d-a63f-890f2261ee2e", 
+            "@type": "m:mouseClicked", 
+            "begin": 83718049, 
+            "beginDT": "2017-05-26T13:41:13.115000+00:00", 
+            "end": 83718049, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/dd60aeda-f827-453d-a63f-890f2261ee2e"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Marion_0ac939ba-2b39-45b8-945b-2b1efa4bcf65", 
+            "@type": "m:mouseClicked", 
+            "begin": 83723093, 
+            "beginDT": "2017-05-26T13:41:18.159000+00:00", 
+            "end": 83723093, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/0ac939ba-2b39-45b8-945b-2b1efa4bcf65"
+            ], 
+            "m:sourceId": "0-S-F_2"
+        }, 
+        {
+            "@id": "useRate_Marion_94e6da49-4d49-42d3-a367-c1f44f1fc6bc", 
+            "@type": "m:mouseClicked", 
+            "begin": 83725831, 
+            "beginDT": "2017-05-26T13:41:20.897000+00:00", 
+            "end": 83725831, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/94e6da49-4d49-42d3-a367-c1f44f1fc6bc"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Marion_46a4b6ff-9818-4026-a20c-dc6486752354", 
+            "@type": "m:mouseClicked", 
+            "begin": 83727571, 
+            "beginDT": "2017-05-26T13:41:22.637000+00:00", 
+            "end": 83727571, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/46a4b6ff-9818-4026-a20c-dc6486752354"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Marion_36a0f594-b600-4490-bc8f-7db97edd630c", 
+            "@type": "m:mouseClicked", 
+            "begin": 83733057, 
+            "beginDT": "2017-05-26T13:41:28.123000+00:00", 
+            "end": 83733057, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/36a0f594-b600-4490-bc8f-7db97edd630c"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Marion_f2c76aef-6674-48a8-93b8-e80ede899a69", 
+            "@type": "m:mouseClicked", 
+            "begin": 83734391, 
+            "beginDT": "2017-05-26T13:41:29.457000+00:00", 
+            "end": 83734391, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/f2c76aef-6674-48a8-93b8-e80ede899a69"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329"
+        }, 
+        {
+            "@id": "useRate_Marion_f65cf827-4997-40cb-a782-983a9e41c8c7", 
+            "@type": "m:mouseClicked", 
+            "begin": 83738290, 
+            "beginDT": "2017-05-26T13:41:33.356000+00:00", 
+            "end": 83738290, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/f65cf827-4997-40cb-a782-983a9e41c8c7"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Marion_5690f816-7127-4fcf-9b3f-03c20d6bc038", 
+            "@type": "m:mouseClicked", 
+            "begin": 83741486, 
+            "beginDT": "2017-05-26T13:41:36.552000+00:00", 
+            "end": 83741486, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/5690f816-7127-4fcf-9b3f-03c20d6bc038"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Marion_d6b67186-d081-4aae-9b07-ada3c469886d", 
+            "@type": "m:mouseClicked", 
+            "begin": 83744431, 
+            "beginDT": "2017-05-26T13:41:39.497000+00:00", 
+            "end": 83744431, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/d6b67186-d081-4aae-9b07-ada3c469886d"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Marion_f5eb3300-d08b-4131-b9e4-be253b76cc9a", 
+            "@type": "m:mouseClicked", 
+            "begin": 83746142, 
+            "beginDT": "2017-05-26T13:41:41.208000+00:00", 
+            "end": 83746142, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/f5eb3300-d08b-4131-b9e4-be253b76cc9a"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Marion_6973eb71-7e35-4b00-8822-115fbe61b616", 
+            "@type": "m:mouseClicked", 
+            "begin": 83747223, 
+            "beginDT": "2017-05-26T13:41:42.289000+00:00", 
+            "end": 83747223, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/6973eb71-7e35-4b00-8822-115fbe61b616"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Marion_ea281efc-5800-44e5-a857-71aab837dcb2", 
+            "@type": "m:mouseClicked", 
+            "begin": 83748655, 
+            "beginDT": "2017-05-26T13:41:43.721000+00:00", 
+            "end": 83748655, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/ea281efc-5800-44e5-a857-71aab837dcb2"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Marion_d439ec6c-8793-45a1-ab87-9fa4b7f202aa", 
+            "@type": "m:mouseClicked", 
+            "begin": 83751111, 
+            "beginDT": "2017-05-26T13:41:46.177000+00:00", 
+            "end": 83751111, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/d439ec6c-8793-45a1-ab87-9fa4b7f202aa"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Marion_5a57f071-db17-41fc-82c0-67290e882eca", 
+            "@type": "m:mouseClicked", 
+            "begin": 83752051, 
+            "beginDT": "2017-05-26T13:41:47.117000+00:00", 
+            "end": 83752051, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/5a57f071-db17-41fc-82c0-67290e882eca"
+            ], 
+            "m:sourceId": "fo_Order_10000329"
+        }, 
+        {
+            "@id": "useRate_Marion_cfb4a4aa-1091-4079-a619-c1748ec8b291", 
+            "@type": "m:mouseClicked", 
+            "begin": 83756660, 
+            "beginDT": "2017-05-26T13:41:51.726000+00:00", 
+            "end": 83756660, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/cfb4a4aa-1091-4079-a619-c1748ec8b291"
+            ], 
+            "m:sourceId": "60091_1"
+        }, 
+        {
+            "@id": "useRate_Marion_caf57780-80d2-4a93-a79a-9a662b0f6b95", 
+            "@type": "m:mouseClicked", 
+            "begin": 83757695, 
+            "beginDT": "2017-05-26T13:41:52.761000+00:00", 
+            "end": 83757695, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/caf57780-80d2-4a93-a79a-9a662b0f6b95"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Marion_c8184578-84cf-4919-a322-9026a4074f9e", 
+            "@type": "m:mouseClicked", 
+            "begin": 83760478, 
+            "beginDT": "2017-05-26T13:41:55.544000+00:00", 
+            "end": 83760478, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/c8184578-84cf-4919-a322-9026a4074f9e"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Marion_d3fd3d8b-85b9-4525-8e4b-4ac5224c99e3", 
+            "@type": "m:mouseClicked", 
+            "begin": 83761528, 
+            "beginDT": "2017-05-26T13:41:56.594000+00:00", 
+            "end": 83761528, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/d3fd3d8b-85b9-4525-8e4b-4ac5224c99e3"
+            ], 
+            "m:sourceId": "60091_10000329"
+        }, 
+        {
+            "@id": "useRate_Marion_4df19b2d-b934-4958-8442-1effd63be4a6", 
+            "@type": "m:mouseClicked", 
+            "begin": 83764141, 
+            "beginDT": "2017-05-26T13:41:59.207000+00:00", 
+            "end": 83764141, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/4df19b2d-b934-4958-8442-1effd63be4a6"
+            ], 
+            "m:sourceId": "fo_DeliveryNotes_1"
+        }, 
+        {
+            "@id": "useRate_Marion_726ce806-5819-4aaf-952b-f7312141284a", 
+            "@type": "m:mouseClicked", 
+            "begin": 83765189, 
+            "beginDT": "2017-05-26T13:42:00.255000+00:00", 
+            "end": 83765189, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/726ce806-5819-4aaf-952b-f7312141284a"
+            ], 
+            "m:sourceId": "0-S-F_1"
+        }, 
+        {
+            "@id": "useRate_Marion_cef5fb95-3130-42a0-a655-03c48318dfdf", 
+            "@type": "m:mouseClicked", 
+            "begin": 83767190, 
+            "beginDT": "2017-05-26T13:42:02.256000+00:00", 
+            "end": 83767190, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/cef5fb95-3130-42a0-a655-03c48318dfdf"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Thomas_9984850a-bba3-4d67-88e7-2cdbe5302375", 
+            "@type": "m:mouseClicked", 
+            "begin": 83786111, 
+            "beginDT": "2017-05-26T13:42:21.177000+00:00", 
+            "end": 83786111, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/9984850a-bba3-4d67-88e7-2cdbe5302375"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Thomas_0c73138d-e675-4e3c-8d68-773e12621d5b", 
+            "@type": "m:mouseClicked", 
+            "begin": 83787816, 
+            "beginDT": "2017-05-26T13:42:22.882000+00:00", 
+            "end": 83787816, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/0c73138d-e675-4e3c-8d68-773e12621d5b"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_Thomas_b56c6ccf-07ce-4e49-b396-894b974e79b6", 
+            "@type": "m:mouseClicked", 
+            "begin": 83788981, 
+            "beginDT": "2017-05-26T13:42:24.047000+00:00", 
+            "end": 83788981, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/b56c6ccf-07ce-4e49-b396-894b974e79b6"
+            ], 
+            "m:sourceId": "10001_7"
+        }, 
+        {
+            "@id": "useRate_Thomas_f9e3316c-e938-4dfb-bcd7-e7ab131c6248", 
+            "@type": "m:mouseClicked", 
+            "begin": 83789716, 
+            "beginDT": "2017-05-26T13:42:24.782000+00:00", 
+            "end": 83789716, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/f9e3316c-e938-4dfb-bcd7-e7ab131c6248"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_Thomas_fcb3e3a2-ddcf-436f-b116-1a050ec82974", 
+            "@type": "m:mouseClicked", 
+            "begin": 83791906, 
+            "beginDT": "2017-05-26T13:42:26.972000+00:00", 
+            "end": 83791906, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/fcb3e3a2-ddcf-436f-b116-1a050ec82974"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_Thomas_8e72e6a8-1e48-4c89-9ebf-2e618f6e2342", 
+            "@type": "m:mouseClicked", 
+            "begin": 83793549, 
+            "beginDT": "2017-05-26T13:42:28.615000+00:00", 
+            "end": 83793549, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/8e72e6a8-1e48-4c89-9ebf-2e618f6e2342"
+            ], 
+            "m:sourceId": "10003_7"
+        }, 
+        {
+            "@id": "useRate_Thomas_0fc08b6d-0277-419f-b58b-5444249143bb", 
+            "@type": "m:mouseClicked", 
+            "begin": 83794440, 
+            "beginDT": "2017-05-26T13:42:29.506000+00:00", 
+            "end": 83794440, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/0fc08b6d-0277-419f-b58b-5444249143bb"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Thomas_c1fec180-835d-4fef-88b2-35d7de0e1d94", 
+            "@type": "m:mouseClicked", 
+            "begin": 83795692, 
+            "beginDT": "2017-05-26T13:42:30.758000+00:00", 
+            "end": 83795692, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/c1fec180-835d-4fef-88b2-35d7de0e1d94"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Thomas_aeb14c9d-95c8-48fc-bc53-691a6270e677", 
+            "@type": "m:mouseClicked", 
+            "begin": 83800380, 
+            "beginDT": "2017-05-26T13:42:35.446000+00:00", 
+            "end": 83800380, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/aeb14c9d-95c8-48fc-bc53-691a6270e677"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Thomas_3ae9a6ee-6312-467d-bb00-3a6bf7f51c2f", 
+            "@type": "m:mouseClicked", 
+            "begin": 83802758, 
+            "beginDT": "2017-05-26T13:42:37.824000+00:00", 
+            "end": 83802758, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/3ae9a6ee-6312-467d-bb00-3a6bf7f51c2f"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329"
+        }, 
+        {
+            "@id": "useRate_Thomas_a55fb380-ff92-40f3-b46c-7b778345730e", 
+            "@type": "m:mouseClicked", 
+            "begin": 83806641, 
+            "beginDT": "2017-05-26T13:42:41.707000+00:00", 
+            "end": 83806641, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/a55fb380-ff92-40f3-b46c-7b778345730e"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Thomas_c17ebac0-a4bc-452e-9202-ec10870367f6", 
+            "@type": "m:mouseClicked", 
+            "begin": 83807942, 
+            "beginDT": "2017-05-26T13:42:43.008000+00:00", 
+            "end": 83807942, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/c17ebac0-a4bc-452e-9202-ec10870367f6"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Thomas_195837df-1670-4a82-a156-9288348af3bb", 
+            "@type": "m:mouseClicked", 
+            "begin": 83809587, 
+            "beginDT": "2017-05-26T13:42:44.653000+00:00", 
+            "end": 83809587, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/195837df-1670-4a82-a156-9288348af3bb"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Thomas_67fcc64d-68ad-4e4d-b54d-6d5cc59717d2", 
+            "@type": "m:mouseClicked", 
+            "begin": 83810982, 
+            "beginDT": "2017-05-26T13:42:46.048000+00:00", 
+            "end": 83810982, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/67fcc64d-68ad-4e4d-b54d-6d5cc59717d2"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Thomas_f2e87683-53e0-4ef6-9469-f49a057fed43", 
+            "@type": "m:mouseClicked", 
+            "begin": 83813411, 
+            "beginDT": "2017-05-26T13:42:48.477000+00:00", 
+            "end": 83813411, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/f2e87683-53e0-4ef6-9469-f49a057fed43"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Thomas_b1b03226-8536-471e-b1e8-5b62b8b2e4fd", 
+            "@type": "m:mouseClicked", 
+            "begin": 83816263, 
+            "beginDT": "2017-05-26T13:42:51.329000+00:00", 
+            "end": 83816263, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/b1b03226-8536-471e-b1e8-5b62b8b2e4fd"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Thomas_11bab281-37bc-4f92-b1e8-8ed9511155c7", 
+            "@type": "m:mouseClicked", 
+            "begin": 83819757, 
+            "beginDT": "2017-05-26T13:42:54.823000+00:00", 
+            "end": 83819757, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/11bab281-37bc-4f92-b1e8-8ed9511155c7"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Thomas_8409d405-9ca4-4210-a027-96a4cd8d27e4", 
+            "@type": "m:mouseClicked", 
+            "begin": 83821904, 
+            "beginDT": "2017-05-26T13:42:56.970000+00:00", 
+            "end": 83821904, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/8409d405-9ca4-4210-a027-96a4cd8d27e4"
+            ], 
+            "m:sourceId": "fo_Order_10000329"
+        }, 
+        {
+            "@id": "useRate_Zorha_a0504ab8-d7b6-4167-8c47-c06b78b64ff7", 
+            "@type": "m:mouseClicked", 
+            "begin": 83854634, 
+            "beginDT": "2017-05-26T13:43:29.700000+00:00", 
+            "end": 83854634, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../useRate_Zorha/a0504ab8-d7b6-4167-8c47-c06b78b64ff7"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Zorha_7139d630-ae82-4f69-93f1-59d64305d3b1", 
+            "@type": "m:mouseClicked", 
+            "begin": 83856569, 
+            "beginDT": "2017-05-26T13:43:31.635000+00:00", 
+            "end": 83856569, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../useRate_Zorha/7139d630-ae82-4f69-93f1-59d64305d3b1"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_Zorha_835f3b56-1899-4871-bbd2-659d47ed4cfc", 
+            "@type": "m:mouseClicked", 
+            "begin": 83858352, 
+            "beginDT": "2017-05-26T13:43:33.418000+00:00", 
+            "end": 83858352, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../useRate_Zorha/835f3b56-1899-4871-bbd2-659d47ed4cfc"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_Zorha_327ce892-7c55-456e-a587-e3f49b4e02bf", 
+            "@type": "m:mouseClicked", 
+            "begin": 83859321, 
+            "beginDT": "2017-05-26T13:43:34.387000+00:00", 
+            "end": 83859321, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../useRate_Zorha/327ce892-7c55-456e-a587-e3f49b4e02bf"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_Zorha_14caac9f-aa28-43cd-9648-4c7aede65e3a", 
+            "@type": "m:mouseClicked", 
+            "begin": 83861015, 
+            "beginDT": "2017-05-26T13:43:36.081000+00:00", 
+            "end": 83861015, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../useRate_Zorha/14caac9f-aa28-43cd-9648-4c7aede65e3a"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Zorha_933735b6-417b-45fc-8bb3-c39dd09b6263", 
+            "@type": "m:mouseClicked", 
+            "begin": 83862444, 
+            "beginDT": "2017-05-26T13:43:37.510000+00:00", 
+            "end": 83862444, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../useRate_Zorha/933735b6-417b-45fc-8bb3-c39dd09b6263"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Zorha_57e6112d-1fdd-492c-a04a-87407ae0d8d3", 
+            "@type": "m:mouseClicked", 
+            "begin": 83868749, 
+            "beginDT": "2017-05-26T13:43:43.815000+00:00", 
+            "end": 83868749, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../useRate_Zorha/57e6112d-1fdd-492c-a04a-87407ae0d8d3"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Zorha_7e6dde91-ee61-4f09-9b0d-d2a5e3d743da", 
+            "@type": "m:mouseClicked", 
+            "begin": 83870015, 
+            "beginDT": "2017-05-26T13:43:45.081000+00:00", 
+            "end": 83870015, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../useRate_Zorha/7e6dde91-ee61-4f09-9b0d-d2a5e3d743da"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329"
+        }, 
+        {
+            "@id": "useRate_Zorha_12e3c702-c5f3-47e4-a75b-0c69ab332758", 
+            "@type": "m:mouseClicked", 
+            "begin": 83873107, 
+            "beginDT": "2017-05-26T13:43:48.173000+00:00", 
+            "end": 83873107, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../useRate_Zorha/12e3c702-c5f3-47e4-a75b-0c69ab332758"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Zorha_e7b184f6-9021-4446-96ef-23f95fbc8d74", 
+            "@type": "m:mouseClicked", 
+            "begin": 83877596, 
+            "beginDT": "2017-05-26T13:43:52.662000+00:00", 
+            "end": 83877596, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../useRate_Zorha/e7b184f6-9021-4446-96ef-23f95fbc8d74"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Zorha_835a5d65-b107-460b-a860-cf2d025908a5", 
+            "@type": "m:mouseClicked", 
+            "begin": 83881058, 
+            "beginDT": "2017-05-26T13:43:56.124000+00:00", 
+            "end": 83881058, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../useRate_Zorha/835a5d65-b107-460b-a860-cf2d025908a5"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Zorha_bf92a239-57a9-4267-ad94-e2f8c4056fb9", 
+            "@type": "m:mouseClicked", 
+            "begin": 83882907, 
+            "beginDT": "2017-05-26T13:43:57.973000+00:00", 
+            "end": 83882907, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../useRate_Zorha/bf92a239-57a9-4267-ad94-e2f8c4056fb9"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Zorha_52f623d7-5c0f-4b6d-af42-aa45a4176d4b", 
+            "@type": "m:mouseClicked", 
+            "begin": 83885587, 
+            "beginDT": "2017-05-26T13:44:00.653000+00:00", 
+            "end": 83885587, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../useRate_Zorha/52f623d7-5c0f-4b6d-af42-aa45a4176d4b"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Pierre_41ab5d6a-8daa-4bad-908c-75705443bbe7", 
+            "@type": "m:mouseClicked", 
+            "begin": 422911961, 
+            "beginDT": "2017-05-30T11:54:27.027000+00:00", 
+            "end": 422911961, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/41ab5d6a-8daa-4bad-908c-75705443bbe7"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_2049"
+        }, 
+        {
+            "@id": "useRate_Pierre_55ab9aad-91ef-45e4-bf2b-015bf4aca54a", 
+            "@type": "m:mouseClicked", 
+            "begin": 422915055, 
+            "beginDT": "2017-05-30T11:54:30.121000+00:00", 
+            "end": 422915055, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/55ab9aad-91ef-45e4-bf2b-015bf4aca54a"
+            ], 
+            "m:sourceId": "fo_Quotation_4"
+        }, 
+        {
+            "@id": "useRate_Pierre_5c2f50fb-6758-4b20-841e-42ae5eed3f66", 
+            "@type": "m:mouseClicked", 
+            "begin": 422916654, 
+            "beginDT": "2017-05-30T11:54:31.720000+00:00", 
+            "end": 422916654, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/5c2f50fb-6758-4b20-841e-42ae5eed3f66"
+            ], 
+            "m:sourceId": "10001_1"
+        }, 
+        {
+            "@id": "useRate_Pierre_14b28346-37f5-4117-a9db-ced1dc0ff5b6", 
+            "@type": "m:mouseClicked", 
+            "begin": 422918347, 
+            "beginDT": "2017-05-30T11:54:33.413000+00:00", 
+            "end": 422918347, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/14b28346-37f5-4117-a9db-ced1dc0ff5b6"
+            ], 
+            "m:sourceId": "fo_Quotation_38"
+        }, 
+        {
+            "@id": "useRate_Pierre_a958625d-77c9-4abc-a9ca-5a62b456924c", 
+            "@type": "m:mouseClicked", 
+            "begin": 422921445, 
+            "beginDT": "2017-05-30T11:54:36.511000+00:00", 
+            "end": 422921445, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/a958625d-77c9-4abc-a9ca-5a62b456924c"
+            ], 
+            "m:sourceId": "10003_1"
+        }, 
+        {
+            "@id": "useRate_Pierre_3d9ca348-dc06-414f-a436-2d7cb8a9c668", 
+            "@type": "m:mouseClicked", 
+            "begin": 422927372, 
+            "beginDT": "2017-05-30T11:54:42.438000+00:00", 
+            "end": 422927372, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/3d9ca348-dc06-414f-a436-2d7cb8a9c668"
+            ], 
+            "m:sourceId": "fo_Quotation_1"
+        }, 
+        {
+            "@id": "useRate_Pierre_62b30b79-6986-4a43-a65c-f82fa2564c37", 
+            "@type": "m:mouseClicked", 
+            "begin": 422935904, 
+            "beginDT": "2017-05-30T11:54:50.970000+00:00", 
+            "end": 422935904, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/62b30b79-6986-4a43-a65c-f82fa2564c37"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1291"
+        }, 
+        {
+            "@id": "useRate_Pierre_72653091-e83b-4191-85ba-a883b890e506", 
+            "@type": "m:mouseClicked", 
+            "begin": 422938877, 
+            "beginDT": "2017-05-30T11:54:53.943000+00:00", 
+            "end": 422938877, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/72653091-e83b-4191-85ba-a883b890e506"
+            ], 
+            "m:sourceId": "fo_Quotation_10000329"
+        }, 
+        {
+            "@id": "useRate_Pierre_61be1a46-5217-4653-9ebb-295fe36a0b63", 
+            "@type": "m:mouseClicked", 
+            "begin": 422950644, 
+            "beginDT": "2017-05-30T11:55:05.710000+00:00", 
+            "end": 422950644, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/61be1a46-5217-4653-9ebb-295fe36a0b63"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Pierre_2fd6f250-8bc1-4c39-ab92-2979e27a5d5b", 
+            "@type": "m:mouseClicked", 
+            "begin": 422954462, 
+            "beginDT": "2017-05-30T11:55:09.528000+00:00", 
+            "end": 422954462, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/2fd6f250-8bc1-4c39-ab92-2979e27a5d5b"
+            ], 
+            "m:sourceId": "fo_Order_12"
+        }, 
+        {
+            "@id": "useRate_Pierre_0a32a6f6-6508-47ff-b3dd-943520910c79", 
+            "@type": "m:mouseClicked", 
+            "begin": 422955966, 
+            "beginDT": "2017-05-30T11:55:11.032000+00:00", 
+            "end": 422955966, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/0a32a6f6-6508-47ff-b3dd-943520910c79"
+            ], 
+            "m:sourceId": "unknown UDI=10000003 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Pierre_e48ca13e-23d3-40da-b141-561cc294644e", 
+            "@type": "m:mouseClicked", 
+            "begin": 422958269, 
+            "beginDT": "2017-05-30T11:55:13.335000+00:00", 
+            "end": 422958269, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/e48ca13e-23d3-40da-b141-561cc294644e"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Pierre_0aa7b7ac-8c35-4c00-9bb5-a01fec711ec0", 
+            "@type": "m:mouseClicked", 
+            "begin": 422959730, 
+            "beginDT": "2017-05-30T11:55:14.796000+00:00", 
+            "end": 422959730, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/0aa7b7ac-8c35-4c00-9bb5-a01fec711ec0"
+            ], 
+            "m:sourceId": "fo_Order_46"
+        }, 
+        {
+            "@id": "useRate_Pierre_b842112e-53eb-4730-948c-18d22ac7516a", 
+            "@type": "m:mouseClicked", 
+            "begin": 422960247, 
+            "beginDT": "2017-05-30T11:55:15.313000+00:00", 
+            "end": 422960247, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/b842112e-53eb-4730-948c-18d22ac7516a"
+            ], 
+            "m:sourceId": "fo_Order_46"
+        }, 
+        {
+            "@id": "useRate_Pierre_1d0588ef-557f-463f-b995-546e58d7951b", 
+            "@type": "m:mouseClicked", 
+            "begin": 422963162, 
+            "beginDT": "2017-05-30T11:55:18.228000+00:00", 
+            "end": 422963162, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/1d0588ef-557f-463f-b995-546e58d7951b"
+            ], 
+            "m:sourceId": "unknown UDI=10000003 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Pierre_508fc4cd-05c4-4584-90eb-dcad5d6ff84b", 
+            "@type": "m:mouseClicked", 
+            "begin": 422965731, 
+            "beginDT": "2017-05-30T11:55:20.797000+00:00", 
+            "end": 422965731, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/508fc4cd-05c4-4584-90eb-dcad5d6ff84b"
+            ], 
+            "m:sourceId": "unknown UDI=10000013 formTypeEx=10000075"
+        }, 
+        {
+            "@id": "useRate_Pierre_c9a961f0-e5f1-495a-a9fe-34604fbb1274", 
+            "@type": "m:mouseClicked", 
+            "begin": 422970002, 
+            "beginDT": "2017-05-30T11:55:25.068000+00:00", 
+            "end": 422970002, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/c9a961f0-e5f1-495a-a9fe-34604fbb1274"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Pierre_f1d3567b-e7f2-4c42-98e7-992da712980b", 
+            "@type": "m:mouseClicked", 
+            "begin": 423061584, 
+            "beginDT": "2017-05-30T11:56:56.650000+00:00", 
+            "end": 423061584, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/f1d3567b-e7f2-4c42-98e7-992da712980b"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Pierre_dfceab8d-3aab-4a20-b63f-7f88d87fe648", 
+            "@type": "m:mouseClicked", 
+            "begin": 423094833, 
+            "beginDT": "2017-05-30T11:57:29.899000+00:00", 
+            "end": 423094833, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/dfceab8d-3aab-4a20-b63f-7f88d87fe648"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Pierre_235456a4-fa46-4628-8abf-bbc486257792", 
+            "@type": "m:mouseClicked", 
+            "begin": 423199304, 
+            "beginDT": "2017-05-30T11:59:14.370000+00:00", 
+            "end": 423199304, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/235456a4-fa46-4628-8abf-bbc486257792"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Pierre_6e9d5575-a064-4e5b-a436-1898526ecba4", 
+            "@type": "m:mouseClicked", 
+            "begin": 423273935, 
+            "beginDT": "2017-05-30T12:00:29.001000+00:00", 
+            "end": 423273935, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/6e9d5575-a064-4e5b-a436-1898526ecba4"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Zorha_cecf2469-31eb-4da5-865c-07b877c05bb6", 
+            "@type": "m:mouseClicked", 
+            "begin": 423323765, 
+            "beginDT": "2017-05-30T12:01:18.831000+00:00", 
+            "end": 423323765, 
+            "subject": "Zorha", 
+            "hasSourceObsel": [
+                "../useRate_Zorha/cecf2469-31eb-4da5-865c-07b877c05bb6"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Thomas_bc132e52-6d6f-4879-986e-c61a49da8242", 
+            "@type": "m:mouseClicked", 
+            "begin": 425270416, 
+            "beginDT": "2017-05-30T12:33:45.482000+00:00", 
+            "end": 425270416, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/bc132e52-6d6f-4879-986e-c61a49da8242"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Thomas_67d3d860-722f-4c30-b22b-d7a8fdd3d331", 
+            "@type": "m:mouseClicked", 
+            "begin": 425282853, 
+            "beginDT": "2017-05-30T12:33:57.919000+00:00", 
+            "end": 425282853, 
+            "subject": "Thomas", 
+            "hasSourceObsel": [
+                "../useRate_Thomas/67d3d860-722f-4c30-b22b-d7a8fdd3d331"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Marion_769b9869-dbf5-469a-ba5d-4da15fe90f52", 
+            "@type": "m:mouseClicked", 
+            "begin": 425304373, 
+            "beginDT": "2017-05-30T12:34:19.439000+00:00", 
+            "end": 425304373, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/769b9869-dbf5-469a-ba5d-4da15fe90f52"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Marion_309fa831-c318-402a-b192-dc3ce75adbc4", 
+            "@type": "m:mouseClicked", 
+            "begin": 425310343, 
+            "beginDT": "2017-05-30T12:34:25.409000+00:00", 
+            "end": 425310343, 
+            "subject": "Marion", 
+            "hasSourceObsel": [
+                "../useRate_Marion/309fa831-c318-402a-b192-dc3ce75adbc4"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Marie_30156aca-1fb2-4eb2-a69a-b3acd01004a5", 
+            "@type": "m:mouseClicked", 
+            "begin": 425322560, 
+            "beginDT": "2017-05-30T12:34:37.626000+00:00", 
+            "end": 425322560, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/30156aca-1fb2-4eb2-a69a-b3acd01004a5"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Marie_fce23c71-654d-4ba4-a244-02b2b9271c10", 
+            "@type": "m:mouseClicked", 
+            "begin": 425326812, 
+            "beginDT": "2017-05-30T12:34:41.878000+00:00", 
+            "end": 425326812, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/fce23c71-654d-4ba4-a244-02b2b9271c10"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Marie_40951ac2-c2a8-47b9-9b9b-cde12e7b42f1", 
+            "@type": "m:mouseClicked", 
+            "begin": 425332432, 
+            "beginDT": "2017-05-30T12:34:47.498000+00:00", 
+            "end": 425332432, 
+            "subject": "Marie", 
+            "hasSourceObsel": [
+                "../useRate_Marie/40951ac2-c2a8-47b9-9b9b-cde12e7b42f1"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Pierre_8a5772b1-75b4-45d6-923a-7fc1528447ef", 
+            "@type": "m:mouseClicked", 
+            "begin": 425361936, 
+            "beginDT": "2017-05-30T12:35:17.002000+00:00", 
+            "end": 425361936, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/8a5772b1-75b4-45d6-923a-7fc1528447ef"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Pierre_f3fa5e6d-b42a-4559-ad19-773abf818b19", 
+            "@type": "m:mouseClicked", 
+            "begin": 425366730, 
+            "beginDT": "2017-05-30T12:35:21.796000+00:00", 
+            "end": 425366730, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/f3fa5e6d-b42a-4559-ad19-773abf818b19"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Pierre_49c9c1fb-d35e-44c6-82eb-1345221b0f75", 
+            "@type": "m:mouseClicked", 
+            "begin": 425369835, 
+            "beginDT": "2017-05-30T12:35:24.901000+00:00", 
+            "end": 425369835, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/49c9c1fb-d35e-44c6-82eb-1345221b0f75"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }, 
+        {
+            "@id": "useRate_Pierre_549191ba-1741-4715-bb00-ba29065cd130", 
+            "@type": "m:mouseClicked", 
+            "begin": 425373032, 
+            "beginDT": "2017-05-30T12:35:28.098000+00:00", 
+            "end": 425373032, 
+            "subject": "Pierre", 
+            "hasSourceObsel": [
+                "../useRate_Pierre/549191ba-1741-4715-bb00-ba29065cd130"
+            ], 
+            "m:sourceId": "fo_Order_1"
+        }
+    ]
+}

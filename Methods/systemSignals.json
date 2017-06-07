@@ -1,0 +1,41 @@
+{
+    "allow_overlap": false,
+    "states": {
+        "start": {
+            "transitions": [
+                {
+                    "condition": "?obs m:sourceId [] ; a ?type . FILTER (?type != m:smt_Success && ?type != m:smt_Warning && ?type != m:smt_Error)",
+                    "matcher": "sparql-ask",
+                    "target": "signal"
+                }
+            ]
+        },
+        "signal": {
+          "transitions": [
+                {
+                    "silent": true,
+                    "condition": "?obs a ?type ; m:sourceId ?id . FILTER regex(?id, '^[ACR][0-9]+$')",
+                    "matcher": "sparql-ask",
+                    "target": "signal"
+                },
+                {
+                    "condition": "{?obs a m:smt_Success} UNION {?obs a m:smt_Warning} UNION {?obs a m:smt_Error}",
+                    "matcher": "sparql-ask",
+                    "target": "exit"
+                }
+            ]
+        },
+        "exit": {
+            "ktbs_attributes": {
+                "#sourceId": "first #sourceId",
+                "#message": "last #sourceId",
+                "#signalType": "last http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+                "http://liris.cnrs.fr/silex/2009/ktbs#hasBegin": "last http://liris.cnrs.fr/silex/2009/ktbs#hasBegin",
+                "http://liris.cnrs.fr/silex/2009/ktbs#hasEnd": "last http://liris.cnrs.fr/silex/2009/ktbs#hasEnd",
+                "http://liris.cnrs.fr/silex/2009/ktbs#hasSubject": "first http://liris.cnrs.fr/silex/2009/ktbs#hasSubject"
+            },
+            "ktbs_obsel_type": "m:systemSignal",
+            "terminal": true
+        }
+    }
+}

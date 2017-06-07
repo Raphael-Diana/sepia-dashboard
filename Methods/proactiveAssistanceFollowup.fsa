@@ -1,0 +1,48 @@
+{
+    "states": {
+        "start": {
+            "transitions": [
+                {
+                    "condition": "?obs m:targetId [] ; m:targetType [] .",
+                    "matcher": "sparql-ask",
+                    "target": "action"
+                }
+            ]
+        },      
+        "action": {
+            "transitions": [
+                {
+                    "condition": "?obs a ?type ; m:sourceId ?id . ?first m:targetId ?targetId ; m:targetType ?targetType . FILTER(?id = ?targetId)",
+                    "matcher": "sparql-ask",
+                    "target": "exit"
+                },
+                {
+                    "condition": "?obs a m:mouseClicked ; m:sourceId ?id . ?first m:targetId ?targetId . FILTER(?id != ?targetId)",
+                    "matcher": "sparql-ask",
+                    "target": "action"
+                },
+                {
+                    "silent": true,
+                    "condition": "?obs a ?type ; m:sourceId ?id . ?first m:targetType ?targetType . FILTER(regex(?id, '^(?![ACR][0-9]+).+'))",
+                    "matcher": "sparql-ask",
+                    "target": "action"
+                }
+            ]
+        },
+        "exit": {
+            "ktbs_attributes": {
+                "#subType": "first #targetType",
+                "#sourceId": "first #targetId",
+                "#noise": "count #sourceId",
+                "#totalStep": "first #totalStep",
+                "#stepNumber": "first #stepNumber",
+                "#subStepNumber": "first #subStepNumber",
+                "http://liris.cnrs.fr/silex/2009/ktbs#hasBegin": "first http://liris.cnrs.fr/silex/2009/ktbs#hasBegin",
+                "http://liris.cnrs.fr/silex/2009/ktbs#hasEnd": "last http://liris.cnrs.fr/silex/2009/ktbs#hasEnd",
+                "http://liris.cnrs.fr/silex/2009/ktbs#hasSubject": "first http://liris.cnrs.fr/silex/2009/ktbs#hasSubject"
+            },
+            "ktbs_obsel_type": "m:assistanceFollowUp",
+            "terminal": true
+        }
+    }
+}
