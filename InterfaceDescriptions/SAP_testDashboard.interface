@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Interface>
-  <fenetre UID="000" descriptionAjoutee="Fenêtre principale" id="fo_ApplicationWindow" type="000" typeAjoute="fenêtre principale">
+  <fenetre UID="000" descriptionAjoutee="Fenêtre principale" id="fo_ApplicationWindow" type="000" typeAjoute="Fenêtre principale">
     <composant UID="511" descriptionAjoutee="le menu " id="fo_ApplicationWindow_511" texte="" type="mt_POPUP" typeAjoute="menu"/>
     <composant UID="512" descriptionAjoutee="le menu Fichier" id="fo_ApplicationWindow_512" texte="Fichier" type="mt_POPUP" typeAjoute="menu">
       <composant UID="514" descriptionAjoutee="le menu Fermer" id="fo_ApplicationWindow_514" texte="Fermer" type="mt_STRING" typeAjoute="menu"/>
