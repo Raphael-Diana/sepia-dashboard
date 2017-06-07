@@ -70,10 +70,10 @@ class systemSignalsComposantView {
 
         this.svg.call(this.tool_tip);
 
-        var componentWindows = new Map();
+        //var componentWindows = new Map();
 
         // map component to windows
-        d3.xml(interfaceDescription, function (error, xml) {
+        /*d3.xml(interfaceDescription, function (error, xml) {
             if (error) throw error;
 
             var windows = d3.select(xml).selectAll("fenetre").each(function () {
@@ -82,7 +82,7 @@ class systemSignalsComposantView {
                     componentWindows.set(this.id, windowDescr);
                 })
             });
-        });
+        });*/
 
         var request = d3.json(URL)
             .on("beforesend", function(request) { request.withCredentials = true; })
