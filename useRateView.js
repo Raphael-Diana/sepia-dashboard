@@ -211,8 +211,8 @@ class useRateView {
                 .attr("transform", function(d) {
                     return "rotate(-65)"
                 })
-                .style("over-flow", "hidden")
-                .style("white-space", "initial")
+                //.style("over-flow", "hidden")
+                //.style("white-space", "initial")
                 .append("text")
                 .attr("class", "label")
                 .attr("transform", "translate(" + oThis.width / 2 + ", 0)")
