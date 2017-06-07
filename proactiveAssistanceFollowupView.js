@@ -11,7 +11,7 @@ class proactiveAssistanceFollowupView {
         this.margin = {
             top: 15,
             right: 25,
-            bottom: 40,
+            bottom: 59,
             left: 40
         };
 
