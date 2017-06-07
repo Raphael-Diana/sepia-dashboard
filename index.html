@@ -232,6 +232,20 @@
     //var systemSignalView = new systemSignalsComposantView("vis4");
     //systemSignalView.draw(globalSystemSignal);
 
+    var componentWindows = new Map();
+
+        // map component to windows
+        d3.xml(interfaceDescription, function (error, xml) {
+            if (error) throw error;
+
+            var windows = d3.select(xml).selectAll("fenetre").each(function () {
+                var windowDescr = this.attributes.descriptionAjoutee.nodeValue;
+                d3.select(this).selectAll("composant").each(function () {
+                    componentWindows.set(this.id, windowDescr);
+                })
+            });
+        });
+
     var globalUseRate;
     //globalUseRate = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_useRate_all/@obsels";
     globalUseRate = "Traces/useRateExpe.json"
