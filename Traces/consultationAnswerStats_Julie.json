@@ -1,0 +1,70 @@
+{
+    "@context": [
+        "http://liris.cnrs.fr/silex/2011/ktbs-jsonld-context",
+        {
+            "m": "https://liris-ktbs01.insa-lyon.fr:8000/sepia/raph-test-base/sepiaModel#"
+        }
+    ],
+    "@id": "./",
+    "hasObselList": {
+        "@id": "",
+        "@type": "ComputedTraceObsels"
+    },
+    "obsels": [
+        {
+            "@id": "o-3s",
+            "@type": "m:consultationAnswerStats",
+            "begin": 431209,
+            "end": 434240,
+            "m:value": "Option 5",
+            "m:sourceId": "C8",
+            "m:occurence": 1,
+            "m:optionsCount": 5,
+            "m:avgTime": 3031.0
+        },
+        {
+            "@id": "o-03",
+            "@type": "m:consultationAnswerStats",
+            "begin": 416021,
+            "end": 473594,
+            "m:value": "Option 3",
+            "m:sourceId": "C8",
+            "m:occurence": 3,
+            "m:optionsCount": 5,
+            "m:avgTime": 4092.0
+        },
+        {
+            "@id": "o-28",
+            "@type": "m:consultationAnswerStats",
+            "begin": 10122278,
+            "end": 10125597,
+            "m:value": "Option 21",
+            "m:sourceId": "C9",
+            "m:occurence": 1,
+            "m:optionsCount": 3,
+            "m:avgTime": 3319.0
+        },
+        {
+            "@id": "o-3z",
+            "@type": "m:consultationAnswerStats",
+            "begin": 10122278,
+            "end": 10125597,
+            "m:value": "Option 2",
+            "m:sourceId": "C8",
+            "m:occurence": 1,
+            "m:optionsCount": 5,
+            "m:avgTime": 3319.0
+        },
+        {
+            "@id": "o-00",
+            "@type": "m:consultationAnswerStats",
+            "begin": 380022,
+            "end": 924766629,
+            "m:value": "Option 4",
+            "m:sourceId": "C8",
+            "m:occurence": 4,
+            "m:optionsCount": 5,
+            "m:avgTime": 3471.75
+        }
+    ]
+}

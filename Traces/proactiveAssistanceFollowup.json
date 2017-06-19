@@ -1,0 +1,279 @@
+{
+    "@context": [
+        "http://liris.cnrs.fr/silex/2011/ktbs-jsonld-context", 
+        {
+            "m": "https://liris-ktbs01.insa-lyon.fr:8000/sepia/raph-test-base/sepiaModel#"
+        }
+    ], 
+    "@id": "./", 
+    "hasObselList": {
+        "@id": "", 
+        "@type": "ComputedTraceObsels"
+    }, 
+    "obsels": [
+        {
+            "@id": "9818c48a-de30-4456-a90f-30f3d32a57e1", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 14226, 
+            "end": 20617, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/e4c8bb3f-2fa6-4b9f-8a80-49656189b91c", 
+                "../julie/46b602fa-167c-4a7a-a96d-011114aeb420", 
+                "../julie/9818c48a-de30-4456-a90f-30f3d32a57e1"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "402", 
+            "m:noise": 2
+        }, 
+        {
+            "@id": "ac037afa-7603-489e-85a1-3d29ebb766c3", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 21876, 
+            "end": 24376, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/4a94d2d9-624c-47bb-9747-0a1e20dc6aa8", 
+                "../julie/ac037afa-7603-489e-85a1-3d29ebb766c3"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "409", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "a12509a2-bac3-4161-93f1-946627879085", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 25450, 
+            "end": 30792, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/6d5a9166-bc51-4427-8e24-19473bf544d1", 
+                "../julie/a12509a2-bac3-4161-93f1-946627879085"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "636", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "ac9d0045-03fb-4398-8519-d461f75546d1", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 31798, 
+            "end": 34613, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/a4adb3d7-9642-4c15-9964-9eab29b4b3b1", 
+                "../julie/ac9d0045-03fb-4398-8519-d461f75546d1"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "632", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "27e38063-6067-4fff-b1f4-0a291888b9c4", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 35719, 
+            "end": 40158, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/ceac9a73-b977-4d31-8ac8-9de3b5d24188", 
+                "../julie/27e38063-6067-4fff-b1f4-0a291888b9c4"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "114", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "da5eb0b4-c5a1-4e33-9612-afd55452dceb", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 41261, 
+            "end": 44030, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/be284529-dd87-41c5-b515-28601115defc", 
+                "../julie/da5eb0b4-c5a1-4e33-9612-afd55452dceb"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "635", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "ecf89963-e90a-467a-bb27-766aaa410be3", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 45108, 
+            "end": 48016, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/3c54c2fb-edd4-4502-9203-5c4e266ae5f1", 
+                "../julie/ecf89963-e90a-467a-bb27-766aaa410be3"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "435", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "5e43eb33-dd7d-4780-a8a2-4fd5f1c5f6f5", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 49010, 
+            "end": 54128, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/9fbcd9b4-045d-444d-88ec-c4b735859937", 
+                "../julie/5e43eb33-dd7d-4780-a8a2-4fd5f1c5f6f5"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "608", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "357b4584-e666-4b02-97ed-ff23fbb1adc2", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 55339, 
+            "end": 60513, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/4ea441a8-34b0-4386-bf27-6eae63c9fb45", 
+                "../julie/4279b07a-b087-471a-9d33-57abd1464292", 
+                "../julie/357b4584-e666-4b02-97ed-ff23fbb1adc2"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "1143", 
+            "m:noise": 2
+        }, 
+        {
+            "@id": "0b540bd2-cd45-4a8c-8401-e707c3b91aa3", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 61711, 
+            "end": 72112, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/7a207e50-40e7-4695-b438-2936c14db301", 
+                "../julie/b43aa3d5-a8b6-43f6-bc55-65e10cedc453", 
+                "../julie/57ae3175-fe14-4e13-9252-7bbb4a230d7d", 
+                "../julie/0b540bd2-cd45-4a8c-8401-e707c3b91aa3"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "1272", 
+            "m:noise": 3
+        }, 
+        {
+            "@id": "035366b8-4050-4f21-87c4-ba12d2d5fa3b", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 73196, 
+            "end": 79017, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/3d10fb99-15f7-418c-af30-f1ce1d50cd6f", 
+                "../julie/035366b8-4050-4f21-87c4-ba12d2d5fa3b"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "634", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "f435a9c5-fadf-4448-b88e-cbcbb79c6840", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 80101, 
+            "end": 89087, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/c2368d3c-e965-416c-909a-aa65b93b418d", 
+                "../julie/8bc03806-2f70-459c-95e7-3ce35093b38b", 
+                "../julie/17f2190e-1131-42f3-9647-b65d0a85bec0", 
+                "../julie/f435a9c5-fadf-4448-b88e-cbcbb79c6840"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "608", 
+            "m:noise": 3
+        }, 
+        {
+            "@id": "e7c4dd4b-187b-44fe-b4a1-ab7986582ea1", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 90088, 
+            "end": 95314, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/fde17df1-dc6c-42f5-af36-531cc9fc21f3", 
+                "../julie/69297e4e-f78f-49ae-b684-413384ef8caa", 
+                "../julie/e7c4dd4b-187b-44fe-b4a1-ab7986582ea1"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "556", 
+            "m:noise": 2
+        }, 
+        {
+            "@id": "3c905ef0-a07e-47e9-9ca4-d2d7d4cc3d15", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 96383, 
+            "end": 98720, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/f8a77a9e-e7a3-4263-a9ad-9b578ff36ce8", 
+                "../julie/3c905ef0-a07e-47e9-9ca4-d2d7d4cc3d15"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "631", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "fca5898e-4c19-4336-9b24-289b4ecb73b6", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 99809, 
+            "end": 101827, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/bee6e273-7d49-409d-b9bf-bf429cd0af48", 
+                "../julie/fca5898e-4c19-4336-9b24-289b4ecb73b6"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "2037", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "c381d28e-137c-4626-9478-6ead64e0b255", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 102828, 
+            "end": 107096, 
+            "subject": "julie", 
+            "hasSourceObsel": [
+                "../julie/c4cc00fd-e11b-41c2-b176-a844c9c5188e", 
+                "../julie/7c16cbc5-5435-408a-a3a0-db1b7ad108e5", 
+                "../julie/c381d28e-137c-4626-9478-6ead64e0b255"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "631", 
+            "m:noise": 2
+        }
+    ]
+}

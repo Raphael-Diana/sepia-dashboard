@@ -1,0 +1,277 @@
+{
+    "@context": [
+        "http://liris.cnrs.fr/silex/2011/ktbs-jsonld-context", 
+        {
+            "m": "https://liris-ktbs01.insa-lyon.fr:8000/sepia/raph-test-base/sepiaModel#"
+        }
+    ], 
+    "@id": "./", 
+    "hasObselList": {
+        "@id": "", 
+        "@type": "ComputedTraceObsels"
+    }, 
+    "obsels": [
+        {
+            "@id": "2c8f0a9b-e5b4-46d6-ab50-ab4f49102aee", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 13072, 
+            "end": 15662, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/ebfcb747-4648-41a3-aed3-8732dedaa738", 
+                "../florence/2c8f0a9b-e5b4-46d6-ab50-ab4f49102aee"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "402", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "9d9b384e-65c7-49c0-b536-5744e84ae73e", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 16752, 
+            "end": 19063, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/a5e6b550-bcad-4f9c-9417-fc11f16e1e3e", 
+                "../florence/9d9b384e-65c7-49c0-b536-5744e84ae73e"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "409", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "90b87163-84f2-4972-9988-9cb67c6e32a0", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 20357, 
+            "end": 23995, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/75857f09-6a57-4858-b43e-658349632b08", 
+                "../florence/90b87163-84f2-4972-9988-9cb67c6e32a0"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "636", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "52e7b2c9-4fd7-4f6a-a2d9-f8f7bc36f272", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 25015, 
+            "end": 27533, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/ebdaab5b-a95c-4793-b648-154f38a87f7b", 
+                "../florence/52e7b2c9-4fd7-4f6a-a2d9-f8f7bc36f272"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "632", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "8d939082-f305-4594-a6eb-c60ffefd50e9", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 28585, 
+            "end": 31116, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/6dc739fe-e6a1-43de-b963-4e590c5d8bf4", 
+                "../florence/8d939082-f305-4594-a6eb-c60ffefd50e9"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "114", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "d92ddc7f-95ed-4668-813a-55626769579d", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 32210, 
+            "end": 35874, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/8a4011c4-d92b-4334-9d2f-2ba5edd5caff", 
+                "../florence/d92ddc7f-95ed-4668-813a-55626769579d"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "635", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "bd885a37-a0d9-4e68-8780-6732d323ced1", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 36950, 
+            "end": 40577, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/ae0dcfa9-0b39-41e2-a413-0f718ce2fc4a", 
+                "../florence/bd885a37-a0d9-4e68-8780-6732d323ced1"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "435", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "44ade68d-3f79-45f3-92e5-54d8464193a3", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 41659, 
+            "end": 46372, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/6fe5ecba-82f3-422d-923e-925b2d800fb3", 
+                "../florence/5adf9562-4ba6-4012-a908-b209750c2931", 
+                "../florence/44ade68d-3f79-45f3-92e5-54d8464193a3"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "608", 
+            "m:noise": 2
+        }, 
+        {
+            "@id": "06ebd825-29b0-4bb0-9730-9894e48c1428", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 47431, 
+            "end": 53975, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/e886ac27-aa36-4101-b4b1-e8a6d2af38cc", 
+                "../florence/5ecf0c64-9e39-4de3-8743-5f38a4c6e00f", 
+                "../florence/06ebd825-29b0-4bb0-9730-9894e48c1428"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "1143", 
+            "m:noise": 2
+        }, 
+        {
+            "@id": "46b11824-6dda-4af8-bf6a-2f82b59dfff7", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 55106, 
+            "end": 57271, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/1f183419-70d1-484e-b6e5-65e14ace8a97", 
+                "../florence/46b11824-6dda-4af8-bf6a-2f82b59dfff7"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "1272", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "00a47f74-58c8-448d-bf06-0d4864ade8c1", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 58353, 
+            "end": 63759, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/f533f357-0dfc-4141-9f08-ea6de021bf46", 
+                "../florence/00a47f74-58c8-448d-bf06-0d4864ade8c1"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "634", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "69f01b19-fe92-430a-a19e-19618ca9977b", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 64793, 
+            "end": 85832, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/f91c519e-9393-4e1e-83c3-30f6ae71cdb9", 
+                "../florence/7fbe8bb5-7a62-4a74-93be-8878eb96a37b", 
+                "../florence/036c3700-5077-4623-8214-eaff02bdd99e", 
+                "../florence/69f01b19-fe92-430a-a19e-19618ca9977b"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "608", 
+            "m:noise": 3
+        }, 
+        {
+            "@id": "6ee1c914-3c33-466b-823b-44cf94dd0a18", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 86795, 
+            "end": 90822, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/698f1494-bbe6-4384-907b-7b6028c9ea33", 
+                "../florence/4d84209f-9532-4cee-b409-617a96425071", 
+                "../florence/6ee1c914-3c33-466b-823b-44cf94dd0a18"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "556", 
+            "m:noise": 2
+        }, 
+        {
+            "@id": "9a1afa5a-0b14-46ff-b921-f1a8356c2841", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 91921, 
+            "end": 95853, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/f58e316a-5a0f-41e5-a44f-e25b364f4c3d", 
+                "../florence/9a1afa5a-0b14-46ff-b921-f1a8356c2841"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "631", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "60ed8782-ea1a-46ae-ac23-6a0b22920fd8", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 96947, 
+            "end": 99454, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/ab33cadb-f16d-4fbc-ad9d-27b1356a4601", 
+                "../florence/60ed8782-ea1a-46ae-ac23-6a0b22920fd8"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "2037", 
+            "m:noise": 1
+        }, 
+        {
+            "@id": "cf62cd42-3ca0-4557-b8fa-a60db32e2432", 
+            "@type": "m:assistanceFollowUp", 
+            "begin": 100468, 
+            "end": 102629, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../florence/c805fd95-b65b-46b4-8d9b-e0174ef2413e", 
+                "../florence/f491c4ca-f17b-4fef-af68-621e64f6b8b9", 
+                "../florence/cf62cd42-3ca0-4557-b8fa-a60db32e2432"
+            ], 
+            "m:subType": {
+                "@id": "m:mouseClicked"
+            }, 
+            "m:sourceId": "631", 
+            "m:noise": 2
+        }
+    ]
+}

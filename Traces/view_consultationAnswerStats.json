@@ -1,0 +1,75 @@
+{
+    "@context": [
+        "http://liris.cnrs.fr/silex/2011/ktbs-jsonld-context", 
+        {
+            "m": "https://liris-ktbs01.insa-lyon.fr:8000/sepia/raph-test-base/sepiaModel#"
+        }
+    ], 
+    "@id": "./", 
+    "hasObselList": {
+        "@id": "", 
+        "@type": "ComputedTraceObsels"
+    }, 
+    "obsels": [
+        {
+            "@id": "o-9n", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 506655307, 
+            "end": 506658390, 
+            "subject": "florence", 
+            "m:value": "Option 5", 
+            "m:sourceId": "C8", 
+            "m:occurence": 1, 
+            "m:optionsCount": 5, 
+            "m:avgTime": 3083.0
+        }, 
+        {
+            "@id": "o-3q", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 506694303, 
+            "end": 506709246, 
+            "subject": "lionel", 
+            "m:value": "Option 1", 
+            "m:sourceId": "C8", 
+            "m:occurence": 3, 
+            "m:optionsCount": 5, 
+            "m:avgTime": 2388.6666666666665
+        }, 
+        {
+            "@id": "o-3f", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 506616072, 
+            "end": 509412947, 
+            "subject": "florence lionel", 
+            "m:value": "Option 3", 
+            "m:sourceId": "C8", 
+            "m:occurence": 8, 
+            "m:optionsCount": 5, 
+            "m:avgTime": 4923.25
+        }, 
+        {
+            "@id": "o-69", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 509417406, 
+            "end": 509439556, 
+            "subject": "florence", 
+            "m:value": "Option 5", 
+            "m:sourceId": "C1", 
+            "m:occurence": 2, 
+            "m:optionsCount": 4, 
+            "m:avgTime": 10775.0
+        }, 
+        {
+            "@id": "o-1z", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 506624229, 
+            "end": 509708988, 
+            "subject": "florence lionel", 
+            "m:value": "Option 4", 
+            "m:sourceId": "C8", 
+            "m:occurence": 4, 
+            "m:optionsCount": 5, 
+            "m:avgTime": 4445.5
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "@context": [
+        "http://liris.cnrs.fr/silex/2011/ktbs-jsonld-context", 
+        {
+            "m": "https://liris-ktbs01.insa-lyon.fr:8000/sepia/raph-test-base/sepiaModel#"
+        }
+    ], 
+    "@id": "./", 
+    "hasObselList": {
+        "@id": "", 
+        "@type": "ComputedTraceObsels"
+    }, 
+    "obsels": [
+        {
+            "@id": "o-9z", 
+            "@type": "m:triggerCount", 
+            "begin": 489852764, 
+            "end": 490170459, 
+            "subject": "anonyme florence", 
+            "hasSourceObsel": [
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_florence_o-5j", 
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_anonyme_o-71"
+            ], 
+            "m:count": 6, 
+            "m:sourceId": "R1", 
+            "m:avgTime": 0.0
+        }, 
+        {
+            "@id": "o-6e", 
+            "@type": "m:triggerCount", 
+            "begin": 489852897, 
+            "end": 490170528, 
+            "subject": "anonyme florence", 
+            "hasSourceObsel": [
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_florence_o-68", 
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_anonyme_o-87"
+            ], 
+            "m:count": 6, 
+            "m:sourceId": "A3", 
+            "m:avgTime": 0.0
+        }, 
+        {
+            "@id": "o-77", 
+            "@type": "m:triggerCount", 
+            "begin": 489852383, 
+            "end": 490171064, 
+            "subject": "anonyme florence", 
+            "hasSourceObsel": [
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_florence_o-3s", 
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_anonyme_o-4g"
+            ], 
+            "m:count": 6, 
+            "m:sourceId": "R0", 
+            "m:avgTime": 131.5
+        }, 
+        {
+            "@id": "o-4g", 
+            "@type": "m:triggerCount", 
+            "begin": 489852622, 
+            "end": 490171152, 
+            "subject": "anonyme florence", 
+            "hasSourceObsel": [
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_florence_o-13", 
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_anonyme_o-0s"
+            ], 
+            "m:count": 6, 
+            "m:sourceId": "A0", 
+            "m:avgTime": 133.33333333333334
+        }, 
+        {
+            "@id": "o-39", 
+            "@type": "m:triggerCount", 
+            "begin": 509422082, 
+            "end": 509422082, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_florence_o-00"
+            ], 
+            "m:count": 1, 
+            "m:sourceId": "R2", 
+            "m:avgTime": 0.0
+        }, 
+        {
+            "@id": "o-38", 
+            "@type": "m:triggerCount", 
+            "begin": 509422124, 
+            "end": 509422124, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_florence_o-3k"
+            ], 
+            "m:count": 1, 
+            "m:sourceId": "A4", 
+            "m:avgTime": 0.0
+        }, 
+        {
+            "@id": "o-2g", 
+            "@type": "m:triggerCount", 
+            "begin": 506545446, 
+            "end": 509913979, 
+            "subject": "anonyme florence", 
+            "hasSourceObsel": [
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_florence_o-1t", 
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_anonyme_o-7u"
+            ], 
+            "m:count": 21, 
+            "m:sourceId": "C8", 
+            "m:avgTime": 4304.428571428572
+        }, 
+        {
+            "@id": "o-02", 
+            "@type": "m:triggerCount", 
+            "begin": 506567482, 
+            "end": 509944615, 
+            "subject": "anonyme florence", 
+            "hasSourceObsel": [
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_florence_o-2g", 
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_anonyme_o-4o"
+            ], 
+            "m:count": 16, 
+            "m:sourceId": "R29", 
+            "m:avgTime": 4785.3125
+        }, 
+        {
+            "@id": "o-65", 
+            "@type": "m:triggerCount", 
+            "begin": 506567524, 
+            "end": 509945689, 
+            "subject": "anonyme florence", 
+            "hasSourceObsel": [
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_florence_o-7z", 
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_anonyme_o-5c"
+            ], 
+            "m:count": 16, 
+            "m:sourceId": "A23", 
+            "m:avgTime": 4775.4375
+        }, 
+        {
+            "@id": "o-5j", 
+            "@type": "m:triggerCount", 
+            "begin": 509417346, 
+            "end": 509970007, 
+            "subject": "florence anonyme", 
+            "hasSourceObsel": [
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_florence_o-4t", 
+                "../fusion_rulesAndActionsTriggerStats_all/rulesAndActionsTriggerStats_anonyme_o-1s"
+            ], 
+            "m:count": 6, 
+            "m:sourceId": "C1", 
+            "m:avgTime": 16067.333333333334
+        }
+    ]
+}

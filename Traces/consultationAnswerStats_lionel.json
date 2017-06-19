@@ -1,0 +1,63 @@
+{
+    "@context": [
+        "http://liris.cnrs.fr/silex/2011/ktbs-jsonld-context", 
+        {
+            "m": "https://liris-ktbs01.insa-lyon.fr:8000/sepia/raph-test-base/sepiaModel#"
+        }
+    ], 
+    "@id": "./", 
+    "hasObselList": {
+        "@id": "", 
+        "@type": "ComputedTraceObsels"
+    }, 
+    "obsels": [
+        {
+            "@id": "o-27", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 39370, 
+            "end": 42490, 
+            "subject": "lionel", 
+            "m:value": "Option 2", 
+            "m:sourceId": "C8", 
+            "m:occurence": 1, 
+            "m:optionsCount": 5, 
+            "m:avgTime": 3120.0
+        }, 
+        {
+            "@id": "o-0h", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 583, 
+            "end": 61466, 
+            "subject": "lionel", 
+            "m:value": "Option 4", 
+            "m:sourceId": "C8", 
+            "m:occurence": 2, 
+            "m:optionsCount": 5, 
+            "m:avgTime": 3219.5
+        }, 
+        {
+            "@id": "o-5v", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 16179, 
+            "end": 94561, 
+            "subject": "lionel", 
+            "m:value": "Option 3", 
+            "m:sourceId": "C8", 
+            "m:occurence": 6, 
+            "m:optionsCount": 5, 
+            "m:avgTime": 2846.0
+        }, 
+        {
+            "@id": "o-5r", 
+            "@type": "m:consultationAnswerStats", 
+            "begin": 9500, 
+            "end": 69049673, 
+            "subject": "lionel", 
+            "m:value": "Option 5", 
+            "m:sourceId": "C8", 
+            "m:occurence": 2, 
+            "m:optionsCount": 5, 
+            "m:avgTime": 3888.5
+        }
+    ]
+}

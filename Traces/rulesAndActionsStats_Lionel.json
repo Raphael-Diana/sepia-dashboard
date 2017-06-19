@@ -1,0 +1,45 @@
+{
+    "@context": [
+        "http://liris.cnrs.fr/silex/2011/ktbs-jsonld-context", 
+        {
+            "m": "https://liris-ktbs01.insa-lyon.fr:8000/sepia/raph-test-base/sepiaModel#"
+        }
+    ], 
+    "@id": "./", 
+    "hasObselList": {
+        "@id": "", 
+        "@type": "ComputedTraceObsels"
+    }, 
+    "obsels": [
+        {
+            "@id": "o-8c", 
+            "@type": "m:triggerCount", 
+            "begin": 19432, 
+            "end": 94786, 
+            "subject": "lionel", 
+            "m:count": 6, 
+            "m:sourceId": "R29", 
+            "m:avgTime": 0.0
+        }, 
+        {
+            "@id": "o-0m", 
+            "@type": "m:triggerCount", 
+            "begin": 19512, 
+            "end": 94851, 
+            "subject": "lionel", 
+            "m:count": 6, 
+            "m:sourceId": "A23", 
+            "m:avgTime": 0.0
+        }, 
+        {
+            "@id": "o-10", 
+            "@type": "m:triggerCount", 
+            "begin": 509, 
+            "end": 69044769, 
+            "subject": "lionel", 
+            "m:count": 11, 
+            "m:sourceId": "C8", 
+            "m:avgTime": 0.0
+        }
+    ]
+}

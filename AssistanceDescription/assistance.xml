@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description>
+  <metadonnees>
+    <assistance nom="re" logiciel="sap" type="SAP" interface="SAP_testDashboard.interface" statut="public" public="" />
+    <creation date_creation="21/04/2017" date_modification="28/04/2017" createur="" />
+    <personnalisation structure_profil_statique="" id_structure_profil_statique="" />
+    <commentaires />
+  </metadonnees>
+  <regles>
+    <regle id="R0" nomPresentation="" activite="0" commentaire="" exigePar="0">
+      <metadonnees />
+      <evenement_declencheur idEve="E0" type="mouseClicked" idComp="fo_Quotation_1" />
+      <alternatives condition="C0">
+        <alternative valeur="Oui, sous forme d'un guidage">
+          <action id="A1" />
+        </alternative>
+		<alternative valeur="Oui, sous forme d'une automatisation">
+          <action id="A0" />
+        </alternative>
+      </alternatives>
+    </regle>
+	<regle id="R1" nomPresentation="" activite="0" commentaire="" exigePar="0">
+      <metadonnees />
+      <evenement_declencheur idEve="E1" type="smt_Error" idComp="Indiquez une date comprise dans la plage autorisée." />
+      <alternatives condition="C1">
+        <alternative valeur="Plus d'aide">
+          <action id="A2" />
+        </alternative>
+      </alternatives>
+    </regle>
+  </regles>
+  <actions>
+    <action id="A0" type="pas à pas" typeAuto="automatisé" listeEtapes="S1_fluxCommande" nomPresentation="A0" exigePar="0">
+      <etapes>
+		<timer secondes="3" />
+		<miseEnValeur>
+          <composant type="entourer" couleur="java.awt.Color[r=0,g=0,b=255]" arrondi="15" eloignement="5" epaisseur="4" />
+        </miseEnValeur>
+      </etapes>
+      <evenement idComp="fo_ApplicationWindow_1291" propriete="clic" />
+      <evenement idComp="fo_Quotation_10000329" propriete="etat" valeur="Commande client" />
+      <evenement idComp="fo_Order_12" propriete="valeur" valeur="20170618" />
+	  <evenement idComp="fo_Order_1" propriete="clic" />
+	  <evenement idComp="fo_ApplicationWindow_1291" propriete="clic" />
+	  <evenement idComp="fo_Order_10000329" propriete="etat" valeur="Facture anticipée"/>
+	  <evenement idComp="60091_1" propriete="clic" />
+	  <evenement idComp="0-S-F_1" propriete="clic" />
+	  <evenement idComp="fo_ApplicationWindow_1291" propriete="clic" />
+	  <evenement idComp="60091_10000329" propriete="etat" valeur="livraison"/>
+	  <evenement idComp="fo_DeliveryNotes_1" propriete="clic" />
+	  <evenement idComp="0-S-F_1" propriete="clic" />
+    </action>
+	<action id="A1" type="generation" typeAuto="proactif" listeEtapes="S1_fluxCommande">
+      <etapes bruitMax="" duree="0" dureeSupp="1">
+        <miseEnValeur>
+          <composant type="entourer" couleur="java.awt.Color[r=0,g=0,b=255]" arrondi="15" eloignement="5" epaisseur="4" />
+        </miseEnValeur>
+      </etapes>
+	  <etape description="Générer le flux" ordre="1" optionnel="non">
+		<evenement idComp="fo_ApplicationWindow_1291" propriete="clic" duree="0" />
+		<evenement idComp="fo_Quotation_10000329" propriete="clic" duree="0" />
+		<evenement idComp="fo_Order_12" propriete="clic" duree="2" />
+		<evenement idComp="fo_Order_1" propriete="clic" duree="2" />
+		<evenement idComp="fo_ApplicationWindow_1291" propriete="clic" duree="0" />
+	    <evenement idComp="fo_Order_10000329" propriete="clic" duree="0" />
+	    <evenement idComp="60091_1" propriete="clic" duree="2" />
+	    <evenement idComp="0-S-F_1" propriete="clic" duree="0" />  
+		<evenement idComp="fo_ApplicationWindow_1291" propriete="clic" duree="0" />
+	    <evenement idComp="60091_10000329" propriete="clic" duree="0" />
+	    <evenement idComp="fo_DeliveryNotes_1" propriete="clic" duree="2" />
+	    <evenement idComp="0-S-F_1" propriete="clic" duree="0" />  
+	  </etape>    
+	</action>
+	<action id="A2" type="message" sous-type="textuel" assistant="" nomPresentation="A3" exigePar="0">
+      <textuel>
+        <texte>La création d'une période comptable se fait dans le menu Administration/Initialisation/Période comptable.</texte>
+      </textuel>
+    </action>
+  </actions>
+  <conditions>
+    <condition id="C0" type="consultation" nomPresentation="C0" exigePar="0">
+      <texte>Vous venez de créer une offre client.
+	  Souhaitez-vous de l'aide pour générer le bon de commande, le bon de livraison et la facture associés?</texte>
+      <titre>Assistance</titre>
+      <policeMessage nom="Dialog" style="1" taille="12" />
+      <policeOptions nom="Dialog" style="1" taille="12" />
+      <couleur police="sun.swing.PrintColorUIResource[r=51,g=51,b=51]" fond="java.awt.Color[r=255,g=255,b=255]" />
+      <options>
+        <option label="Oui, sous forme d'un guidage" />
+		<option label="Oui, sous forme d'une automatisation" />
+        <option label="Non merci" />
+      </options>
+    </condition>
+	<condition id="C1" type="consultation" nomPresentation="C1" exigePar="0">
+      <texte>La date que vous avez choisie est en dehors de la période comptable.
+Créez une nouvelle période comptable avant de valider cette commande client.</texte>
+      <titre>Assistance</titre>
+      <policeMessage nom="Dialog" style="1" taille="12" />
+      <policeOptions nom="Dialog" style="1" taille="12" />
+      <couleur police="sun.swing.PrintColorUIResource[r=51,g=51,b=51]" fond="java.awt.Color[r=255,g=255,b=255]" />
+      <options>
+		<option label="Ok" />
+        <option label="Plus d'aide" />
+      </options>
+    </condition>
+  </conditions>
+  <evenements>
+  </evenements>
+  <sequences>
+	<sequence id="S1" nom="fluxCommande" type="actions">
+      <evenement idComp="fo_ApplicationWindow_1291" propriete="clic" />
+      <evenement idComp="fo_Quotation_10000329" propriete="etat" valeur="Commande client" />
+      <evenement idComp="fo_Order_12" propriete="valeur" valeur="20170618" />
+	  <evenement idComp="fo_Order_1" propriete="clic" />
+	  <evenement idComp="fo_ApplicationWindow_1291" propriete="clic" />
+	  <evenement idComp="fo_Order_10000329" propriete="etat" valeur="Facture anticipée"/>
+	  <evenement idComp="60091_1" propriete="clic" />
+	  <evenement idComp="0-S-F_1" propriete="clic" />
+	  <evenement idComp="fo_ApplicationWindow_1291" propriete="clic" />
+	  <evenement idComp="60091_10000329" propriete="etat" valeur="livraison"/>
+	  <evenement idComp="fo_DeliveryNotes_1" propriete="clic" />
+	  <evenement idComp="0-S-F_1" propriete="clic" />
+    </sequence>
+  </sequences>
+  <articulations />
+  <activites />
+  <guidages />
+  <echelles />
+</description>

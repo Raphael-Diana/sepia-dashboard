@@ -1589,10 +1589,7 @@
         {
             "@id": "systemSignals_Marie_917723d0-2aac-437f-aa56-22bd5a8e8d9c", 
             "@type": "m:systemSignal", 
-            "begin": [
-                425322670, 
-                425322654
-            ], 
+            "begin": 425322654,
             "end": 425322670, 
             "subject": "Marie", 
             "hasSourceObsel": [
@@ -1607,10 +1604,7 @@
         {
             "@id": "systemSignals_Marie_ae89322f-0e5c-46e5-a048-5859be58e368", 
             "@type": "m:systemSignal", 
-            "begin": [
-                425326906, 
-                425326890
-            ], 
+            "begin": 425326890,
             "end": 425326906, 
             "subject": "Marie", 
             "hasSourceObsel": [
@@ -1625,10 +1619,7 @@
         {
             "@id": "systemSignals_Marie_bfb94bde-63ab-47b0-859f-0ea4a0853b3f", 
             "@type": "m:systemSignal", 
-            "begin": [
-                425332526, 
-                425332510
-            ], 
+            "begin": 425332510,
             "end": 425332526, 
             "subject": "Marie", 
             "hasSourceObsel": [
@@ -1636,6 +1627,142 @@
             ], 
             "m:message": "Indiquez une date comprise dans la plage autorisée.", 
             "m:sourceId": "fo_Order_46", 
+            "m:signalType": {
+                "@id": "m:smt_Error"
+            }
+        },
+
+        {
+            "@id": "systemSignals_Marie_e1b45980-04ed-4d16-be1e-97e7946a30fa1",
+            "@type": "m:systemSignal",
+            "begin": 83597239,
+            "end": 83597239,
+            "subject": "Marie",
+            "hasSourceObsel": [
+                "../systemSignals_Marie/e1b45980-04ed-4d16-be1e-97e7946a30fa"
+            ],
+            "m:message": "Le total du document est négatif",
+            "m:sourceId": "fo_DeliveryNotes_1",
+            "m:signalType": {
+                "@id": "m:smt_Error"
+            }
+        },
+        {
+            "@id": "systemSignals_Marie_e1b45980-04ed-4d16-be1e-97e7946a30fa2",
+            "@type": "m:systemSignal",
+            "begin": 83597239,
+            "end": 83597239,
+            "subject": "Marie",
+            "hasSourceObsel": [
+                "../systemSignals_Marie/e1b45980-04ed-4d16-be1e-97e7946a30fa"
+            ],
+            "m:message": "Le total du document est négatif",
+            "m:sourceId": "fo_DeliveryNotes_1",
+            "m:signalType": {
+                "@id": "m:smt_Error"
+            }
+        },
+        {
+            "@id": "systemSignals_Marie_e1b45980-04ed-4d16-be1e-97e7946a30fa3",
+            "@type": "m:systemSignal",
+            "begin": 83597239,
+            "end": 83597239,
+            "subject": "Marie",
+            "hasSourceObsel": [
+                "../systemSignals_Marie/e1b45980-04ed-4d16-be1e-97e7946a30fa"
+            ],
+            "m:message": "Le total du document est négatif",
+            "m:sourceId": "fo_DeliveryNotes_1",
+            "m:signalType": {
+                "@id": "m:smt_Error"
+            }
+        },
+        {
+            "@id": "systemSignals_Marie_e1b45980-04ed-4d16-be1e-97e7946a30fa4",
+            "@type": "m:systemSignal",
+            "begin": 83597239,
+            "end": 83597239,
+            "subject": "Marie",
+            "hasSourceObsel": [
+                "../systemSignals_Marie/e1b45980-04ed-4d16-be1e-97e7946a30fa"
+            ],
+            "m:message": "Le total du document est négatif",
+            "m:sourceId": "fo_DeliveryNotes_1",
+            "m:signalType": {
+                "@id": "m:smt_Error"
+            }
+        },
+        {
+            "@id": "systemSignals_Marie_e1b45980-04ed-4d16-be1e-97e7946a30fa5",
+            "@type": "m:systemSignal",
+            "begin": 83597239,
+            "end": 83597239,
+            "subject": "Marie",
+            "hasSourceObsel": [
+                "../systemSignals_Marie/e1b45980-04ed-4d16-be1e-97e7946a30fa"
+            ],
+            "m:message": "Le total du document est négatif",
+            "m:sourceId": "fo_DeliveryNotes_1",
+            "m:signalType": {
+                "@id": "m:smt_Error"
+            }
+        },
+        {
+            "@id": "systemSignals_Marie_e1b45980-04ed-4d16-be1e-97e7946a30fa6",
+            "@type": "m:systemSignal",
+            "begin": 83597239,
+            "end": 83597239,
+            "subject": "Marie",
+            "hasSourceObsel": [
+                "../systemSignals_Marie/e1b45980-04ed-4d16-be1e-97e7946a30fa"
+            ],
+            "m:message": "Le total du document est négatif",
+            "m:sourceId": "fo_DeliveryNotes_1",
+            "m:signalType": {
+                "@id": "m:smt_Error"
+            }
+        },
+        {
+            "@id": "systemSignals_Marie_e1b45980-04ed-4d16-be1e-97e7946a30fa7",
+            "@type": "m:systemSignal",
+            "begin": 83597239,
+            "end": 83597239,
+            "subject": "Marie",
+            "hasSourceObsel": [
+                "../systemSignals_Marie/e1b45980-04ed-4d16-be1e-97e7946a30fa"
+            ],
+            "m:message": "Le total du document est négatif",
+            "m:sourceId": "fo_DeliveryNotes_1",
+            "m:signalType": {
+                "@id": "m:smt_Error"
+            }
+        },
+        {
+            "@id": "systemSignals_Marie_e1b45980-04ed-4d16-be1e-97e7946a30fa8",
+            "@type": "m:systemSignal",
+            "begin": 83597239,
+            "end": 83597239,
+            "subject": "Marie",
+            "hasSourceObsel": [
+                "../systemSignals_Marie/e1b45980-04ed-4d16-be1e-97e7946a30fa"
+            ],
+            "m:message": "Aucune entrée/sortie de marchandises n'est prévue",
+            "m:sourceId": "fo_DeliveryNotes_1",
+            "m:signalType": {
+                "@id": "m:smt_Error"
+            }
+        },
+        {
+            "@id": "systemSignals_Marie_e1b45980-04ed-4d16-be1e-97e7946a30fa9",
+            "@type": "m:systemSignal",
+            "begin": 83597239,
+            "end": 83597239,
+            "subject": "Marie",
+            "hasSourceObsel": [
+                "../systemSignals_Marie/e1b45980-04ed-4d16-be1e-97e7946a30fa"
+            ],
+            "m:message": "Aucune entrée/sortie de marchandises n'est prévue",
+            "m:sourceId": "fo_DeliveryNotes_1",
             "m:signalType": {
                 "@id": "m:smt_Error"
             }

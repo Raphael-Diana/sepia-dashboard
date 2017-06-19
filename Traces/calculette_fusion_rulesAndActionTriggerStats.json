@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://liris.cnrs.fr/silex/2011/ktbs-jsonld-context", 
+        {
+            "m": "https://liris-ktbs01.insa-lyon.fr:8000/sepia/raph-test-base/sepiaModel#"
+        }
+    ], 
+    "@id": "./", 
+    "hasObselList": {
+        "@id": "", 
+        "@type": "ComputedTraceObsels"
+    }, 
+    "obsels": [
+        {
+            "@id": "rulesAndActionsTriggerStats_florence_o-8u", 
+            "@type": "m:triggerCount", 
+            "begin": 489988951, 
+            "end": 490117125, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_florence/o-8u"
+            ], 
+            "m:count": 2, 
+            "m:sourceId": "R0", 
+            "m:avgTime": 0.0
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_florence_o-18", 
+            "@type": "m:triggerCount", 
+            "begin": 489989027, 
+            "end": 490117200, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_florence/o-18"
+            ], 
+            "m:count": 2, 
+            "m:sourceId": "A0", 
+            "m:avgTime": 0.0
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_florence_o-7v", 
+            "@type": "m:triggerCount", 
+            "begin": 489989119, 
+            "end": 490117316, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_florence/o-7v"
+            ], 
+            "m:count": 2, 
+            "m:sourceId": "R1", 
+            "m:avgTime": 0.0
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_florence_o-23", 
+            "@type": "m:triggerCount", 
+            "begin": 489989190, 
+            "end": 490117394, 
+            "subject": "florence", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_florence/o-23"
+            ], 
+            "m:count": 2, 
+            "m:sourceId": "A3", 
+            "m:avgTime": 0.0
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_anonyme_o-70", 
+            "@type": "m:triggerCount", 
+            "begin": 489852764, 
+            "end": 490170459, 
+            "subject": "anonyme", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_anonyme/o-70"
+            ], 
+            "m:count": 4, 
+            "m:sourceId": "R1", 
+            "m:avgTime": 0.0
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_anonyme_o-9j", 
+            "@type": "m:triggerCount", 
+            "begin": 489852897, 
+            "end": 490170528, 
+            "subject": "anonyme", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_anonyme/o-9j"
+            ], 
+            "m:count": 4, 
+            "m:sourceId": "A3", 
+            "m:avgTime": 0.0
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_anonyme_o-2m", 
+            "@type": "m:triggerCount", 
+            "begin": 489852383, 
+            "end": 490171064, 
+            "subject": "anonyme", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_anonyme/o-2m"
+            ], 
+            "m:count": 4, 
+            "m:sourceId": "R0", 
+            "m:avgTime": 197.25
+        }, 
+        {
+            "@id": "rulesAndActionsTriggerStats_anonyme_o-8t", 
+            "@type": "m:triggerCount", 
+            "begin": 489852622, 
+            "end": 490171152, 
+            "subject": "anonyme", 
+            "hasSourceObsel": [
+                "../rulesAndActionsTriggerStats_anonyme/o-8t"
+            ], 
+            "m:count": 4, 
+            "m:sourceId": "A0", 
+            "m:avgTime": 200.0
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "@context": [
+        "http://liris.cnrs.fr/silex/2011/ktbs-jsonld-context", 
+        {
+            "m": "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sepiaModel#"
+        }
+    ], 
+    "@id": "./", 
+    "hasObselList": {
+        "@id": "", 
+        "@type": "ComputedTraceObsels"
+    }, 
+    "obsels": [
+        {
+            "@id": "81c24f0f-343e-440d-bb6c-7ec30b465c5e", 
+            "@type": "m:menuSearch", 
+            "begin": 1721527261, 
+            "end": 1721528561, 
+            "subject": "Sheila", 
+            "hasSourceObsel": [
+                "../Sheila/0aa6f4e4-01bf-4ef1-bcbc-a1519dbf731a", 
+                "../Sheila/81c24f0f-343e-440d-bb6c-7ec30b465c5e"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_39700"
+        }, 
+        {
+            "@id": "61e238a4-098b-48bc-91b3-fff7cb9c6dbc", 
+            "@type": "m:menuSearch", 
+            "begin": 1721530866, 
+            "end": 1721535968, 
+            "subject": "Sheila", 
+            "hasSourceObsel": [
+                "../Sheila/e6688e03-8005-4974-b947-7a75baaaebc4", 
+                "../Sheila/80f77a9f-88ce-412d-bb76-8d72d31b3681", 
+                "../Sheila/61e238a4-098b-48bc-91b3-fff7cb9c6dbc"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_39697"
+        }, 
+        {
+            "@id": "e34ada2d-8447-4455-a9b4-853db646df04", 
+            "@type": "m:menuSearch", 
+            "begin": 1721582233, 
+            "end": 1721584375, 
+            "subject": "Sheila", 
+            "hasSourceObsel": [
+                "../Sheila/e34ada2d-8447-4455-a9b4-853db646df04", 
+                "../Sheila/6dfb4778-defd-4616-9d3f-1599893f3538"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_1596"
+        }, 
+        {
+            "@id": "3f63c5c1-2343-4dfc-90cb-d23ca181ddf7", 
+            "@type": "m:menuSearch", 
+            "begin": 1721585748, 
+            "end": 1721591243, 
+            "subject": "Sheila", 
+            "hasSourceObsel": [
+                "../Sheila/37fbe7bc-5a1d-4f6e-b2c8-1db609b54f9a", 
+                "../Sheila/3f63c5c1-2343-4dfc-90cb-d23ca181ddf7"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_30337"
+        }, 
+        {
+            "@id": "ecbc34e7-ac4d-4b50-9243-f2850fde99ac", 
+            "@type": "m:menuSearch", 
+            "begin": 1721593249, 
+            "end": 1721594417, 
+            "subject": "Sheila", 
+            "hasSourceObsel": [
+                "../Sheila/7497b7c7-7841-48c9-be1b-2cc397b9b7c6", 
+                "../Sheila/ecbc34e7-ac4d-4b50-9243-f2850fde99ac"
+            ], 
+            "m:sourceId": "fo_ApplicationWindow_30467"
+        }
+    ]
+}
