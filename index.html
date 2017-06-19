@@ -10,7 +10,10 @@
     <script src="rulesAndActionsTriggerStatsView.js"></script>
     <script src="systemSignalsComposantView.js"></script>
     <script src="useRateView.js"></script>
+    <script src="menuSearchView.js"></script>
+    <script src="rulesByWindows.js"></script>
     <script src="kTBS.js"></script>
+    <script src="NotificationCenter/Message.js"></script>
     <style>
 
         html, body {
@@ -18,7 +21,7 @@
             margin: 0;
         }
 
-        div.visuEval {
+        div.assistanceDiv {
             width: 48.3vw;
             height: 29vw;
             border: 1px solid #ccc;
@@ -30,9 +33,9 @@
             margin-bottom: 4px;
         }
 
-        div.visuUsage {
+        div.targetAppDiv {
             width: 48.3vw;
-            height: 40vw;
+            height: 30vw;
             border: 1px solid #ccc;
             background-color: #f7f7f7;
             font-family: Sans-Serif;
@@ -123,39 +126,139 @@
             font-family: Sans-Serif;
         }
 
+        /* The side navigation menu */
+        .sidenav {
+            height: 100%; /* 100% Full-height */
+            width: 0; /* 0 width - change this with JavaScript */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Stay on top */
+            top: 0;
+            right: 0;
+            /*background-color: #111;*/ /* Black*/
+            overflow-x: hidden; /* Disable horizontal scroll */
+            padding-top: 60px; /* Place content 60px from the top */
+            transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+            background-color: rgba(176, 177, 180, 0.97);
+        }
+
+
+        /* Position and style the close button (top right corner) */
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        /* The navigation menu links */
+        .sidenav a{
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #4d4d4d;
+            display: block;
+            transition: 0.3s
+        }
+        .sidenav span{
+            display: block;
+        }
+        .container {
+            display: inline-block;
+            cursor: pointer;
+        }
+        .hamburger{
+            width: 35px;
+            height: 5px;
+            background-color: black;
+            margin: 6px 0;
+            z-index: 1; /* Stay on top */
+            right: 0;
+        }
+
+        /* Style the buttons that are used to open and close the accordion panel */
+        button.accordion {
+            background-color: #eee;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+        }
+
+        /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+        button.accordion.active, button.accordion:hover {
+            background-color: #ddd;
+        }
+
+        /* Style the accordion panel. Note: hidden by default */
+        div.panel {
+            padding: 0 18px;
+            background-color: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            font-family: Sans-Serif;
+        }
+
+        /* Add a symbol to each button to indicate whether the collapsible content is open or closed */
+        button.accordion:after {
+            content: '\02795'; /* Unicode character for "plus" sign (+) */
+            font-size: 13px;
+            color: #777;
+            float: right;
+            margin-left: 5px;
+        }
+
+        button.accordion.active:after {
+            content: "\2796"; /* Unicode character for "minus" sign (-) */
+        }
+
     </style>
 </head>
 <body>
 
 <div class="tab">
-    <button class="tablinks" id="analysisTab" onclick="openTab(event, 'Analysis')">Utilisation de l'application-cible </button>
-    <button class="tablinks" id="evaluationTab" onclick="openTab(event, 'Evaluation')">Evaluation des systèmes d'assistance</button>
-    <!-- <button class="tablinks" id="useRateTab" onclick="openTab(event, 'Usage')">Taux d'utilisation</button> -->
-    <button class="tablinks" id="parametersTab" onclick="openTab(event, 'Parameters')">Paramètres</button>
+    <button class="tablinks" id="appUseTab" onclick="openTab(event, 'appUseContent')">Utilisation de l'application-cible </button>
+    <button class="tablinks" id="assistanceTab" onclick="openTab(event, 'assistanceContent')">Utilisation des systèmes d'assistance</button>
+    <button class="tablinks" id="problemDetectionTab" onclick="openTab(event, 'problemDetectionContent')">Détection des problèmes</button>
+
+    <button class="tablinks" id="parametersTab" onclick="openTab(event, 'parametersContent')">Paramètres</button>
+    <!-- Element to open the sidenav -->
+    <button onclick="openNav()">Volet d'analyse</button>
 </div>
 
-<!-- a tab to contain all the non-assistance related stuff -->
-<div id="Analysis" class="tabcontent">
-    <div id="analysis1" class="visuUsage"></div>
-    <div id="analysis2" class="visuUsage"></div>
+<!-- side menu -->
+<div id="notificationCenter" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 </div>
 
-<!--
-<div id="Usage" class="tabcontent">
-    <div id="use1" class="visuUsage"></div>
-</div>
--->
 
-
-<!-- a tab to contain all the assistance related stuff -->
-<div id="Evaluation" class="tabcontent">
-    <div id="vis1" class="visuEval"></div>
-    <div id="vis2" class="visuEval"></div>
-    <div id="vis3" class="visuEval"></div>
-    <div id="vis4" class="visuEval"></div>
+<!-- a tab to contain target application related views -->
+<div id="appUseContent" class="tabcontent">
+    <div id="analysis1" class="targetAppDiv"></div>
+    <div id="analysis2" class="targetAppDiv"></div>
+    <div id="analysis3" class="targetAppDiv"></div>
+    <div id="analysis4" class="targetAppDiv"></div>
 </div>
 
-<div id="Parameters" class="tabcontent" >
+<!-- a tab to contain all the assistance related views -->
+<div id="assistanceContent" class="tabcontent">
+    <div id="vis1" class="assistanceDiv"></div>
+    <div id="vis2" class="assistanceDiv"></div>
+    <div id="vis3" class="assistanceDiv"></div>
+    <div id="vis4" class="assistanceDiv"></div>
+</div>
+
+<!-- a tab to contain all the problem detection related views -->
+<div id="problemDetectionContent" class="tabcontent">
+    <div id="problemDetectionVis1" class="assistanceDiv"></div>
+    <div id="problemDetectionVis2" class="assistanceDiv"></div>
+</div>
+
+<div id="parametersContent" class="tabcontent" >
     <h3>Paramètres</h3>
     <p>A venir</p>
 </div>
@@ -165,6 +268,22 @@
 
 
 <script>
+
+    //accordion
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        }
+    }
 
     // function to interact with the tab
     function openTab(evt, tabName) {
@@ -188,19 +307,37 @@
         evt.currentTarget.className += " active";
     }
 
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+        document.getElementById("notificationCenter").style.width = "250px";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        document.getElementById("notificationCenter").style.width = "0";
+    }
+
     //TODO : add target app name in global variable
     var targetAppName = "SAP Business One";
     var assistanceScenario = "test";
     var interfaceDescription = "InterfaceDescriptions/SAP_testDashboard.interface";
-    var interfaceDescription2 = "InterfaceDescriptions/SAP_testDashboard2.interface";
+    var assistanceDescription = "AssistanceDescription/assistance.xml";
     var rootBase = "raph-test-base";
     var kTBS_URL = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/";
     var base_URL = kTBS_URL + rootBase + '/' + targetAppName + '/';
     var model = "seppiaModel";//TODO: dynamically change the model in the SPARQL request prefix
 
     //activate a default tab
-    document.getElementById("Evaluation").style.display = "block";
-    document.getElementById("evaluationTab").className += " active";
+    document.getElementById("assistanceTab").className += " active";
+    //display the content
+    document.getElementById("assistanceContent").style.display = "block";
+
+
+    //compute the notification
+    //TODO: get the trace dynamically
+    proactiveMessage("Traces/proactiveExpe.json");
+    consultationAnswerMessage("Traces/consultationExpe.json");
+    assistanceLackMessage("Traces/signalsExpe.json");
     
 
     //draw the visualization with global info
@@ -230,35 +367,33 @@
 
     var globalSystemSignal;
     //globalSystemSignal = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_systemSignals_all/@obsels";
-    //var systemSignalView = new systemSignalsComposantView("vis4");
-    //systemSignalView.draw(globalSystemSignal);
+    globalSystemSignal = "Traces/signalsExpe.json"
+    var systemSignalView = new systemSignalsComposantView("problemDetectionVis1");
+    systemSignalView.draw(globalSystemSignal);
 
-    var componentWindows = new Map();
+    var globalUseRate;
+    //globalUseRate = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_useRate_all/@obsels";
+    globalUseRate = "Traces/useRateExpe.json"
+    var useView = new useRateView("analysis2");
+    useView.draw(globalUseRate);
 
-        // map component to windows
-        d3.xml(interfaceDescription, function (error, xml) {
-            if (error) throw error;
+    var globalSystemSignal2;
+    //globalSystemSignal2 = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_systemSignals_all/@obsels";
+    globalSystemSignal2 = "Traces/signalsExpe.json"
+    var systemSignalView2 = new systemSignalsComposantView("analysis1");
+    systemSignalView2.draw(globalSystemSignal2);
 
-            var windows = d3.select(xml).selectAll("fenetre").each(function () {
-                var windowDescr = this.attributes.descriptionAjoutee.nodeValue;
-                d3.select(this).selectAll("composant").each(function () {
-                    componentWindows.set(this.id, windowDescr);
-                })
-            });
-            var globalUseRate;
-            //globalUseRate = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_useRate_all/@obsels";
-            globalUseRate = "Traces/useRateExpe.json"
-            var useView = new useRateView("analysis2");
-            useView.draw(globalUseRate);
+    var globalMenuSearch;
+    globalMenuSearch = "Traces/menuSearch_Sheila.json";
+    //TODO: set a real div
+    var menuView = new menuSearchView("analysis3");
+    menuView.draw(globalMenuSearch);
 
-            var globalSystemSignal2;
-            //globalSystemSignal2 = "https://liris-ktbs01.insa-lyon.fr:8000/sepia/dashboard-expe-base/sap/fusion_systemSignals_all/@obsels";
-            globalSystemSignal2 = "Traces/signalsExpe.json"
-            var systemSignalView2 = new systemSignalsComposantView("analysis1");
-            systemSignalView2.draw(globalSystemSignal2);
-            
-        });
+    var rules1 = new rulesByWindows("vis4");
+    rules1.draw(globalSystemSignal);
 
+    var menuView2 = new menuSearchView("problemDetectionVis2");
+    menuView2.draw(globalMenuSearch);
 
 
 

@@ -32,7 +32,9 @@ class ConsultationAnswerStatsView {
             .attr('id', 'filterContainer')
             .style("padding-left", "0.7em");
 
-        this.contentArea = d3.select("#" + _div).append("svg")
+        this.contentArea = d3.select("#" + _div)
+            .append("svg")
+            .attr("id", "consultationAnswerContent")
             .attr("class", "viewContainer")
             .attr("width", this.width + this.margin.left + this.margin.right)
             .attr("height", this.height + this.margin.top + this.margin.bottom);
@@ -94,7 +96,7 @@ class ConsultationAnswerStatsView {
         var div = document.querySelector("#"+this.div).querySelector("#filterContainer"),
             frag = document.createDocumentFragment(),
             select = document.createElement("select");
-        select.setAttribute("id", "consultationId");
+            select.setAttribute("id", "consultationId");
 
         for (var i = 0; i < ids.length; i++) {
             select.options.add(new Option(ids[i]));

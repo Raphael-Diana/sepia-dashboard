@@ -24,7 +24,9 @@ class RuleAndActionStatsView {
             .append('div')
             .attr('class', 'title');
 
-        this.contentArea = d3.select("#" + this.div).append("svg")
+        this.contentArea = d3.select("#" + this.div)
+            .append("svg")
+            .attr("id", "triggerContent")
             .attr("width", this.width + this.margin.left + this.margin.right)
             .attr("height", this.height + this.margin.top + this.margin.bottom);
 
@@ -106,7 +108,7 @@ class RuleAndActionStatsView {
             .mimeType("application/json");
 
         request.get(function (error, data) {
-            if (error) throw error;
+            if (error) console.error(error);
 
             var dataset = d3.nest()
                 .key(function(d) { return d["m:sourceId"]; })
@@ -229,7 +231,7 @@ class RuleAndActionStatsView {
             .mimeType("application/json");
 
         request.get(function (error, data) {
-            if (error) throw error;
+            if (error) console.error(error);
 
 
             // scale the range of the data
@@ -313,7 +315,7 @@ class RuleAndActionStatsView {
         JSONrequest(base_URL + FUSION_RULES_AND_ACTIONS_TRIGGER_STATS_URI)
             .response(function(xhr) { eTag = xhr.getResponseHeader("Etag"); return JSON.parse(xhr.responseText); })
             .send("GET", function (error, data) {
-                if (error) throw error;
+                if (error) console.error(error);
 
                 data.hasSource = newSourcesURI;
 
@@ -321,7 +323,7 @@ class RuleAndActionStatsView {
                     .header("if-match", eTag)
                     .header("Content-Type", "application/json")
                     .send("PUT", JSON.stringify(data), function (error, data) {
-                        if (error) throw error;
+                        if (error) console.error(error);
 
                         console.log(data);
                     });

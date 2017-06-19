@@ -11,7 +11,7 @@ class proactiveAssistanceFollowupView {
         this.margin = {
             top: 15,
             right: 25,
-            bottom: 59,
+            bottom: 58,
             left: 40
         };
 
@@ -33,6 +33,7 @@ class proactiveAssistanceFollowupView {
         this.graphicArea = d3.select("#"+_div)
             .append("svg")
             .attr("class", "viewContainer")
+            .attr("id", "proactiveFollowupContent")
             .attr("width", this.width + this.margin.left + this.margin.right)
             .attr("height", this.height + this.margin.top + this.margin.bottom);
 
@@ -83,7 +84,7 @@ class proactiveAssistanceFollowupView {
     draw(URL) {
         //console.log(document.getElementById(this.div).offsetHeight);
         //TODO: draw average line
-        //TODO: add a div to put actio  list
+        //TODO: add a div to put action  list
         var oThis = this;
 
         this.titleDiv
@@ -108,10 +109,11 @@ class proactiveAssistanceFollowupView {
 
         request.get(function (error, data) {
 
-            if (error) throw error;
+            if (error) console.error(error);
 
             var userNames = new Set();
 
+            // compute the number of sub-steps by steps
             data.obsels.reduce(function (res, val) {
                 oThis.noise.set(val["@id"], oThis.generateRandomNumber(-.1, .1));
                 var stepNb = val["m:stepNumber"];
@@ -156,7 +158,7 @@ class proactiveAssistanceFollowupView {
             //oThis.xAxis.tickValues(data.obsels.map(function(d) { return d.end; }));
             //oThis.yAxis.tickValues(data.obsels.map(function(d) { return d["m:noise"]; }));
 
-            oThis.yAxis.ticks(5, "d");
+            oThis.yAxis.ticks(oThis.yScale.domain()[1], "d");
 
 
             // add axis
@@ -179,10 +181,8 @@ class proactiveAssistanceFollowupView {
                 .call(oThis.yAxis)
                 .append("text")
                 .attr("class", "label")
-                .attr("transform", "rotate(-90)")
-                .attr("y", 6)
-                .attr("dy", ".71em")
-                .style("text-anchor", "end")
+                .attr("dy", "-.71em")
+                .style("text-anchor", "start")
                 .style("fill", "black")
                 .text("Nb d'actions avant de suivre l'assistance");
 
@@ -254,15 +254,15 @@ class proactiveAssistanceFollowupView {
                 .attr("class", "legend")
                 .attr("transform", function(d, i) { return "translate(0," + (i*15) + ")"; });
 
-            var righMargin = 20;
+            var rightMargin = 20;
             legend.append("circle")
-                .attr("cx", oThis.width - righMargin - 8)
+                .attr("cx", oThis.width - rightMargin - 8)
                 .attr("cy", 9.3)
                 .attr("r", 4)
                 .attr("fill", oThis.colorScale);
 
             legend.append("text")
-                .attr("x", oThis.width - righMargin)
+                .attr("x", oThis.width - rightMargin)
                 .attr("y", 3)
                 .attr("dy", ".9em")
                 .attr("text-anchor", "start")
@@ -453,7 +453,7 @@ class proactiveAssistanceFollowupView {
 
         request.get(function (error, data) {
 
-            if (error) throw error;
+            if (error) console.error(error);
 
             // define scale for data
             oThis.xScale.domain([d3.min(data.obsels, function (d) {
@@ -534,7 +534,7 @@ class proactiveAssistanceFollowupView {
         JSONrequest(base_URL + FUSION_RULES_AND_ACTIONS_TRIGGER_STATS_URI)
             .response(function(xhr) { eTag = xhr.getResponseHeader("Etag"); return JSON.parse(xhr.responseText); })
             .send("GET", function (error, data) {
-                if (error) throw error;
+                if (error) console.error(error);
 
                 data.hasSource = newSourcesURI;
 
@@ -542,7 +542,7 @@ class proactiveAssistanceFollowupView {
                     .header("if-match", eTag)
                     .header("Content-Type", "application/json")
                     .send("PUT", JSON.stringify(data), function (error, data) {
-                        if (error) throw error;
+                        if (error) console.error(error);
 
                         console.log(data);
                     });
